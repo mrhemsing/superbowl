@@ -24,12 +24,16 @@ export default function Home() {
       </header>
 
       <main className={styles.main}>
-        <div className={styles.grid}>
+        <div className={styles.scroller}>
           {games
             .slice()
             .reverse()
             .map((g) => (
-              <MatchupCard key={g.id} game={g} />
+              <section key={g.id} className={styles.slide}>
+                <div className={styles.slideInner}>
+                  <MatchupCard game={g} />
+                </div>
+              </section>
             ))}
         </div>
       </main>
