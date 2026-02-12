@@ -21,6 +21,11 @@ export type SuperBowlGame = {
   winner: { name: string; score: number | null };
   loser: { name: string; score: number | null };
   scoreText: string;
+  quarterScoring: {
+    periods: string[];
+    winner: number[];
+    loser: number[];
+  } | null;
   dateSeasonText: string;
   venue: { name: string; city: string };
   mvp: Mvp[];
@@ -112,7 +117,7 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
 
           <div className={styles.team}>
             <div
-              className={styles.logo}
+              className={`${styles.logo} ${styles.logoLoser}`}
               style={{
                 background: `linear-gradient(135deg, ${rightG.a}, ${rightG.b})`,
                 opacity: 0.78,
@@ -151,7 +156,15 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
               <ul className={styles.mvpList}>
                 {game.mvp.map((m) => (
                   <li key={m.name} className={styles.mvpRow}>
-                    <div className={styles.mvpAvatar} aria-hidden />
+                    <div className={styles.mvpAvatar}>
+                      <Image
+                        src={m.imageOverrideUrl ?? m.headshotUrl}
+                        alt={m.name}
+                        width={34}
+                        height={34}
+                        className={styles.mvpAvatarImg}
+                      />
+                    </div>
                     <div>
                       <div className={styles.mvpName}>{m.name}</div>
                       <div className={styles.mvpMeta}>
@@ -169,8 +182,37 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
           </div>
 
           <div className={styles.panel}>
-            <div className={styles.panelTitle}>Scoreline</div>
-            <div className={styles.muted}>{game.scoreText}</div>
+            <div className={styles.panelTitle}>Quarter scoring</div>
+            {game.quarterScoring ? (
+              <div
+                className={styles.qTable}
+                style={{ ["--period-cols" as "--period-cols"]: String(game.quarterScoring.periods.length + 1) }}
+              >
+                <div className={styles.qHead}>
+                  <span>Team</span>
+                  {game.quarterScoring.periods.map((p) => (
+                    <span key={p}>{p}</span>
+                  ))}
+                  <span>T</span>
+                </div>
+                <div className={styles.qRow}>
+                  <span>{left.name}</span>
+                  {game.quarterScoring.winner.map((n, i) => (
+                    <span key={`w-${i}`}>{n}</span>
+                  ))}
+                  <span>{left.score ?? "?"}</span>
+                </div>
+                <div className={styles.qRow}>
+                  <span>{right.name}</span>
+                  {game.quarterScoring.loser.map((n, i) => (
+                    <span key={`l-${i}`}>{n}</span>
+                  ))}
+                  <span>{right.score ?? "?"}</span>
+                </div>
+              </div>
+            ) : (
+              <div className={styles.muted}>Quarter-by-quarter data unavailable for this game.</div>
+            )}
 
             <div className={styles.panelTitle} style={{ marginTop: 14 }}>
               Links

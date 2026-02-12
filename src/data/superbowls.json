@@ -14,6 +14,7 @@
       "score": 10
     },
     "scoreText": "35–10",
+    "quarterScoring": null,
     "dateSeasonText": "January 15, 1967 (1966 AFL/1966 NFL)",
     "venue": {
       "name": "Los Angeles Memorial Coliseum",
@@ -25,8 +26,8 @@
         "team": "Green Bay Packers",
         "position": "Quarterback",
         "college": "Alabama",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/bart-starr.jpg",
+        "imageOverrideUrl": "/mvp/bart-starr.jpg"
       }
     ]
   },
@@ -45,6 +46,7 @@
       "score": 14
     },
     "scoreText": "33–14",
+    "quarterScoring": null,
     "dateSeasonText": "January 14, 1968 (1967 AFL/1967 NFL)",
     "venue": {
       "name": "Miami Orange Bowl",
@@ -56,8 +58,8 @@
         "team": "Green Bay Packers",
         "position": "Quarterback (2)",
         "college": "",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/bart-starr.jpg",
+        "imageOverrideUrl": "/mvp/bart-starr.jpg"
       }
     ]
   },
@@ -76,6 +78,7 @@
       "score": 7
     },
     "scoreText": "16–7",
+    "quarterScoring": null,
     "dateSeasonText": "January 12, 1969 (1968 AFL/1968 NFL)",
     "venue": {
       "name": "Miami Orange Bowl",
@@ -87,8 +90,8 @@
         "team": "New York Jets",
         "position": "Quarterback (3)",
         "college": "",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/joe-namath.jpg",
+        "imageOverrideUrl": "/mvp/joe-namath.jpg"
       }
     ]
   },
@@ -107,6 +110,7 @@
       "score": 7
     },
     "scoreText": "23–7",
+    "quarterScoring": null,
     "dateSeasonText": "January 11, 1970 (1969 AFL/1969 NFL)",
     "venue": {
       "name": "Tulane Stadium",
@@ -118,8 +122,8 @@
         "team": "Kansas City Chiefs",
         "position": "Quarterback (4)",
         "college": "Purdue",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/len-dawson.JPG",
+        "imageOverrideUrl": "/mvp/len-dawson.JPG"
       }
     ]
   },
@@ -138,6 +142,7 @@
       "score": 13
     },
     "scoreText": "16–13",
+    "quarterScoring": null,
     "dateSeasonText": "January 17, 1971 (1970)",
     "venue": {
       "name": "Miami Orange Bowl",
@@ -149,8 +154,8 @@
         "team": "Dallas Cowboys",
         "position": "Linebacker",
         "college": "West Virginia",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/chuck-howley.jpg",
+        "imageOverrideUrl": "/mvp/chuck-howley.jpg"
       }
     ]
   },
@@ -169,6 +174,7 @@
       "score": 3
     },
     "scoreText": "24–3",
+    "quarterScoring": null,
     "dateSeasonText": "January 16, 1972 (1971)",
     "venue": {
       "name": "Tulane Stadium",
@@ -180,8 +186,8 @@
         "team": "Dallas Cowboys",
         "position": "Quarterback (5)",
         "college": "Navy",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/roger-staubach.jpg",
+        "imageOverrideUrl": "/mvp/roger-staubach.jpg"
       }
     ]
   },
@@ -200,6 +206,7 @@
       "score": 7
     },
     "scoreText": "14–7",
+    "quarterScoring": null,
     "dateSeasonText": "January 14, 1973 (1972)",
     "venue": {
       "name": "Los Angeles Memorial Coliseum",
@@ -231,6 +238,7 @@
       "score": 7
     },
     "scoreText": "24–7",
+    "quarterScoring": null,
     "dateSeasonText": "January 13, 1974 (1973)",
     "venue": {
       "name": "Rice Stadium",
@@ -242,8 +250,8 @@
         "team": "Miami Dolphins",
         "position": "Running back",
         "college": "Syracuse",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/larry-csonka.jpg",
+        "imageOverrideUrl": "/mvp/larry-csonka.jpg"
       }
     ]
   },
@@ -262,6 +270,7 @@
       "score": 6
     },
     "scoreText": "16–6",
+    "quarterScoring": null,
     "dateSeasonText": "January 12, 1975 (1974)",
     "venue": {
       "name": "Tulane Stadium",
@@ -273,8 +282,8 @@
         "team": "Pittsburgh Steelers",
         "position": "Running back (2)",
         "college": "Penn State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/franco-harris.jpg",
+        "imageOverrideUrl": "/mvp/franco-harris.jpg"
       }
     ]
   },
@@ -293,6 +302,7 @@
       "score": 17
     },
     "scoreText": "21–17",
+    "quarterScoring": null,
     "dateSeasonText": "January 18, 1976 (1975)",
     "venue": {
       "name": "Miami Orange Bowl",
@@ -304,8 +314,8 @@
         "team": "Pittsburgh Steelers",
         "position": "Wide receiver",
         "college": "USC",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/lynn-swann.jpg",
+        "imageOverrideUrl": "/mvp/lynn-swann.jpg"
       }
     ]
   },
@@ -324,6 +334,7 @@
       "score": 14
     },
     "scoreText": "32–14",
+    "quarterScoring": null,
     "dateSeasonText": "January 9, 1977 (1976)",
     "venue": {
       "name": "Rose Bowl",
@@ -335,8 +346,8 @@
         "team": "Oakland Raiders",
         "position": "Wide receiver (2)",
         "college": "Florida State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/fred-biletnikoff.png",
+        "imageOverrideUrl": "/mvp/fred-biletnikoff.png"
       }
     ]
   },
@@ -355,6 +366,7 @@
       "score": 10
     },
     "scoreText": "27–10",
+    "quarterScoring": null,
     "dateSeasonText": "January 15, 1978 (1977)",
     "venue": {
       "name": "Louisiana Superdome",
@@ -366,8 +378,8 @@
         "team": "Dallas Cowboys",
         "position": "Defensive end",
         "college": "Texas A&M–Commerce",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/harvey-martin.jpg",
+        "imageOverrideUrl": "/mvp/harvey-martin.jpg"
       }
     ]
   },
@@ -386,6 +398,7 @@
       "score": 31
     },
     "scoreText": "35–31",
+    "quarterScoring": null,
     "dateSeasonText": "January 21, 1979 (1978)",
     "venue": {
       "name": "Miami Orange Bowl",
@@ -397,8 +410,8 @@
         "team": "Pittsburgh Steelers",
         "position": "Quarterback (6)",
         "college": "Louisiana Tech",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/terry-bradshaw.jpg",
+        "imageOverrideUrl": "/mvp/terry-bradshaw.jpg"
       }
     ]
   },
@@ -417,6 +430,7 @@
       "score": 19
     },
     "scoreText": "31–19",
+    "quarterScoring": null,
     "dateSeasonText": "January 20, 1980 (1979)",
     "venue": {
       "name": "Rose Bowl",
@@ -428,8 +442,8 @@
         "team": "Pittsburgh Steelers",
         "position": "Quarterback (7)",
         "college": "",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/terry-bradshaw.jpg",
+        "imageOverrideUrl": "/mvp/terry-bradshaw.jpg"
       }
     ]
   },
@@ -448,6 +462,7 @@
       "score": 10
     },
     "scoreText": "27–10",
+    "quarterScoring": null,
     "dateSeasonText": "January 25, 1981 (1980)",
     "venue": {
       "name": "Louisiana Superdome",
@@ -459,8 +474,8 @@
         "team": "Oakland Raiders",
         "position": "Quarterback (8)",
         "college": "Stanford",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/jim-plunkett.png",
+        "imageOverrideUrl": "/mvp/jim-plunkett.png"
       }
     ]
   },
@@ -479,6 +494,7 @@
       "score": 21
     },
     "scoreText": "26–21",
+    "quarterScoring": null,
     "dateSeasonText": "January 24, 1982 (1981)",
     "venue": {
       "name": "Pontiac Silverdome",
@@ -490,8 +506,8 @@
         "team": "San Francisco 49ers",
         "position": "Quarterback (9)",
         "college": "Notre Dame",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/joe-montana.jpg",
+        "imageOverrideUrl": "/mvp/joe-montana.jpg"
       }
     ]
   },
@@ -510,6 +526,7 @@
       "score": 17
     },
     "scoreText": "27–17",
+    "quarterScoring": null,
     "dateSeasonText": "January 30, 1983 (1982)",
     "venue": {
       "name": "Rose Bowl",
@@ -521,8 +538,8 @@
         "team": "Washington Redskins",
         "position": "Running back (3)",
         "college": "Kansas",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/john-riggins.jpg",
+        "imageOverrideUrl": "/mvp/john-riggins.jpg"
       }
     ]
   },
@@ -541,6 +558,7 @@
       "score": 9
     },
     "scoreText": "38–9",
+    "quarterScoring": null,
     "dateSeasonText": "January 22, 1984 (1983)",
     "venue": {
       "name": "Tampa Stadium",
@@ -552,8 +570,8 @@
         "team": "Los Angeles Raiders",
         "position": "Running back (4)",
         "college": "USC",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/marcus-allen.jpg",
+        "imageOverrideUrl": "/mvp/marcus-allen.jpg"
       }
     ]
   },
@@ -572,6 +590,7 @@
       "score": 16
     },
     "scoreText": "38–16",
+    "quarterScoring": null,
     "dateSeasonText": "January 20, 1985 (1984)",
     "venue": {
       "name": "Stanford Stadium",
@@ -583,8 +602,8 @@
         "team": "San Francisco 49ers",
         "position": "Quarterback (10)",
         "college": "Notre Dame",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/joe-montana.jpg",
+        "imageOverrideUrl": "/mvp/joe-montana.jpg"
       }
     ]
   },
@@ -603,6 +622,7 @@
       "score": 10
     },
     "scoreText": "46–10",
+    "quarterScoring": null,
     "dateSeasonText": "January 26, 1986 (1985)",
     "venue": {
       "name": "Louisiana Superdome",
@@ -614,8 +634,8 @@
         "team": "Chicago Bears",
         "position": "Defensive end (2)",
         "college": "Tennessee State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/richard-dent.jpg",
+        "imageOverrideUrl": "/mvp/richard-dent.jpg"
       }
     ]
   },
@@ -634,6 +654,7 @@
       "score": 20
     },
     "scoreText": "39–20",
+    "quarterScoring": null,
     "dateSeasonText": "January 25, 1987 (1986)",
     "venue": {
       "name": "Rose Bowl",
@@ -645,8 +666,8 @@
         "team": "New York Giants",
         "position": "Quarterback (11)",
         "college": "Morehead State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/phil-simms.jpg",
+        "imageOverrideUrl": "/mvp/phil-simms.jpg"
       }
     ]
   },
@@ -665,6 +686,7 @@
       "score": 10
     },
     "scoreText": "42–10",
+    "quarterScoring": null,
     "dateSeasonText": "January 31, 1988 (1987)",
     "venue": {
       "name": "San Diego–Jack Murphy Stadium",
@@ -676,8 +698,8 @@
         "team": "Washington Redskins",
         "position": "Quarterback (12)",
         "college": "Grambling State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/doug-williams.jpg",
+        "imageOverrideUrl": "/mvp/doug-williams.jpg"
       }
     ]
   },
@@ -696,6 +718,7 @@
       "score": 16
     },
     "scoreText": "20–16",
+    "quarterScoring": null,
     "dateSeasonText": "January 22, 1989 (1988)",
     "venue": {
       "name": "Joe Robbie Stadium",
@@ -707,8 +730,8 @@
         "team": "San Francisco 49ers",
         "position": "Wide receiver (3)",
         "college": "Mississippi Valley State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/jerry-rice.jpg",
+        "imageOverrideUrl": "/mvp/jerry-rice.jpg"
       }
     ]
   },
@@ -727,6 +750,7 @@
       "score": 10
     },
     "scoreText": "55–10",
+    "quarterScoring": null,
     "dateSeasonText": "January 28, 1990 (1989)",
     "venue": {
       "name": "Louisiana Superdome",
@@ -738,8 +762,8 @@
         "team": "San Francisco 49ers",
         "position": "Quarterback (13)",
         "college": "Notre Dame",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/joe-montana.jpg",
+        "imageOverrideUrl": "/mvp/joe-montana.jpg"
       }
     ]
   },
@@ -758,6 +782,7 @@
       "score": 19
     },
     "scoreText": "20–19",
+    "quarterScoring": null,
     "dateSeasonText": "January 27, 1991 (1990)",
     "venue": {
       "name": "Tampa Stadium",
@@ -769,16 +794,16 @@
         "team": "New York Giants",
         "position": "Running back (5)",
         "college": "Miami (FL)",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/ottis.jpg",
+        "imageOverrideUrl": "/mvp/ottis.jpg"
       },
       {
         "name": "erson",
         "team": "New York Giants",
         "position": "Running back (5)",
         "college": "Miami (FL)",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/erson.png",
+        "imageOverrideUrl": "/mvp/erson.png"
       }
     ]
   },
@@ -797,6 +822,7 @@
       "score": 24
     },
     "scoreText": "37–24",
+    "quarterScoring": null,
     "dateSeasonText": "January 26, 1992 (1991)",
     "venue": {
       "name": "Metrodome",
@@ -808,8 +834,8 @@
         "team": "Washington Redskins",
         "position": "Quarterback (14)",
         "college": "Washington State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/mark-rypien.jpg",
+        "imageOverrideUrl": "/mvp/mark-rypien.jpg"
       }
     ]
   },
@@ -828,6 +854,7 @@
       "score": 17
     },
     "scoreText": "52–17",
+    "quarterScoring": null,
     "dateSeasonText": "January 31, 1993 (1992)",
     "venue": {
       "name": "Rose Bowl",
@@ -839,8 +866,8 @@
         "team": "Dallas Cowboys",
         "position": "Quarterback (15)",
         "college": "UCLA",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/troy-aikman.jpg",
+        "imageOverrideUrl": "/mvp/troy-aikman.jpg"
       }
     ]
   },
@@ -859,6 +886,7 @@
       "score": 13
     },
     "scoreText": "30–13",
+    "quarterScoring": null,
     "dateSeasonText": "January 30, 1994 (1993)",
     "venue": {
       "name": "Georgia Dome",
@@ -870,8 +898,8 @@
         "team": "Dallas Cowboys",
         "position": "Running back (6)",
         "college": "Florida",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/emmitt-smith.jpg",
+        "imageOverrideUrl": "/mvp/emmitt-smith.jpg"
       }
     ]
   },
@@ -890,6 +918,7 @@
       "score": 26
     },
     "scoreText": "49–26",
+    "quarterScoring": null,
     "dateSeasonText": "January 29, 1995 (1994)",
     "venue": {
       "name": "Joe Robbie Stadium",
@@ -901,8 +930,8 @@
         "team": "San Francisco 49ers",
         "position": "Quarterback (16)",
         "college": "BYU",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/steve-young.jpg",
+        "imageOverrideUrl": "/mvp/steve-young.jpg"
       }
     ]
   },
@@ -921,6 +950,7 @@
       "score": 17
     },
     "scoreText": "27–17",
+    "quarterScoring": null,
     "dateSeasonText": "January 28, 1996 (1995)",
     "venue": {
       "name": "Sun Devil Stadium",
@@ -932,8 +962,8 @@
         "team": "Dallas Cowboys",
         "position": "Cornerback",
         "college": "TCU",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/larry-brown.png",
+        "imageOverrideUrl": "/mvp/larry-brown.png"
       }
     ]
   },
@@ -952,6 +982,7 @@
       "score": 21
     },
     "scoreText": "35–21",
+    "quarterScoring": null,
     "dateSeasonText": "January 26, 1997 (1996)",
     "venue": {
       "name": "Louisiana Superdome",
@@ -963,8 +994,8 @@
         "team": "Green Bay Packers",
         "position": "Return specialist",
         "college": "Michigan",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/desmond-howard.jpg",
+        "imageOverrideUrl": "/mvp/desmond-howard.jpg"
       }
     ]
   },
@@ -983,6 +1014,7 @@
       "score": 24
     },
     "scoreText": "31–24",
+    "quarterScoring": null,
     "dateSeasonText": "January 25, 1998 (1997)",
     "venue": {
       "name": "Qualcomm Stadium",
@@ -994,8 +1026,8 @@
         "team": "Denver Broncos",
         "position": "Running back (7)",
         "college": "Georgia",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/terrell-davis.jpg",
+        "imageOverrideUrl": "/mvp/terrell-davis.jpg"
       }
     ]
   },
@@ -1014,6 +1046,7 @@
       "score": 19
     },
     "scoreText": "34–19",
+    "quarterScoring": null,
     "dateSeasonText": "January 31, 1999 (1998)",
     "venue": {
       "name": "Pro Player Stadium",
@@ -1025,8 +1058,8 @@
         "team": "Denver Broncos",
         "position": "Quarterback (17)",
         "college": "Stanford",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/john-elway.jpg",
+        "imageOverrideUrl": "/mvp/john-elway.jpg"
       }
     ]
   },
@@ -1045,6 +1078,7 @@
       "score": 16
     },
     "scoreText": "23–16",
+    "quarterScoring": null,
     "dateSeasonText": "January 30, 2000 (1999)",
     "venue": {
       "name": "Georgia Dome",
@@ -1056,8 +1090,8 @@
         "team": "St. Louis Rams",
         "position": "Quarterback (18)",
         "college": "Northern Iowa",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/kurt-warner.jpg",
+        "imageOverrideUrl": "/mvp/kurt-warner.jpg"
       }
     ]
   },
@@ -1076,6 +1110,7 @@
       "score": 7
     },
     "scoreText": "34–7",
+    "quarterScoring": null,
     "dateSeasonText": "January 28, 2001 (2000)",
     "venue": {
       "name": "Raymond James Stadium",
@@ -1087,8 +1122,8 @@
         "team": "Baltimore Ravens",
         "position": "Linebacker (2)",
         "college": "Miami (FL)",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/ray-lewis.jpg",
+        "imageOverrideUrl": "/mvp/ray-lewis.jpg"
       }
     ]
   },
@@ -1107,6 +1142,7 @@
       "score": 17
     },
     "scoreText": "20–17",
+    "quarterScoring": null,
     "dateSeasonText": "February 3, 2002 (2001)",
     "venue": {
       "name": "Louisiana Superdome",
@@ -1118,8 +1154,8 @@
         "team": "New England Patriots",
         "position": "Quarterback (19)",
         "college": "Michigan",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/tom-brady.jpg",
+        "imageOverrideUrl": "/mvp/tom-brady.jpg"
       }
     ]
   },
@@ -1138,6 +1174,7 @@
       "score": 21
     },
     "scoreText": "48–21",
+    "quarterScoring": null,
     "dateSeasonText": "January 26, 2003 (2002)",
     "venue": {
       "name": "Qualcomm Stadium",
@@ -1149,8 +1186,8 @@
         "team": "Tampa Bay Buccaneers",
         "position": "Safety (2)",
         "college": "Florida State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/dexter-jackson.jpg",
+        "imageOverrideUrl": "/mvp/dexter-jackson.jpg"
       }
     ]
   },
@@ -1169,6 +1206,7 @@
       "score": 29
     },
     "scoreText": "32–29",
+    "quarterScoring": null,
     "dateSeasonText": "February 1, 2004 (2003)",
     "venue": {
       "name": "Reliant Stadium",
@@ -1180,8 +1218,8 @@
         "team": "New England Patriots",
         "position": "Quarterback (20)",
         "college": "Michigan",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/tom-brady.jpg",
+        "imageOverrideUrl": "/mvp/tom-brady.jpg"
       }
     ]
   },
@@ -1200,6 +1238,7 @@
       "score": 21
     },
     "scoreText": "24–21",
+    "quarterScoring": null,
     "dateSeasonText": "February 6, 2005 (2004)",
     "venue": {
       "name": "Alltel Stadium",
@@ -1211,8 +1250,8 @@
         "team": "New England Patriots",
         "position": "Wide receiver (4)",
         "college": "Louisville",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/deion-branch.JPG",
+        "imageOverrideUrl": "/mvp/deion-branch.JPG"
       }
     ]
   },
@@ -1231,6 +1270,7 @@
       "score": 10
     },
     "scoreText": "21–10",
+    "quarterScoring": null,
     "dateSeasonText": "February 5, 2006 (2005)",
     "venue": {
       "name": "Ford Field",
@@ -1262,6 +1302,7 @@
       "score": 17
     },
     "scoreText": "29–17",
+    "quarterScoring": null,
     "dateSeasonText": "February 4, 2007 (2006)",
     "venue": {
       "name": "Dolphin Stadium",
@@ -1273,8 +1314,8 @@
         "team": "Indianapolis Colts",
         "position": "Quarterback (21)",
         "college": "Tennessee",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/peyton-manning.jpg",
+        "imageOverrideUrl": "/mvp/peyton-manning.jpg"
       }
     ]
   },
@@ -1293,6 +1334,7 @@
       "score": 14
     },
     "scoreText": "17–14",
+    "quarterScoring": null,
     "dateSeasonText": "February 3, 2008 (2007)",
     "venue": {
       "name": "University of Phoenix Stadium",
@@ -1324,6 +1366,7 @@
       "score": 23
     },
     "scoreText": "27–23",
+    "quarterScoring": null,
     "dateSeasonText": "February 1, 2009 (2008)",
     "venue": {
       "name": "Raymond James Stadium",
@@ -1335,8 +1378,8 @@
         "team": "Pittsburgh Steelers",
         "position": "Wide receiver (6)",
         "college": "Ohio State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/santonio-holmes.jpg",
+        "imageOverrideUrl": "/mvp/santonio-holmes.jpg"
       }
     ]
   },
@@ -1355,6 +1398,7 @@
       "score": 17
     },
     "scoreText": "31–17",
+    "quarterScoring": null,
     "dateSeasonText": "February 7, 2010 (2009)",
     "venue": {
       "name": "Sun Life Stadium",
@@ -1366,8 +1410,8 @@
         "team": "New Orleans Saints",
         "position": "Quarterback (23)",
         "college": "Purdue",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/drew-brees.jpg",
+        "imageOverrideUrl": "/mvp/drew-brees.jpg"
       }
     ]
   },
@@ -1386,6 +1430,7 @@
       "score": 25
     },
     "scoreText": "31–25",
+    "quarterScoring": null,
     "dateSeasonText": "February 6, 2011 (2010)",
     "venue": {
       "name": "Cowboys Stadium",
@@ -1397,8 +1442,8 @@
         "team": "Green Bay Packers",
         "position": "Quarterback (24)",
         "college": "California",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/aaron-rodgers.jpg",
+        "imageOverrideUrl": "/mvp/aaron-rodgers.jpg"
       }
     ]
   },
@@ -1417,6 +1462,7 @@
       "score": 17
     },
     "scoreText": "21–17",
+    "quarterScoring": null,
     "dateSeasonText": "February 5, 2012 (2011)",
     "venue": {
       "name": "Lucas Oil Stadium",
@@ -1448,6 +1494,7 @@
       "score": 31
     },
     "scoreText": "34–31",
+    "quarterScoring": null,
     "dateSeasonText": "February 3, 2013 (2012)",
     "venue": {
       "name": "Mercedes-Benz Superdome",
@@ -1479,6 +1526,7 @@
       "score": 8
     },
     "scoreText": "43–8",
+    "quarterScoring": null,
     "dateSeasonText": "February 2, 2014 (2013)",
     "venue": {
       "name": "MetLife Stadium",
@@ -1490,8 +1538,8 @@
         "team": "Seattle Seahawks",
         "position": "Linebacker (3)",
         "college": "USC",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/malcolm-smith.JPG",
+        "imageOverrideUrl": "/mvp/malcolm-smith.JPG"
       }
     ]
   },
@@ -1510,6 +1558,7 @@
       "score": 24
     },
     "scoreText": "28–24",
+    "quarterScoring": null,
     "dateSeasonText": "February 1, 2015 (2014)",
     "venue": {
       "name": "University of Phoenix Stadium",
@@ -1521,8 +1570,8 @@
         "team": "New England Patriots",
         "position": "Quarterback (27)",
         "college": "Michigan",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/tom-brady.jpg",
+        "imageOverrideUrl": "/mvp/tom-brady.jpg"
       }
     ]
   },
@@ -1541,6 +1590,7 @@
       "score": 10
     },
     "scoreText": "24–10",
+    "quarterScoring": null,
     "dateSeasonText": "February 7, 2016 (2015)",
     "venue": {
       "name": "Levi's Stadium",
@@ -1572,6 +1622,7 @@
       "score": 28
     },
     "scoreText": "34–28 (OT)",
+    "quarterScoring": null,
     "dateSeasonText": "February 5, 2017 (2016)",
     "venue": {
       "name": "NRG Stadium",
@@ -1583,8 +1634,8 @@
         "team": "New England Patriots",
         "position": "Quarterback (28)",
         "college": "Michigan",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/tom-brady.jpg",
+        "imageOverrideUrl": "/mvp/tom-brady.jpg"
       }
     ]
   },
@@ -1603,6 +1654,7 @@
       "score": 33
     },
     "scoreText": "41–33",
+    "quarterScoring": null,
     "dateSeasonText": "February 4, 2018 (2017)",
     "venue": {
       "name": "U.S. Bank Stadium",
@@ -1634,6 +1686,7 @@
       "score": 3
     },
     "scoreText": "13–3",
+    "quarterScoring": null,
     "dateSeasonText": "February 3, 2019 (2018)",
     "venue": {
       "name": "Mercedes-Benz Stadium",
@@ -1665,6 +1718,7 @@
       "score": 20
     },
     "scoreText": "31–20",
+    "quarterScoring": null,
     "dateSeasonText": "February 2, 2020 (2019)",
     "venue": {
       "name": "Hard Rock Stadium",
@@ -1676,8 +1730,8 @@
         "team": "Kansas City Chiefs",
         "position": "Quarterback (30)",
         "college": "Texas Tech",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/patrick-mahomes.jpg",
+        "imageOverrideUrl": "/mvp/patrick-mahomes.jpg"
       }
     ]
   },
@@ -1696,6 +1750,7 @@
       "score": 9
     },
     "scoreText": "31–9",
+    "quarterScoring": null,
     "dateSeasonText": "February 7, 2021 (2020)",
     "venue": {
       "name": "Raymond James Stadium",
@@ -1707,8 +1762,8 @@
         "team": "Tampa Bay Buccaneers",
         "position": "Quarterback (31)",
         "college": "Michigan",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/tom-brady.jpg",
+        "imageOverrideUrl": "/mvp/tom-brady.jpg"
       }
     ]
   },
@@ -1727,6 +1782,7 @@
       "score": 20
     },
     "scoreText": "23–20",
+    "quarterScoring": null,
     "dateSeasonText": "February 13, 2022 (2021)",
     "venue": {
       "name": "SoFi Stadium",
@@ -1738,8 +1794,8 @@
         "team": "Los Angeles Rams",
         "position": "Wide receiver (8)",
         "college": "Eastern Washington",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/cooper-kupp.jpg",
+        "imageOverrideUrl": "/mvp/cooper-kupp.jpg"
       }
     ]
   },
@@ -1758,6 +1814,7 @@
       "score": 35
     },
     "scoreText": "38–35",
+    "quarterScoring": null,
     "dateSeasonText": "February 12, 2023 (2022)",
     "venue": {
       "name": "State Farm Stadium",
@@ -1769,8 +1826,8 @@
         "team": "Kansas City Chiefs",
         "position": "Quarterback (32)",
         "college": "Texas Tech",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/patrick-mahomes.jpg",
+        "imageOverrideUrl": "/mvp/patrick-mahomes.jpg"
       }
     ]
   },
@@ -1789,6 +1846,7 @@
       "score": 22
     },
     "scoreText": "25–22 (OT)",
+    "quarterScoring": null,
     "dateSeasonText": "February 11, 2024 (2023)",
     "venue": {
       "name": "Allegiant Stadium",
@@ -1800,8 +1858,8 @@
         "team": "Kansas City Chiefs",
         "position": "Quarterback (33)",
         "college": "",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/patrick-mahomes.jpg",
+        "imageOverrideUrl": "/mvp/patrick-mahomes.jpg"
       }
     ]
   },
@@ -1820,6 +1878,7 @@
       "score": 22
     },
     "scoreText": "40–22",
+    "quarterScoring": null,
     "dateSeasonText": "February 9, 2025 (2024)",
     "venue": {
       "name": "Caesars Superdome",
@@ -1831,8 +1890,8 @@
         "team": "Philadelphia Eagles",
         "position": "Quarterback (34)",
         "college": "Oklahoma",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/jalen-hurts.jpg",
+        "imageOverrideUrl": "/mvp/jalen-hurts.jpg"
       }
     ]
   },
@@ -1851,6 +1910,7 @@
       "score": 13
     },
     "scoreText": "29–13",
+    "quarterScoring": null,
     "dateSeasonText": "February 8, 2026 (2025)",
     "venue": {
       "name": "Levi's Stadium",

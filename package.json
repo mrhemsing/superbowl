@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "update:data": "node scripts/update-data.mjs",
-    "fetch:logos": "node scripts/fetch-logos.mjs"
+    "fetch:logos": "node scripts/fetch-logos.mjs",
+    "fetch:mvp": "node scripts/fetch-mvp-headshots.mjs"
   },
   "dependencies": {
     "cheerio": "^1.2.0",

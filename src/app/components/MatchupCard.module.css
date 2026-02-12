@@ -48,6 +48,10 @@
   overflow: hidden;
 }
 
+.logoLoser{
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.85), 0 12px 40px rgba(0,0,0,0.5);
+}
+
 .logoImg{
   width: 150%;
   height: 150%;
@@ -159,13 +163,46 @@
   width: 34px;
   height: 34px;
   border-radius: 12px;
-  background: radial-gradient(circle at 30% 30%, rgba(76,201,240,0.35), rgba(96,165,250,0.10));
-  border: 1px solid rgba(76,201,240,0.18);
+  border: 1px solid rgba(76,201,240,0.22);
   box-shadow: 0 0 22px rgba(76,201,240,0.10);
+  overflow: hidden;
+  background: rgba(10,14,22,0.9);
+}
+
+.mvpAvatarImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .mvpName{ color: rgba(234,240,255,0.98); font-weight: 720; }
 .mvpMeta{ color: rgba(170,182,214,0.90); font-size: 12px; margin-top: 2px; }
+
+.qTable{ display:flex; flex-direction:column; gap:8px; font-size:12px; }
+.qHead,
+.qRow{
+  display:grid;
+  grid-template-columns: minmax(92px, 1.6fr) repeat(var(--period-cols, 5), minmax(24px, 1fr));
+  gap: 6px;
+  align-items:center;
+}
+.qHead{
+  color: rgba(170,182,214,0.88);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  font-weight: 700;
+}
+.qRow{
+  color: rgba(234,240,255,0.96);
+}
+.qRow span:first-child{
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.qHead span:not(:first-child),
+.qRow span:not(:first-child){ text-align:center; }
 
 .links{ display:flex; flex-direction:column; gap:8px; }
 .links a{ color: rgba(96,165,250,0.98); text-decoration:none; }

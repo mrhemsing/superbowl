@@ -157,6 +157,55 @@ function splitCoMvps(name) {
   return parts.length ? parts : [textNorm(name)];
 }
 
+function parseQuarterScoringFromGameHtml(html, expectedWinnerScore, expectedLoserScore) {
+  const $ = cheerio.load(html);
+
+  const tables = $("table").toArray();
+  for (const table of tables) {
+    const headerText = textNorm($(table).find("tr").first().text());
+    if (!/\bTotal\b/i.test(headerText) || !/\b1\b/.test(headerText) || !/\b2\b/.test(headerText)) {
+      continue;
+    }
+
+    const rows = [];
+    $(table)
+      .find("tr")
+      .each((_i, tr) => {
+        const cells = $(tr).find("th, td").toArray();
+        if (cells.length < 6) return;
+
+        const nums = cells
+          .map((c) => textNorm($(c).text()))
+          .filter((v) => /^\d+$/.test(v))
+          .map((v) => Number(v));
+
+        if (nums.length < 5) return;
+
+        const total = nums[nums.length - 1];
+        const periods = nums.slice(0, -1);
+        rows.push({ periods, total });
+      });
+
+    if (rows.length < 2) continue;
+
+    const candidates = rows.slice(0, 3);
+    const winnerRow = candidates.find((r) => r.total === expectedWinnerScore);
+    const loserRow = candidates.find((r) => r.total === expectedLoserScore);
+
+    if (winnerRow && loserRow) {
+      const periodCount = Math.max(winnerRow.periods.length, loserRow.periods.length);
+      const labels = Array.from({ length: periodCount }, (_, i) => (i < 4 ? `Q${i + 1}` : "OT"));
+      return {
+        periods: labels,
+        winner: winnerRow.periods,
+        loser: loserRow.periods,
+      };
+    }
+  }
+
+  return null;
+}
+
 function parseMvpsTable(html) {
   const $ = cheerio.load(html);
   const candidates = $("table.wikitable")
@@ -281,7 +330,8 @@ async function main() {
 
   const silhouette = "/mvp-silhouette.svg";
 
-  const dataset = champs.map((g) => {
+  const dataset = [];
+  for (const g of champs) {
     const mvp = (mvpsBySb.get(g.sbNumber) ?? []).map((m) => ({
       name: m.name,
       team: m.team,
@@ -291,7 +341,23 @@ async function main() {
       imageOverrideUrl: null,
     }));
 
-    return {
+    let quarterScoring = null;
+    try {
+      const gameHtml = (
+        await wikiParse({
+          page: `Super_Bowl_${g.sbRoman}`,
+          prop: "text",
+        })
+      )?.text;
+
+      if (gameHtml && g.score) {
+        quarterScoring = parseQuarterScoringFromGameHtml(gameHtml, g.score.a, g.score.b);
+      }
+    } catch {
+      // Keep dataset generation resilient if an individual game page parse fails.
+    }
+
+    dataset.push({
       id: `sb-${g.sbNumber}`,
       sbRoman: g.sbRoman,
       sbNumber: g.sbNumber,
@@ -300,11 +366,12 @@ async function main() {
       winner: { name: g.winnerTeam, score: g.score?.a ?? null },
       loser: { name: g.loserTeam, score: g.score?.b ?? null },
       scoreText: g.scoreText,
+      quarterScoring,
       dateSeasonText: g.dateSeason,
       venue: { name: g.venue, city: g.city },
       mvp,
-    };
-  });
+    });
+  }
 
   if (dataset.length !== 60) {
     console.warn(`Warning: expected 60 Super Bowls, got ${dataset.length}`);
