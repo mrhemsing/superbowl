@@ -238,9 +238,11 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
                     <div>
                       <div className={styles.mvpName}>{m.name}</div>
                       <div className={styles.mvpMeta}>
-                        {m.team}
-                        {m.position ? ` • ${m.position}` : ""}
-                        {m.college ? ` • ${m.college}` : ""}
+                        <span>
+                          {m.team}
+                          {m.position ? ` • ${m.position}` : ""}
+                        </span>
+                        {m.college ? <span className={styles.mvpCollege}>• {m.college}</span> : null}
                       </div>
                     </div>
                   </li>

@@ -179,6 +179,7 @@
 
 .mvpName{ color: rgba(234,240,255,0.98); font-weight: 720; }
 .mvpMeta{ color: rgba(170,182,214,0.90); font-size: 12px; margin-top: 2px; }
+.mvpCollege{ margin-left: 4px; }
 
 .oddsGrid{
   display:grid;
@@ -260,4 +261,5 @@
   .detailGrid{ grid-template-columns: 1fr; }
   .extraPanel{ display: none; }
   .expandHint{ display: none; }
+  .mvpCollege{ display: block; margin-left: 0; margin-top: 2px; }
 }
