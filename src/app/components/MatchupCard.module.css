@@ -259,6 +259,7 @@
   .summary{ cursor: pointer; }
   .bettingTitle{ display: none; }
   .top{ grid-template-columns: 1fr; }
+  .subline{ margin-top: 4px; }
   .center{ order: -1; }
   .team{ justify-content:center; }
   .teamMeta{ align-items:center; }
