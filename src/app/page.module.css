@@ -262,6 +262,6 @@
 
   .slide{
     min-height: var(--viewport-h);
-    place-items: start center;
+    place-items: center;
   }
 }
