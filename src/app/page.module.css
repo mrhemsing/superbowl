@@ -241,11 +241,7 @@
   }
 
   .header{ padding-right: 74px; }
-  .kicker{
-    display: block;
-    font-size: 12px;
-    letter-spacing: 0.18em;
-  }
+  .kicker{ display: none; }
   .title{
     font-size: 34px;
     max-width: calc(100% - 8px);
