@@ -179,7 +179,7 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
             </div>
             <div className={styles.teamMeta}>
               <div className={styles.teamName}>{right.name}</div>
-              <div className={styles.teamTagMuted}>Runner-up</div>
+              {/* runner-up label removed */}
             </div>
           </div>
         </div>
