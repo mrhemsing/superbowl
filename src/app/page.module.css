@@ -218,6 +218,7 @@
     overscroll-behavior: none;
   }
 
+  .kicker{ display: none; }
   .title{ font-size: 34px; }
   .arrows{ display: none; }
 
