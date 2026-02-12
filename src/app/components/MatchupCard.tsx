@@ -46,6 +46,12 @@ function fmtDate(iso: string | null) {
   }
 }
 
+function teamCityName(teamName: string) {
+  const parts = teamName.trim().split(/\s+/);
+  if (parts.length <= 1) return teamName;
+  return parts.slice(0, -1).join(" ");
+}
+
 export function MatchupCard({ game }: { game: SuperBowlGame }) {
   const left = game.winner;
   const right = game.loser;
@@ -194,14 +200,14 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
                   <span>T</span>
                 </div>
                 <div className={styles.qRow}>
-                  <span>{left.name}</span>
+                  <span>{teamCityName(left.name)}</span>
                   {game.quarterScoring.winner.map((n, i) => (
                     <span key={`w-${i}`}>{n}</span>
                   ))}
                   <span>{left.score ?? "?"}</span>
                 </div>
                 <div className={styles.qRow}>
-                  <span>{right.name}</span>
+                  <span>{teamCityName(right.name)}</span>
                   {game.quarterScoring.loser.map((n, i) => (
                     <span key={`l-${i}`}>{n}</span>
                   ))}
