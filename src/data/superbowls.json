@@ -351,8 +351,8 @@
         "team": "Miami Dolphins",
         "position": "Safety",
         "college": "Georgia",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/jake-scott.jpg",
+        "imageOverrideUrl": "/mvp/jake-scott.jpg"
       }
     ]
   },
@@ -3060,8 +3060,8 @@
         "team": "Seattle Seahawks",
         "position": "Running back (8)",
         "college": "Michigan State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/kenneth-walker-iii.jpg",
+        "imageOverrideUrl": "/mvp/kenneth-walker-iii.jpg"
       }
     ]
   }

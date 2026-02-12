@@ -4,6 +4,10 @@ import path from "node:path";
 const DATA_PATH = path.resolve("src", "data", "superbowls.json");
 const OUT_DIR = path.resolve("public", "mvp");
 
+const MANUAL_OVERRIDES = {
+  "Kenneth Walker III": "https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4567048.png",
+};
+
 function slugify(s) {
   return String(s)
     .toLowerCase()
@@ -24,18 +28,31 @@ async function fetchJson(url) {
   return res.json();
 }
 
+function titleCandidates(name) {
+  const clean = name.replace(/\*/g, "").trim();
+  const noSuffix = clean.replace(/\s+(?:Jr\.?|Sr\.?|II|III|IV|V)$/i, "");
+  return Array.from(new Set([clean, clean.replace(/\s+/g, "_"), noSuffix, noSuffix.replace(/\s+/g, "_")])).filter(Boolean);
+}
+
 async function getSummary(name) {
-  const title = encodeURIComponent(name.replace(/\*/g, "").trim());
-  const primary = await fetchJson(`https://en.wikipedia.org/api/rest_v1/page/summary/${title}`);
-  if (primary?.thumbnail?.source) return primary;
+  for (const candidate of titleCandidates(name)) {
+    const direct = await fetchJson(
+      `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(candidate)}`
+    );
+    if (direct?.thumbnail?.source) return direct;
+  }
 
   const search = await fetchJson(
-    `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(name)}&srlimit=1&format=json&formatversion=2`
+    `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(name)}&srlimit=3&format=json&formatversion=2`
   );
-  const hit = search?.query?.search?.[0]?.title;
-  if (!hit) return null;
-  const fallback = await fetchJson(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(hit)}`);
-  return fallback?.thumbnail?.source ? fallback : null;
+
+  const hits = (search?.query?.search ?? []).map((x) => x.title).filter(Boolean);
+  for (const hit of hits) {
+    const fallback = await fetchJson(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(hit)}`);
+    if (fallback?.thumbnail?.source) return fallback;
+  }
+
+  return null;
 }
 
 async function downloadTo(url, outPath) {
@@ -73,8 +90,10 @@ async function main() {
 
       checked++;
       if (checked % 10 === 0) console.log(`Checked ${checked} MVP names...`);
-      const summary = await getSummary(name);
-      const src = summary?.thumbnail?.source;
+
+      const manualSrc = MANUAL_OVERRIDES[name] ?? null;
+      const summary = manualSrc ? null : await getSummary(name);
+      const src = manualSrc ?? summary?.thumbnail?.source;
 
       if (!src) {
         cache.set(name, null);
