@@ -110,8 +110,12 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
               <span>{fmtDate(game.gameDate) ?? game.dateSeasonText}</span>
               <span className={styles.dot}>•</span>
               <span>{game.venue.name}</span>
-              <span className={styles.dot}>•</span>
-              <span>{game.venue.city}</span>
+              {game.venue.city ? (
+                <>
+                  <span className={styles.dot}>•</span>
+                  <span>{game.venue.city}</span>
+                </>
+              ) : null}
             </div>
           </div>
 
