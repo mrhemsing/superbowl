@@ -240,12 +240,17 @@
     padding-top: 10px;
   }
 
+  .header{ padding-right: 74px; }
   .kicker{
     display: block;
     font-size: 12px;
     letter-spacing: 0.18em;
   }
-  .title{ font-size: 56px; }
+  .title{
+    font-size: 56px;
+    max-width: calc(100% - 8px);
+    line-height: 1.02;
+  }
   .titleNumber{ font-size: 0.58em; }
   .arrows{ display: none; }
 
