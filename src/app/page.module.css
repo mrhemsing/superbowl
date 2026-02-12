@@ -100,7 +100,7 @@
   overflow-y: auto;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
-  padding-right: 4px;
+  padding-right: 0;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
@@ -111,10 +111,10 @@
 .slide{
   min-height: calc(100vh - 180px);
   display: grid;
-  place-items: center;
+  place-items: start center;
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  padding: 14px 0;
+  padding: 0;
 }
 
 .slideInner{
