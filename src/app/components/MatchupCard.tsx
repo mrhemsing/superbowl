@@ -83,6 +83,11 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
     spreadResult.toLowerCase().includes("covered");
   const spreadPush = spreadResult === "Push";
 
+  const totalResult = game.betting?.results?.totalResult ?? null;
+  const totalOver = totalResult === "Over";
+  const totalUnder = totalResult === "Under";
+  const totalPush = totalResult === "Push";
+
   return (
     <details className={styles.card} open>
       <summary className={styles.summary}>
@@ -193,12 +198,21 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
                       : "—"}
                   </div>
                 </div>
-                <div className={styles.oddsCell}>
+                <div
+                  className={`${styles.oddsCell} ${
+                    totalResult
+                      ? totalPush
+                        ? styles.oddsCellNeutral
+                        : totalOver
+                        ? styles.oddsCellGood
+                        : totalUnder
+                        ? styles.oddsCellBad
+                        : ""
+                      : ""
+                  }`}
+                >
                   <div className={styles.oddsLabel}>Total</div>
                   <div className={styles.oddsValue}>{game.betting.total != null ? game.betting.total : "—"}</div>
-                  {game.betting.results.totalResult ? (
-                    <div className={styles.oddsWin}>{game.betting.results.totalResult}</div>
-                  ) : null}
                 </div>
               </div>
             ) : (
