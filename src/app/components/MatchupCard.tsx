@@ -269,8 +269,8 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
                         <span className={styles.mvpPrimaryMeta}>
                           {m.team}
                           {m.position ? ` • ${abbreviatePosition(m.position)}` : ""}
+                          {m.college ? <span className={styles.mvpCollege}>{m.college}</span> : null}
                         </span>
-                        {m.college ? <span className={styles.mvpCollege}>{m.college}</span> : null}
                       </div>
                     </div>
                   </li>

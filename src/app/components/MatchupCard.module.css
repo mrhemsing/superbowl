@@ -263,6 +263,5 @@
   .detailGrid{ grid-template-columns: 1fr; }
   .extraPanel{ display: none; }
   .expandHint{ display: none; }
-  .mvpCollege{ display: block; margin-left: 0; margin-top: 2px; }
   .mvpCollege::before{ content: ""; }
 }
