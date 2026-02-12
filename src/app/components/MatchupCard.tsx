@@ -243,3 +243,4 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
     </details>
   );
 }
+
