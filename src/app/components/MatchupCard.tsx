@@ -87,7 +87,9 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
           <div className={styles.center}>
             <div className={styles.sbLine}>
               <span className={styles.sbLabel}>SUPER BOWL</span>
-              <span className={styles.sbRoman}>{game.sbRoman}</span>
+              <span className={styles.sbRoman}>
+                {game.sbRoman} <span className={styles.sbArabic}>({game.sbNumber})</span>
+              </span>
             </div>
             <div className={styles.score}>
               <span className={styles.scoreNum}>{scoreLeft}</span>
