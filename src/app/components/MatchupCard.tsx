@@ -172,7 +172,42 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
       <div className={styles.details}>
         <div className={styles.detailGrid}>
           <div className={styles.panel}>
-            <div className={styles.panelTitle}>MVP</div>
+            <div className={styles.panelTitle}>Game Odds</div>
+            {game.betting ? (
+              <div className={styles.oddsGrid}>
+                <div
+                  className={`${styles.oddsCell} ${
+                    spreadResult
+                      ? spreadPush
+                        ? styles.oddsCellNeutral
+                        : favoriteCovered
+                        ? styles.oddsCellGood
+                        : styles.oddsCellBad
+                      : ""
+                  }`}
+                >
+                  <div className={styles.oddsLabel}>Spread</div>
+                  <div className={styles.oddsValue}>
+                    {game.betting.favorite && game.betting.spread != null
+                      ? `${game.betting.favorite} -${game.betting.spread}`
+                      : "—"}
+                  </div>
+                </div>
+                <div className={styles.oddsCell}>
+                  <div className={styles.oddsLabel}>Total</div>
+                  <div className={styles.oddsValue}>{game.betting.total != null ? game.betting.total : "—"}</div>
+                  {game.betting.results.totalResult ? (
+                    <div className={styles.oddsWin}>{game.betting.results.totalResult}</div>
+                  ) : null}
+                </div>
+              </div>
+            ) : (
+              <div className={styles.muted}>Odds not available for this game.</div>
+            )}
+
+            <div className={styles.panelTitle} style={{ marginTop: 12 }}>
+              MVP
+            </div>
             {game.mvp.length ? (
               <ul className={styles.mvpList}>
                 {game.mvp.map((m) => (
@@ -199,42 +234,6 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
               </ul>
             ) : (
               <div className={styles.muted}>MVP not found in scrape.</div>
-            )}
-
-            <div className={styles.panelTitle} style={{ marginTop: 12 }}>
-              Odds
-            </div>
-            {game.betting ? (
-              <div className={styles.oddsGrid}>
-                <div
-                  className={`${styles.oddsCell} ${
-                    spreadResult
-                      ? spreadPush
-                        ? styles.oddsCellNeutral
-                        : favoriteCovered
-                        ? styles.oddsCellGood
-                        : styles.oddsCellBad
-                      : ""
-                  }`}
-                >
-                  <div className={styles.oddsLabel}>Spread</div>
-                  <div className={styles.oddsValue}>
-                    {game.betting.favorite && game.betting.spread != null
-                      ? `${game.betting.favorite} -${game.betting.spread}`
-                      : "—"}
-                  </div>
-                  {/* visual-only result via color coding on the spread box */}
-                </div>
-                <div className={styles.oddsCell}>
-                  <div className={styles.oddsLabel}>Total</div>
-                  <div className={styles.oddsValue}>{game.betting.total != null ? game.betting.total : "—"}</div>
-                  {game.betting.results.totalResult ? (
-                    <div className={styles.oddsWin}>{game.betting.results.totalResult}</div>
-                  ) : null}
-                </div>
-              </div>
-            ) : (
-              <div className={styles.muted}>Odds not available for this game.</div>
             )}
           </div>
 
