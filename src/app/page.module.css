@@ -40,6 +40,12 @@
   text-shadow: 0 0 26px rgba(76,201,240,0.10);
 }
 
+.titleNumber{
+  font-size: 0.58em;
+  color: rgba(170,182,214,0.92);
+  font-weight: 780;
+}
+
 .sub{
   color: rgba(170,182,214,0.92);
   font-size: 14px;
