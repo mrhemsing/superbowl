@@ -112,7 +112,7 @@ export default function Home() {
       } as CSSProperties}
     >
       <header className={styles.header}>
-        <div className={styles.kicker}>Broadcast scoreboard mode</div>
+        <div className={styles.kicker}>The Vince Lombardi Trophy</div>
         <h1 className={styles.title} key={orderedGames[activeIndex]?.id ?? "title-fallback"}>
           Super Bowl {orderedGames[activeIndex]?.sbRoman ?? "I"}
           <span className={styles.titleNumber}> ({orderedGames[activeIndex]?.sbNumber ?? 1})</span>
