@@ -66,13 +66,13 @@
   color: rgba(170,182,214,0.9);
   border: 1px solid rgba(96,165,250,0.24);
   border-radius: 10px;
-  padding: 4px 8px;
+  padding: 7px 12px;
   user-select: none;
   background: rgba(8,12,20,0.78);
 }
 
 .hamburgerIcon{
-  font-size: 18px;
+  font-size: 25px;
   line-height: 1;
   font-weight: 800;
   display: inline-block;
@@ -200,17 +200,20 @@
 }
 
 @keyframes swipeNudge{
-  0%, 100% { transform: translateY(0); opacity: .35; }
+  0% { transform: translateY(0); opacity: .35; }
   50% { transform: translateY(3px); opacity: .95; }
+  100% { transform: translateY(0); opacity: .95; }
 }
 
 .mobileSwipeHint{ display: none; }
+.mobileBackToTop{ display: none; }
 
 @media (max-width: 900px){
   .title{ font-size: 34px; }
   .arrows{ display: none; }
 
-  .mobileSwipeHint{
+  .mobileSwipeHint,
+  .mobileBackToTop{
     position: fixed;
     left: 50%;
     bottom: 18px;
@@ -218,9 +221,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2px;
-    pointer-events: none;
+    gap: 5px;
     z-index: 6;
+  }
+
+  .mobileSwipeHint{ pointer-events: none; }
+
+  .mobileBackToTop{
+    pointer-events: auto;
+    border: 0;
+    background: transparent;
+    padding: 0;
   }
 
   .mobileSwipeText{
@@ -236,7 +247,7 @@
     height: 34px;
     color: rgba(188,203,236,0.98);
     filter: drop-shadow(0 0 14px rgba(96,165,250,0.45));
-    animation: swipeNudge 2.6s ease-in-out infinite;
+    animation: swipeNudge 0.9s ease-in-out 2 forwards;
   }
 
   /* Mobile should still swipe/snap one card at a time. */

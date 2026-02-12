@@ -113,7 +113,20 @@ export default function Home() {
               />
             </svg>
           </div>
-        ) : null}
+        ) : (
+          <button className={styles.mobileBackToTop} onClick={() => goToIndex(0)}>
+            <span className={styles.mobileSwipeText}>Back to top</span>
+            <svg className={styles.mobileSwipeArrow} viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+              <path
+                d="M60 12l52 56H84v40H36V68H8L60 12z"
+                fill="currentColor"
+                stroke="rgba(96,165,250,0.55)"
+                strokeWidth="4"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </button>
+        )}
 
         <div className={styles.scroller} ref={scrollerRef} tabIndex={0}>
           {orderedGames.map((g, idx) => (
