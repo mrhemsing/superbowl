@@ -216,6 +216,7 @@
     min-height: 100dvh;
     overflow: hidden;
     overscroll-behavior: none;
+    padding-top: 10px;
   }
 
   .kicker{ display: none; }
