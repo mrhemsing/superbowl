@@ -53,9 +53,9 @@ export default function Home() {
     <div className={styles.page}>
       <header className={styles.header}>
         <div className={styles.kicker}>Broadcast scoreboard mode</div>
-        <h1 className={styles.title}>
+        <h1 className={styles.title} key={orderedGames[activeIndex]?.id ?? "title-fallback"}>
           Super Bowl {orderedGames[activeIndex]?.sbRoman ?? "I"}
-          <span className={styles.titleNumber}> ({orderedGames[activeIndex]?.sbNumber ?? 1})</span>
+          <span className={styles.titleNumber}> {orderedGames[activeIndex]?.sbNumber ?? 1}</span>
         </h1>
         <div className={styles.sub}>
           {newest ? (
