@@ -9,8 +9,21 @@ const games = gamesRaw as SuperBowlGame[];
 
 export default function Home() {
   const scrollerRef = useRef<HTMLDivElement | null>(null);
+  const sectionRefs = useRef<Array<HTMLElement | null>>([]);
+  const jumpMenuRef = useRef<HTMLDetailsElement | null>(null);
+
   const orderedGames = useMemo(() => games.slice().reverse(), []);
   const [activeIndex, setActiveIndex] = useState(0);
+
+  const goToIndex = (idx: number) => {
+    const scroller = scrollerRef.current;
+    const section = sectionRefs.current[idx];
+    if (!scroller || !section) return;
+
+    scroller.scrollTo({ top: section.offsetTop, behavior: "smooth" });
+    setActiveIndex(idx);
+    if (jumpMenuRef.current) jumpMenuRef.current.open = false;
+  };
 
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
@@ -56,6 +69,27 @@ export default function Home() {
           Super Bowl {orderedGames[activeIndex]?.sbRoman ?? "I"}
           <span className={styles.titleNumber}> ({orderedGames[activeIndex]?.sbNumber ?? 1})</span>
         </h1>
+
+        <details className={styles.jumpMenu} ref={jumpMenuRef}>
+          <summary>Jump</summary>
+          <div className={styles.jumpBody}>
+            <label htmlFor="jump-sb" className={styles.jumpLabel}>
+              Select Super Bowl
+            </label>
+            <select
+              id="jump-sb"
+              className={styles.jumpSelect}
+              value={activeIndex}
+              onChange={(e) => goToIndex(Number(e.target.value))}
+            >
+              {orderedGames.map((g, idx) => (
+                <option key={g.id} value={idx}>
+                  Super Bowl {g.sbRoman} ({g.sbNumber})
+                </option>
+              ))}
+            </select>
+          </div>
+        </details>
       </header>
 
       <main className={styles.main}>
@@ -65,8 +99,14 @@ export default function Home() {
         </div>
 
         <div className={styles.scroller} ref={scrollerRef} tabIndex={0}>
-          {orderedGames.map((g) => (
-            <section key={g.id} className={styles.slide}>
+          {orderedGames.map((g, idx) => (
+            <section
+              key={g.id}
+              className={styles.slide}
+              ref={(el) => {
+                sectionRefs.current[idx] = el;
+              }}
+            >
               <div className={styles.slideInner}>
                 <MatchupCard game={g} />
               </div>
