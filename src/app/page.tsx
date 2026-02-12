@@ -8,7 +8,6 @@ import { MatchupCard, type SuperBowlGame } from "@/app/components/MatchupCard";
 const games = gamesRaw as SuperBowlGame[];
 
 export default function Home() {
-  const newest = games[games.length - 1];
   const scrollerRef = useRef<HTMLDivElement | null>(null);
   const orderedGames = useMemo(() => games.slice().reverse(), []);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -57,15 +56,6 @@ export default function Home() {
           Super Bowl {orderedGames[activeIndex]?.sbRoman ?? "I"}
           <span className={styles.titleNumber}> ({orderedGames[activeIndex]?.sbNumber ?? 1})</span>
         </h1>
-        <div className={styles.sub}>
-          {newest ? (
-            <>
-              Latest: <span className={styles.accent}>Super Bowl {newest.sbRoman}</span>
-            </>
-          ) : (
-            "Dataset not loaded"
-          )}
-        </div>
       </header>
 
       <main className={styles.main}>
@@ -76,12 +66,12 @@ export default function Home() {
 
         <div className={styles.scroller} ref={scrollerRef} tabIndex={0}>
           {orderedGames.map((g) => (
-              <section key={g.id} className={styles.slide}>
-                <div className={styles.slideInner}>
-                  <MatchupCard game={g} />
-                </div>
-              </section>
-            ))}
+            <section key={g.id} className={styles.slide}>
+              <div className={styles.slideInner}>
+                <MatchupCard game={g} />
+              </div>
+            </section>
+          ))}
         </div>
       </main>
 
