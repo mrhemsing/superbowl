@@ -209,6 +209,12 @@
 .mobileBackToTop{ display: none; }
 
 @media (max-width: 900px){
+  .page{
+    height: 100dvh;
+    min-height: 100dvh;
+    overflow: hidden;
+  }
+
   .title{ font-size: 34px; }
   .arrows{ display: none; }
 
