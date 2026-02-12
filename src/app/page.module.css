@@ -28,7 +28,7 @@
   margin: 0 auto;
   padding: 4px 0 18px;
   position: relative;
-  z-index: 20;
+  z-index: 120;
 }
 
 .kicker{
@@ -59,7 +59,7 @@
   top: 4px;
   right: 0;
   width: fit-content;
-  z-index: 30;
+  z-index: 140;
 }
 
 .jumpMenu summary{
@@ -88,6 +88,8 @@
   border: 1px solid rgba(96,165,250,0.2);
   background: rgba(6,10,18,0.9);
   min-width: 220px;
+  position: relative;
+  z-index: 150;
 }
 
 .jumpLabel{
