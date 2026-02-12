@@ -125,7 +125,7 @@
 .dot{ opacity: 0.6; }
 .dotDesktopHide{}
 .cityMobile{ display: none; }
-.cityDesktop{ display: inline; }
+.cityDesktop{ display: block; flex-basis: 100%; margin-top: 0; }
 
 .expandHint{
   margin-top: 10px;
