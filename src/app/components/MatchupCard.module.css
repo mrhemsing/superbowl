@@ -52,18 +52,18 @@
 .logo::after{
   content: "";
   position: absolute;
-  inset: -40%;
-  background: conic-gradient(
-    from 0deg,
-    transparent 0deg,
-    rgba(255,255,255,0.00) 40deg,
-    rgba(255,255,255,0.55) 68deg,
-    rgba(255,255,255,0.05) 85deg,
-    transparent 130deg,
-    transparent 360deg
+  top: -35%;
+  bottom: -35%;
+  left: -140%;
+  width: 120%;
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0),
+    rgba(255,255,255,0.55),
+    rgba(255,255,255,0)
   );
   mix-blend-mode: screen;
-  animation: winnerSweep 2.8s linear infinite;
+  animation: winnerWipe 2.2s ease-in-out infinite alternate;
   pointer-events: none;
 }
 
@@ -276,10 +276,10 @@
 
 .muted{ color: rgba(170,182,214,0.85); font-size: 13px; }
 
-@keyframes winnerSweep{
-  0% { transform: rotate(0deg); opacity: .25; }
+@keyframes winnerWipe{
+  0% { transform: translateX(0); opacity: .2; }
   50% { opacity: .6; }
-  100% { transform: rotate(360deg); opacity: .25; }
+  100% { transform: translateX(230%); opacity: .2; }
 }
 
 @media (min-width: 901px){
