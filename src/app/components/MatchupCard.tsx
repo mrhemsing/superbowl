@@ -1,5 +1,7 @@
+import Image from "next/image";
 import styles from "./MatchupCard.module.css";
 import { teamGradient, teamInitials } from "@/lib/teamStyle";
+import { getTeamMeta } from "@/lib/teams";
 
 export type Mvp = {
   name: string;
@@ -38,8 +40,11 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
   const left = game.winner;
   const right = game.loser;
 
-  const leftG = teamGradient(left.name);
-  const rightG = teamGradient(right.name);
+  const leftMeta = getTeamMeta(left.name);
+  const rightMeta = getTeamMeta(right.name);
+
+  const leftG = leftMeta ? { a: leftMeta.primary, b: leftMeta.secondary } : teamGradient(left.name);
+  const rightG = rightMeta ? { a: rightMeta.primary, b: rightMeta.secondary } : teamGradient(right.name);
 
   const scoreLeft = left.score ?? "?";
   const scoreRight = right.score ?? "?";
@@ -60,7 +65,17 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
               aria-label={left.name}
               title={left.name}
             >
-              <span className={styles.initials}>{teamInitials(left.name)}</span>
+              {leftMeta ? (
+                <Image
+                  src={leftMeta.logoPath}
+                  alt={`${leftMeta.abbr} logo`}
+                  width={72}
+                  height={72}
+                  className={styles.logoImg}
+                />
+              ) : (
+                <span className={styles.initials}>{teamInitials(left.name)}</span>
+              )}
             </div>
             <div className={styles.teamMeta}>
               <div className={styles.teamName}>{left.name}</div>
@@ -97,7 +112,17 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
               aria-label={right.name}
               title={right.name}
             >
-              <span className={styles.initials}>{teamInitials(right.name)}</span>
+              {rightMeta ? (
+                <Image
+                  src={rightMeta.logoPath}
+                  alt={`${rightMeta.abbr} logo`}
+                  width={72}
+                  height={72}
+                  className={styles.logoImg}
+                />
+              ) : (
+                <span className={styles.initials}>{teamInitials(right.name)}</span>
+              )}
             </div>
             <div className={styles.teamMeta}>
               <div className={styles.teamName}>{right.name}</div>

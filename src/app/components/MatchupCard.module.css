@@ -45,6 +45,14 @@
   display:grid;
   place-items:center;
   box-shadow: 0 10px 34px rgba(0,0,0,0.45);
+  overflow: hidden;
+}
+
+.logoImg{
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 22px rgba(0,0,0,0.35));
 }
 
 .initials{
