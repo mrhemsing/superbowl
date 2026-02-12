@@ -123,6 +123,8 @@
 }
 .dot{ opacity: 0.6; }
 .dotDesktopHide{}
+.cityMobile{ display: none; }
+.cityDesktop{ display: inline; }
 
 .expandHint{
   margin-top: 10px;
@@ -266,4 +268,6 @@
   .extraPanel{ display: none; }
   .expandHint{ display: none; }
   .mvpCollege::before{ content: ""; }
+  .cityDesktop{ display: none; }
+  .cityMobile{ display: inline; }
 }

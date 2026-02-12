@@ -76,6 +76,23 @@ function abbreviatePosition(position: string | null) {
     .replace(/^Return specialist\b/i, "RS");
 }
 
+function abbreviateStateInCity(city: string) {
+  const map: Record<string, string> = {
+    Alabama: "AL", Alaska: "AK", Arizona: "AZ", Arkansas: "AR", California: "CA",
+    Colorado: "CO", Connecticut: "CT", Delaware: "DE", Florida: "FL", Georgia: "GA",
+    Hawaii: "HI", Idaho: "ID", Illinois: "IL", Indiana: "IN", Iowa: "IA", Kansas: "KS",
+    Kentucky: "KY", Louisiana: "LA", Maine: "ME", Maryland: "MD", Massachusetts: "MA",
+    Michigan: "MI", Minnesota: "MN", Mississippi: "MS", Missouri: "MO", Montana: "MT",
+    Nebraska: "NE", Nevada: "NV", "New Hampshire": "NH", "New Jersey": "NJ",
+    "New Mexico": "NM", "New York": "NY", "North Carolina": "NC", "North Dakota": "ND",
+    Ohio: "OH", Oklahoma: "OK", Oregon: "OR", Pennsylvania: "PA", "Rhode Island": "RI",
+    "South Carolina": "SC", "South Dakota": "SD", Tennessee: "TN", Texas: "TX", Utah: "UT",
+    Vermont: "VT", Virginia: "VA", Washington: "WA", "West Virginia": "WV", Wisconsin: "WI",
+    Wyoming: "WY",
+  };
+  return city.replace(/,\s*([A-Za-z ]+)$/, (_m, state) => `, ${map[state] ?? state}`);
+}
+
 export function MatchupCard({ game }: { game: SuperBowlGame }) {
   const left = game.winner;
   const right = game.loser;
@@ -164,7 +181,8 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
               {game.venue.city ? (
                 <>
                   <span className={`${styles.dot} ${styles.dotDesktopHide}`}>•</span>
-                  <span>{game.venue.city}</span>
+                  <span className={styles.cityDesktop}>{game.venue.city}</span>
+                  <span className={styles.cityMobile}>{abbreviateStateInCity(game.venue.city)}</span>
                 </>
               ) : null}
             </div>
