@@ -113,13 +113,14 @@
 .dash{ margin: 0 10px; color: rgba(96,165,250,0.9); }
 
 .subline{
-  margin-top: 2px;
+  margin-top: -4px;
   font-size: 13px;
+  line-height: 1.1;
   color: rgba(170,182,214,0.9);
   display:flex;
   justify-content:center;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
 }
 .dot{ opacity: 0.6; }
 .dotDesktopHide{}
