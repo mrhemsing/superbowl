@@ -163,7 +163,7 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
               <span>{game.venue.name}</span>
               {game.venue.city ? (
                 <>
-                  <span className={styles.dot}>•</span>
+                  <span className={`${styles.dot} ${styles.dotDesktopHide}`}>•</span>
                   <span>{game.venue.city}</span>
                 </>
               ) : null}

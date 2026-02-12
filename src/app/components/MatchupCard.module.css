@@ -122,6 +122,7 @@
   gap: 8px;
 }
 .dot{ opacity: 0.6; }
+.dotDesktopHide{}
 
 .expandHint{
   margin-top: 10px;
@@ -248,6 +249,7 @@
 
 @media (min-width: 901px){
   .summary{ pointer-events: none; }
+  .dotDesktopHide{ display: none; }
 }
 
 @media (max-width: 900px){
