@@ -67,6 +67,11 @@ export default function Home() {
       setActiveIndex(safe);
     };
 
+    const ensureFocus = () => {
+      if (window.matchMedia("(max-width: 900px)").matches) return;
+      scroller.focus({ preventScroll: true });
+    };
+
     let wheelLocked = false;
     const onWheel = (e: WheelEvent) => {
       if (window.matchMedia("(max-width: 900px)").matches) return;
@@ -86,11 +91,16 @@ export default function Home() {
     };
 
     onScroll();
+    ensureFocus();
     scroller.addEventListener("scroll", onScroll, { passive: true });
     scroller.addEventListener("wheel", onWheel, { passive: false });
+    window.addEventListener("focus", ensureFocus);
+    document.addEventListener("visibilitychange", ensureFocus);
     return () => {
       scroller.removeEventListener("scroll", onScroll);
       scroller.removeEventListener("wheel", onWheel);
+      window.removeEventListener("focus", ensureFocus);
+      document.removeEventListener("visibilitychange", ensureFocus);
     };
   }, [orderedGames.length]);
 
@@ -176,7 +186,13 @@ export default function Home() {
           </button>
         )}
 
-        <div className={styles.scroller} ref={scrollerRef} tabIndex={0}>
+        <div
+          className={styles.scroller}
+          ref={scrollerRef}
+          tabIndex={0}
+          onMouseEnter={() => scrollerRef.current?.focus({ preventScroll: true })}
+          onTouchStart={() => scrollerRef.current?.focus({ preventScroll: true })}
+        >
           {orderedGames.map((g, idx) => (
             <section
               key={g.id}
