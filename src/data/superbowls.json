@@ -13,7 +13,7 @@
       "name": "Kansas City Chiefs",
       "score": 10
     },
-    "scoreText": "35–10",
+    "scoreText": "35\u201310",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -80,7 +80,7 @@
       "name": "Oakland Raiders",
       "score": 14
     },
-    "scoreText": "33–14",
+    "scoreText": "33\u201314",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -147,7 +147,7 @@
       "name": "Baltimore Colts",
       "score": 7
     },
-    "scoreText": "16–7",
+    "scoreText": "16\u20137",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -214,7 +214,7 @@
       "name": "Minnesota Vikings",
       "score": 7
     },
-    "scoreText": "23–7",
+    "scoreText": "23\u20137",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -281,7 +281,7 @@
       "name": "Dallas Cowboys",
       "score": 13
     },
-    "scoreText": "16–13",
+    "scoreText": "16\u201313",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -348,7 +348,7 @@
       "name": "Miami Dolphins",
       "score": 3
     },
-    "scoreText": "24–3",
+    "scoreText": "24\u20133",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -415,7 +415,7 @@
       "name": "Washington Redskins",
       "score": 7
     },
-    "scoreText": "14–7",
+    "scoreText": "14\u20137",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -482,7 +482,7 @@
       "name": "Minnesota Vikings",
       "score": 7
     },
-    "scoreText": "24–7",
+    "scoreText": "24\u20137",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -549,7 +549,7 @@
       "name": "Minnesota Vikings",
       "score": 6
     },
-    "scoreText": "16–6",
+    "scoreText": "16\u20136",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -616,7 +616,7 @@
       "name": "Dallas Cowboys",
       "score": 17
     },
-    "scoreText": "21–17",
+    "scoreText": "21\u201317",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -683,7 +683,7 @@
       "name": "Minnesota Vikings",
       "score": 14
     },
-    "scoreText": "32–14",
+    "scoreText": "32\u201314",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -750,7 +750,7 @@
       "name": "Denver Broncos",
       "score": 10
     },
-    "scoreText": "27–10",
+    "scoreText": "27\u201310",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -797,7 +797,7 @@
         "name": "Harvey Martin",
         "team": "Dallas Cowboys",
         "position": "Defensive end",
-        "college": "Texas A&M–Commerce",
+        "college": "Texas A&M\u2013Commerce",
         "headshotUrl": "/mvp/harvey-martin.jpg",
         "imageOverrideUrl": "/mvp/harvey-martin.jpg"
       }
@@ -817,7 +817,7 @@
       "name": "Dallas Cowboys",
       "score": 31
     },
-    "scoreText": "35–31",
+    "scoreText": "35\u201331",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -884,7 +884,7 @@
       "name": "Los Angeles Rams",
       "score": 19
     },
-    "scoreText": "31–19",
+    "scoreText": "31\u201319",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -951,7 +951,7 @@
       "name": "Philadelphia Eagles",
       "score": 10
     },
-    "scoreText": "27–10",
+    "scoreText": "27\u201310",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -1018,7 +1018,7 @@
       "name": "Cincinnati Bengals",
       "score": 21
     },
-    "scoreText": "26–21",
+    "scoreText": "26\u201321",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -1085,7 +1085,7 @@
       "name": "Miami Dolphins",
       "score": 17
     },
-    "scoreText": "27–17",
+    "scoreText": "27\u201317",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -1152,7 +1152,7 @@
       "name": "Washington Redskins",
       "score": 9
     },
-    "scoreText": "38–9",
+    "scoreText": "38\u20139",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -1219,7 +1219,7 @@
       "name": "Miami Dolphins",
       "score": 16
     },
-    "scoreText": "38–16",
+    "scoreText": "38\u201316",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -1286,7 +1286,7 @@
       "name": "New England Patriots",
       "score": 10
     },
-    "scoreText": "46–10",
+    "scoreText": "46\u201310",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -1353,7 +1353,7 @@
       "name": "Denver Broncos",
       "score": 20
     },
-    "scoreText": "39–20",
+    "scoreText": "39\u201320",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -1420,7 +1420,7 @@
       "name": "Denver Broncos",
       "score": 10
     },
-    "scoreText": "42–10",
+    "scoreText": "42\u201310",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -1459,7 +1459,7 @@
     },
     "dateSeasonText": "January 31, 1988 (1987)",
     "venue": {
-      "name": "San Diego–Jack Murphy Stadium",
+      "name": "San Diego\u2013Jack Murphy Stadium",
       "city": "San Diego, California"
     },
     "mvp": [
@@ -1487,7 +1487,7 @@
       "name": "Cincinnati Bengals",
       "score": 16
     },
-    "scoreText": "20–16",
+    "scoreText": "20\u201316",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -1554,7 +1554,7 @@
       "name": "Denver Broncos",
       "score": 10
     },
-    "scoreText": "55–10",
+    "scoreText": "55\u201310",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -1621,7 +1621,7 @@
       "name": "Buffalo Bills",
       "score": 19
     },
-    "scoreText": "20–19",
+    "scoreText": "20\u201319",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -1688,7 +1688,7 @@
       "name": "Buffalo Bills",
       "score": 24
     },
-    "scoreText": "37–24",
+    "scoreText": "37\u201324",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -1755,7 +1755,7 @@
       "name": "Buffalo Bills",
       "score": 17
     },
-    "scoreText": "52–17",
+    "scoreText": "52\u201317",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -1822,7 +1822,7 @@
       "name": "Buffalo Bills",
       "score": 13
     },
-    "scoreText": "30–13",
+    "scoreText": "30\u201313",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -1889,7 +1889,7 @@
       "name": "San Diego Chargers",
       "score": 26
     },
-    "scoreText": "49–26",
+    "scoreText": "49\u201326",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -1956,7 +1956,7 @@
       "name": "Pittsburgh Steelers",
       "score": 17
     },
-    "scoreText": "27–17",
+    "scoreText": "27\u201317",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -2023,7 +2023,7 @@
       "name": "New England Patriots",
       "score": 21
     },
-    "scoreText": "35–21",
+    "scoreText": "35\u201321",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -2090,7 +2090,7 @@
       "name": "Green Bay Packers",
       "score": 24
     },
-    "scoreText": "31–24",
+    "scoreText": "31\u201324",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -2157,7 +2157,7 @@
       "name": "Atlanta Falcons",
       "score": 19
     },
-    "scoreText": "34–19",
+    "scoreText": "34\u201319",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -2224,7 +2224,7 @@
       "name": "Tennessee Titans",
       "score": 16
     },
-    "scoreText": "23–16",
+    "scoreText": "23\u201316",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -2291,7 +2291,7 @@
       "name": "New York Giants",
       "score": 7
     },
-    "scoreText": "34–7",
+    "scoreText": "34\u20137",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -2358,7 +2358,7 @@
       "name": "St. Louis Rams",
       "score": 17
     },
-    "scoreText": "20–17",
+    "scoreText": "20\u201317",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -2425,7 +2425,7 @@
       "name": "Oakland Raiders",
       "score": 21
     },
-    "scoreText": "48–21",
+    "scoreText": "48\u201321",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -2492,7 +2492,7 @@
       "name": "Carolina Panthers",
       "score": 29
     },
-    "scoreText": "32–29",
+    "scoreText": "32\u201329",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -2559,7 +2559,7 @@
       "name": "Philadelphia Eagles",
       "score": 21
     },
-    "scoreText": "24–21",
+    "scoreText": "24\u201321",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -2626,7 +2626,7 @@
       "name": "Seattle Seahawks",
       "score": 10
     },
-    "scoreText": "21–10",
+    "scoreText": "21\u201310",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -2693,7 +2693,7 @@
       "name": "Chicago Bears",
       "score": 17
     },
-    "scoreText": "29–17",
+    "scoreText": "29\u201317",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -2760,7 +2760,7 @@
       "name": "New England Patriots",
       "score": 14
     },
-    "scoreText": "17–14",
+    "scoreText": "17\u201314",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -2827,7 +2827,7 @@
       "name": "Arizona Cardinals",
       "score": 23
     },
-    "scoreText": "27–23",
+    "scoreText": "27\u201323",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -2894,7 +2894,7 @@
       "name": "Indianapolis Colts",
       "score": 17
     },
-    "scoreText": "31–17",
+    "scoreText": "31\u201317",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -2961,7 +2961,7 @@
       "name": "Pittsburgh Steelers",
       "score": 25
     },
-    "scoreText": "31–25",
+    "scoreText": "31\u201325",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -3028,7 +3028,7 @@
       "name": "New England Patriots",
       "score": 17
     },
-    "scoreText": "21–17",
+    "scoreText": "21\u201317",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -3095,7 +3095,7 @@
       "name": "San Francisco 49ers",
       "score": 31
     },
-    "scoreText": "34–31",
+    "scoreText": "34\u201331",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -3162,7 +3162,7 @@
       "name": "Denver Broncos",
       "score": 8
     },
-    "scoreText": "43–8",
+    "scoreText": "43\u20138",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -3229,7 +3229,7 @@
       "name": "Seattle Seahawks",
       "score": 24
     },
-    "scoreText": "28–24",
+    "scoreText": "28\u201324",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -3296,7 +3296,7 @@
       "name": "Carolina Panthers",
       "score": 10
     },
-    "scoreText": "24–10",
+    "scoreText": "24\u201310",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -3363,7 +3363,7 @@
       "name": "Atlanta Falcons",
       "score": 28
     },
-    "scoreText": "34–28 (OT)",
+    "scoreText": "34\u201328 (OT)",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -3433,7 +3433,7 @@
       "name": "New England Patriots",
       "score": 33
     },
-    "scoreText": "41–33",
+    "scoreText": "41\u201333",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -3500,7 +3500,7 @@
       "name": "Los Angeles Rams",
       "score": 3
     },
-    "scoreText": "13–3",
+    "scoreText": "13\u20133",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -3567,7 +3567,7 @@
       "name": "San Francisco 49ers",
       "score": 20
     },
-    "scoreText": "31–20",
+    "scoreText": "31\u201320",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -3634,7 +3634,7 @@
       "name": "Kansas City Chiefs",
       "score": 9
     },
-    "scoreText": "31–9",
+    "scoreText": "31\u20139",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -3701,7 +3701,7 @@
       "name": "Cincinnati Bengals",
       "score": 20
     },
-    "scoreText": "23–20",
+    "scoreText": "23\u201320",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -3768,7 +3768,7 @@
       "name": "Philadelphia Eagles",
       "score": 35
     },
-    "scoreText": "38–35",
+    "scoreText": "38\u201335",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -3835,7 +3835,7 @@
       "name": "San Francisco 49ers",
       "score": 22
     },
-    "scoreText": "25–22 (OT)",
+    "scoreText": "25\u201322 (OT)",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -3885,7 +3885,7 @@
         "name": "Patrick Mahomes",
         "team": "Kansas City Chiefs",
         "position": "Quarterback (33)",
-        "college": "",
+        "college": "Texas Tech",
         "headshotUrl": "/mvp/patrick-mahomes.jpg",
         "imageOverrideUrl": "/mvp/patrick-mahomes.jpg"
       }
@@ -3905,7 +3905,7 @@
       "name": "Kansas City Chiefs",
       "score": 22
     },
-    "scoreText": "40–22",
+    "scoreText": "40\u201322",
     "quarterScoring": {
       "periods": [
         "Q1",
@@ -3972,7 +3972,7 @@
       "name": "New England Patriots",
       "score": 13
     },
-    "scoreText": "29–13",
+    "scoreText": "29\u201313",
     "quarterScoring": {
       "periods": [
         "Q1",
