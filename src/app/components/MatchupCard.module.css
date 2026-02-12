@@ -270,5 +270,5 @@
   .mvpCollege::before{ content: ""; }
   .dotDesktopHide{ display: none; }
   .cityDesktop{ display: none; }
-  .cityMobile{ display: block; flex-basis: 100%; margin-top: 2px; }
+  .cityMobile{ display: block; flex-basis: 100%; margin-top: 0; }
 }
