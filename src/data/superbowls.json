@@ -14,7 +14,26 @@
       "score": 10
     },
     "scoreText": "35–10",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        7,
+        14,
+        7
+      ],
+      "loser": [
+        0,
+        10,
+        0,
+        0
+      ]
+    },
     "dateSeasonText": "January 15, 1967 (1966 AFL/1966 NFL)",
     "venue": {
       "name": "Los Angeles Memorial Coliseum",
@@ -46,7 +65,26 @@
       "score": 14
     },
     "scoreText": "33–14",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        3,
+        13,
+        10,
+        7
+      ],
+      "loser": [
+        0,
+        7,
+        0,
+        7
+      ]
+    },
     "dateSeasonText": "January 14, 1968 (1967 AFL/1967 NFL)",
     "venue": {
       "name": "Miami Orange Bowl",
@@ -78,7 +116,26 @@
       "score": 7
     },
     "scoreText": "16–7",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        0,
+        7,
+        6,
+        3
+      ],
+      "loser": [
+        0,
+        0,
+        0,
+        7
+      ]
+    },
     "dateSeasonText": "January 12, 1969 (1968 AFL/1968 NFL)",
     "venue": {
       "name": "Miami Orange Bowl",
@@ -110,7 +167,26 @@
       "score": 7
     },
     "scoreText": "23–7",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        3,
+        13,
+        7,
+        0
+      ],
+      "loser": [
+        0,
+        0,
+        7,
+        0
+      ]
+    },
     "dateSeasonText": "January 11, 1970 (1969 AFL/1969 NFL)",
     "venue": {
       "name": "Tulane Stadium",
@@ -142,7 +218,26 @@
       "score": 13
     },
     "scoreText": "16–13",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        0,
+        6,
+        0,
+        10
+      ],
+      "loser": [
+        3,
+        10,
+        0,
+        0
+      ]
+    },
     "dateSeasonText": "January 17, 1971 (1970)",
     "venue": {
       "name": "Miami Orange Bowl",
@@ -174,7 +269,26 @@
       "score": 3
     },
     "scoreText": "24–3",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        3,
+        7,
+        7,
+        7
+      ],
+      "loser": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
     "dateSeasonText": "January 16, 1972 (1971)",
     "venue": {
       "name": "Tulane Stadium",
@@ -206,7 +320,26 @@
       "score": 7
     },
     "scoreText": "14–7",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        7,
+        0,
+        0
+      ],
+      "loser": [
+        0,
+        0,
+        0,
+        7
+      ]
+    },
     "dateSeasonText": "January 14, 1973 (1972)",
     "venue": {
       "name": "Los Angeles Memorial Coliseum",
@@ -238,7 +371,26 @@
       "score": 7
     },
     "scoreText": "24–7",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        14,
+        3,
+        7,
+        0
+      ],
+      "loser": [
+        0,
+        0,
+        0,
+        7
+      ]
+    },
     "dateSeasonText": "January 13, 1974 (1973)",
     "venue": {
       "name": "Rice Stadium",
@@ -270,7 +422,26 @@
       "score": 6
     },
     "scoreText": "16–6",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        0,
+        2,
+        7,
+        7
+      ],
+      "loser": [
+        0,
+        0,
+        0,
+        6
+      ]
+    },
     "dateSeasonText": "January 12, 1975 (1974)",
     "venue": {
       "name": "Tulane Stadium",
@@ -302,7 +473,26 @@
       "score": 17
     },
     "scoreText": "21–17",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        0,
+        0,
+        14
+      ],
+      "loser": [
+        7,
+        3,
+        0,
+        7
+      ]
+    },
     "dateSeasonText": "January 18, 1976 (1975)",
     "venue": {
       "name": "Miami Orange Bowl",
@@ -334,7 +524,26 @@
       "score": 14
     },
     "scoreText": "32–14",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        0,
+        16,
+        3,
+        13
+      ],
+      "loser": [
+        0,
+        0,
+        7,
+        7
+      ]
+    },
     "dateSeasonText": "January 9, 1977 (1976)",
     "venue": {
       "name": "Rose Bowl",
@@ -366,7 +575,26 @@
       "score": 10
     },
     "scoreText": "27–10",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        10,
+        3,
+        7,
+        7
+      ],
+      "loser": [
+        0,
+        0,
+        10,
+        0
+      ]
+    },
     "dateSeasonText": "January 15, 1978 (1977)",
     "venue": {
       "name": "Louisiana Superdome",
@@ -398,7 +626,26 @@
       "score": 31
     },
     "scoreText": "35–31",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        14,
+        0,
+        14
+      ],
+      "loser": [
+        7,
+        7,
+        3,
+        14
+      ]
+    },
     "dateSeasonText": "January 21, 1979 (1978)",
     "venue": {
       "name": "Miami Orange Bowl",
@@ -430,7 +677,26 @@
       "score": 19
     },
     "scoreText": "31–19",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        3,
+        7,
+        7,
+        14
+      ],
+      "loser": [
+        7,
+        6,
+        6,
+        0
+      ]
+    },
     "dateSeasonText": "January 20, 1980 (1979)",
     "venue": {
       "name": "Rose Bowl",
@@ -462,7 +728,26 @@
       "score": 10
     },
     "scoreText": "27–10",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        14,
+        0,
+        10,
+        3
+      ],
+      "loser": [
+        0,
+        3,
+        0,
+        7
+      ]
+    },
     "dateSeasonText": "January 25, 1981 (1980)",
     "venue": {
       "name": "Louisiana Superdome",
@@ -494,7 +779,26 @@
       "score": 21
     },
     "scoreText": "26–21",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        13,
+        0,
+        6
+      ],
+      "loser": [
+        0,
+        0,
+        7,
+        14
+      ]
+    },
     "dateSeasonText": "January 24, 1982 (1981)",
     "venue": {
       "name": "Pontiac Silverdome",
@@ -526,7 +830,26 @@
       "score": 17
     },
     "scoreText": "27–17",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        0,
+        10,
+        3,
+        14
+      ],
+      "loser": [
+        7,
+        10,
+        0,
+        0
+      ]
+    },
     "dateSeasonText": "January 30, 1983 (1982)",
     "venue": {
       "name": "Rose Bowl",
@@ -558,7 +881,26 @@
       "score": 9
     },
     "scoreText": "38–9",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        14,
+        14,
+        3
+      ],
+      "loser": [
+        0,
+        3,
+        6,
+        0
+      ]
+    },
     "dateSeasonText": "January 22, 1984 (1983)",
     "venue": {
       "name": "Tampa Stadium",
@@ -590,7 +932,26 @@
       "score": 16
     },
     "scoreText": "38–16",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        21,
+        10,
+        0
+      ],
+      "loser": [
+        10,
+        6,
+        0,
+        0
+      ]
+    },
     "dateSeasonText": "January 20, 1985 (1984)",
     "venue": {
       "name": "Stanford Stadium",
@@ -622,7 +983,26 @@
       "score": 10
     },
     "scoreText": "46–10",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        13,
+        10,
+        21,
+        2
+      ],
+      "loser": [
+        3,
+        0,
+        0,
+        7
+      ]
+    },
     "dateSeasonText": "January 26, 1986 (1985)",
     "venue": {
       "name": "Louisiana Superdome",
@@ -654,7 +1034,26 @@
       "score": 20
     },
     "scoreText": "39–20",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        2,
+        17,
+        13
+      ],
+      "loser": [
+        10,
+        0,
+        0,
+        10
+      ]
+    },
     "dateSeasonText": "January 25, 1987 (1986)",
     "venue": {
       "name": "Rose Bowl",
@@ -686,7 +1085,26 @@
       "score": 10
     },
     "scoreText": "42–10",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        0,
+        35,
+        0,
+        7
+      ],
+      "loser": [
+        10,
+        0,
+        0,
+        0
+      ]
+    },
     "dateSeasonText": "January 31, 1988 (1987)",
     "venue": {
       "name": "San Diego–Jack Murphy Stadium",
@@ -718,7 +1136,26 @@
       "score": 16
     },
     "scoreText": "20–16",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        3,
+        0,
+        3,
+        14
+      ],
+      "loser": [
+        0,
+        3,
+        10,
+        3
+      ]
+    },
     "dateSeasonText": "January 22, 1989 (1988)",
     "venue": {
       "name": "Joe Robbie Stadium",
@@ -750,7 +1187,26 @@
       "score": 10
     },
     "scoreText": "55–10",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        13,
+        14,
+        14,
+        14
+      ],
+      "loser": [
+        3,
+        0,
+        7,
+        0
+      ]
+    },
     "dateSeasonText": "January 28, 1990 (1989)",
     "venue": {
       "name": "Louisiana Superdome",
@@ -782,7 +1238,26 @@
       "score": 19
     },
     "scoreText": "20–19",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        3,
+        7,
+        7,
+        3
+      ],
+      "loser": [
+        3,
+        9,
+        0,
+        7
+      ]
+    },
     "dateSeasonText": "January 27, 1991 (1990)",
     "venue": {
       "name": "Tampa Stadium",
@@ -814,7 +1289,26 @@
       "score": 24
     },
     "scoreText": "37–24",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        0,
+        17,
+        14,
+        6
+      ],
+      "loser": [
+        0,
+        0,
+        10,
+        14
+      ]
+    },
     "dateSeasonText": "January 26, 1992 (1991)",
     "venue": {
       "name": "Metrodome",
@@ -846,7 +1340,26 @@
       "score": 17
     },
     "scoreText": "52–17",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        14,
+        14,
+        3,
+        21
+      ],
+      "loser": [
+        7,
+        3,
+        7,
+        0
+      ]
+    },
     "dateSeasonText": "January 31, 1993 (1992)",
     "venue": {
       "name": "Rose Bowl",
@@ -878,7 +1391,26 @@
       "score": 13
     },
     "scoreText": "30–13",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        6,
+        0,
+        14,
+        10
+      ],
+      "loser": [
+        3,
+        10,
+        0,
+        0
+      ]
+    },
     "dateSeasonText": "January 30, 1994 (1993)",
     "venue": {
       "name": "Georgia Dome",
@@ -910,7 +1442,26 @@
       "score": 26
     },
     "scoreText": "49–26",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        14,
+        14,
+        14,
+        7
+      ],
+      "loser": [
+        7,
+        3,
+        8,
+        8
+      ]
+    },
     "dateSeasonText": "January 29, 1995 (1994)",
     "venue": {
       "name": "Joe Robbie Stadium",
@@ -942,7 +1493,26 @@
       "score": 17
     },
     "scoreText": "27–17",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        10,
+        3,
+        7,
+        7
+      ],
+      "loser": [
+        0,
+        7,
+        0,
+        10
+      ]
+    },
     "dateSeasonText": "January 28, 1996 (1995)",
     "venue": {
       "name": "Sun Devil Stadium",
@@ -974,7 +1544,26 @@
       "score": 21
     },
     "scoreText": "35–21",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        10,
+        17,
+        8,
+        0
+      ],
+      "loser": [
+        14,
+        0,
+        7,
+        0
+      ]
+    },
     "dateSeasonText": "January 26, 1997 (1996)",
     "venue": {
       "name": "Louisiana Superdome",
@@ -1006,7 +1595,26 @@
       "score": 24
     },
     "scoreText": "31–24",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        10,
+        7,
+        7
+      ],
+      "loser": [
+        7,
+        7,
+        3,
+        7
+      ]
+    },
     "dateSeasonText": "January 25, 1998 (1997)",
     "venue": {
       "name": "Qualcomm Stadium",
@@ -1038,7 +1646,26 @@
       "score": 19
     },
     "scoreText": "34–19",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        10,
+        0,
+        17
+      ],
+      "loser": [
+        3,
+        3,
+        0,
+        13
+      ]
+    },
     "dateSeasonText": "January 31, 1999 (1998)",
     "venue": {
       "name": "Pro Player Stadium",
@@ -1070,7 +1697,26 @@
       "score": 16
     },
     "scoreText": "23–16",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        3,
+        6,
+        7,
+        7
+      ],
+      "loser": [
+        0,
+        0,
+        6,
+        10
+      ]
+    },
     "dateSeasonText": "January 30, 2000 (1999)",
     "venue": {
       "name": "Georgia Dome",
@@ -1102,7 +1748,26 @@
       "score": 7
     },
     "scoreText": "34–7",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        3,
+        14,
+        10
+      ],
+      "loser": [
+        0,
+        0,
+        7,
+        0
+      ]
+    },
     "dateSeasonText": "January 28, 2001 (2000)",
     "venue": {
       "name": "Raymond James Stadium",
@@ -1134,7 +1799,26 @@
       "score": 17
     },
     "scoreText": "20–17",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        0,
+        14,
+        3,
+        3
+      ],
+      "loser": [
+        3,
+        0,
+        0,
+        14
+      ]
+    },
     "dateSeasonText": "February 3, 2002 (2001)",
     "venue": {
       "name": "Louisiana Superdome",
@@ -1166,7 +1850,26 @@
       "score": 21
     },
     "scoreText": "48–21",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        3,
+        17,
+        14,
+        14
+      ],
+      "loser": [
+        3,
+        0,
+        6,
+        12
+      ]
+    },
     "dateSeasonText": "January 26, 2003 (2002)",
     "venue": {
       "name": "Qualcomm Stadium",
@@ -1198,7 +1901,26 @@
       "score": 29
     },
     "scoreText": "32–29",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        0,
+        14,
+        0,
+        18
+      ],
+      "loser": [
+        0,
+        10,
+        0,
+        19
+      ]
+    },
     "dateSeasonText": "February 1, 2004 (2003)",
     "venue": {
       "name": "Reliant Stadium",
@@ -1230,7 +1952,26 @@
       "score": 21
     },
     "scoreText": "24–21",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        0,
+        7,
+        7,
+        10
+      ],
+      "loser": [
+        0,
+        7,
+        7,
+        7
+      ]
+    },
     "dateSeasonText": "February 6, 2005 (2004)",
     "venue": {
       "name": "Alltel Stadium",
@@ -1262,7 +2003,26 @@
       "score": 10
     },
     "scoreText": "21–10",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        0,
+        7,
+        7,
+        7
+      ],
+      "loser": [
+        3,
+        0,
+        7,
+        0
+      ]
+    },
     "dateSeasonText": "February 5, 2006 (2005)",
     "venue": {
       "name": "Ford Field",
@@ -1294,7 +2054,26 @@
       "score": 17
     },
     "scoreText": "29–17",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        6,
+        10,
+        6,
+        7
+      ],
+      "loser": [
+        14,
+        0,
+        3,
+        0
+      ]
+    },
     "dateSeasonText": "February 4, 2007 (2006)",
     "venue": {
       "name": "Dolphin Stadium",
@@ -1326,7 +2105,26 @@
       "score": 14
     },
     "scoreText": "17–14",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        3,
+        0,
+        0,
+        14
+      ],
+      "loser": [
+        0,
+        7,
+        0,
+        7
+      ]
+    },
     "dateSeasonText": "February 3, 2008 (2007)",
     "venue": {
       "name": "University of Phoenix Stadium",
@@ -1358,7 +2156,26 @@
       "score": 23
     },
     "scoreText": "27–23",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        3,
+        14,
+        3,
+        7
+      ],
+      "loser": [
+        0,
+        7,
+        0,
+        16
+      ]
+    },
     "dateSeasonText": "February 1, 2009 (2008)",
     "venue": {
       "name": "Raymond James Stadium",
@@ -1390,7 +2207,26 @@
       "score": 17
     },
     "scoreText": "31–17",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        0,
+        6,
+        10,
+        15
+      ],
+      "loser": [
+        10,
+        0,
+        7,
+        0
+      ]
+    },
     "dateSeasonText": "February 7, 2010 (2009)",
     "venue": {
       "name": "Sun Life Stadium",
@@ -1422,7 +2258,26 @@
       "score": 25
     },
     "scoreText": "31–25",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        14,
+        7,
+        0,
+        10
+      ],
+      "loser": [
+        0,
+        10,
+        7,
+        8
+      ]
+    },
     "dateSeasonText": "February 6, 2011 (2010)",
     "venue": {
       "name": "Cowboys Stadium",
@@ -1454,7 +2309,26 @@
       "score": 17
     },
     "scoreText": "21–17",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        9,
+        0,
+        6,
+        6
+      ],
+      "loser": [
+        0,
+        10,
+        7,
+        0
+      ]
+    },
     "dateSeasonText": "February 5, 2012 (2011)",
     "venue": {
       "name": "Lucas Oil Stadium",
@@ -1486,7 +2360,26 @@
       "score": 31
     },
     "scoreText": "34–31",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        14,
+        7,
+        6
+      ],
+      "loser": [
+        3,
+        3,
+        17,
+        8
+      ]
+    },
     "dateSeasonText": "February 3, 2013 (2012)",
     "venue": {
       "name": "Mercedes-Benz Superdome",
@@ -1518,7 +2411,26 @@
       "score": 8
     },
     "scoreText": "43–8",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        8,
+        14,
+        14,
+        7
+      ],
+      "loser": [
+        0,
+        0,
+        8,
+        0
+      ]
+    },
     "dateSeasonText": "February 2, 2014 (2013)",
     "venue": {
       "name": "MetLife Stadium",
@@ -1550,7 +2462,26 @@
       "score": 24
     },
     "scoreText": "28–24",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        0,
+        14,
+        0,
+        14
+      ],
+      "loser": [
+        0,
+        14,
+        10,
+        0
+      ]
+    },
     "dateSeasonText": "February 1, 2015 (2014)",
     "venue": {
       "name": "University of Phoenix Stadium",
@@ -1582,7 +2513,26 @@
       "score": 10
     },
     "scoreText": "24–10",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        10,
+        3,
+        3,
+        8
+      ],
+      "loser": [
+        0,
+        7,
+        0,
+        3
+      ]
+    },
     "dateSeasonText": "February 7, 2016 (2015)",
     "venue": {
       "name": "Levi's Stadium",
@@ -1614,7 +2564,29 @@
       "score": 28
     },
     "scoreText": "34–28 (OT)",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "OT"
+      ],
+      "winner": [
+        0,
+        3,
+        6,
+        19,
+        6
+      ],
+      "loser": [
+        0,
+        21,
+        7,
+        0,
+        0
+      ]
+    },
     "dateSeasonText": "February 5, 2017 (2016)",
     "venue": {
       "name": "NRG Stadium",
@@ -1646,7 +2618,26 @@
       "score": 33
     },
     "scoreText": "41–33",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        9,
+        13,
+        7,
+        12
+      ],
+      "loser": [
+        3,
+        9,
+        14,
+        7
+      ]
+    },
     "dateSeasonText": "February 4, 2018 (2017)",
     "venue": {
       "name": "U.S. Bank Stadium",
@@ -1678,7 +2669,26 @@
       "score": 3
     },
     "scoreText": "13–3",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        0,
+        3,
+        0,
+        10
+      ],
+      "loser": [
+        0,
+        0,
+        3,
+        0
+      ]
+    },
     "dateSeasonText": "February 3, 2019 (2018)",
     "venue": {
       "name": "Mercedes-Benz Stadium",
@@ -1710,7 +2720,26 @@
       "score": 20
     },
     "scoreText": "31–20",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        3,
+        0,
+        21
+      ],
+      "loser": [
+        3,
+        7,
+        10,
+        0
+      ]
+    },
     "dateSeasonText": "February 2, 2020 (2019)",
     "venue": {
       "name": "Hard Rock Stadium",
@@ -1742,7 +2771,26 @@
       "score": 9
     },
     "scoreText": "31–9",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        14,
+        10,
+        0
+      ],
+      "loser": [
+        3,
+        3,
+        3,
+        0
+      ]
+    },
     "dateSeasonText": "February 7, 2021 (2020)",
     "venue": {
       "name": "Raymond James Stadium",
@@ -1774,7 +2822,26 @@
       "score": 20
     },
     "scoreText": "23–20",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        6,
+        3,
+        7
+      ],
+      "loser": [
+        3,
+        7,
+        10,
+        0
+      ]
+    },
     "dateSeasonText": "February 13, 2022 (2021)",
     "venue": {
       "name": "SoFi Stadium",
@@ -1806,7 +2873,26 @@
       "score": 35
     },
     "scoreText": "38–35",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        7,
+        7,
+        17
+      ],
+      "loser": [
+        7,
+        17,
+        3,
+        8
+      ]
+    },
     "dateSeasonText": "February 12, 2023 (2022)",
     "venue": {
       "name": "State Farm Stadium",
@@ -1838,7 +2924,29 @@
       "score": 22
     },
     "scoreText": "25–22 (OT)",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "OT"
+      ],
+      "winner": [
+        0,
+        3,
+        10,
+        6,
+        6
+      ],
+      "loser": [
+        0,
+        10,
+        0,
+        9,
+        3
+      ]
+    },
     "dateSeasonText": "February 11, 2024 (2023)",
     "venue": {
       "name": "Allegiant Stadium",
@@ -1870,7 +2978,26 @@
       "score": 22
     },
     "scoreText": "40–22",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        7,
+        17,
+        10,
+        6
+      ],
+      "loser": [
+        0,
+        0,
+        6,
+        16
+      ]
+    },
     "dateSeasonText": "February 9, 2025 (2024)",
     "venue": {
       "name": "Caesars Superdome",
@@ -1902,7 +3029,26 @@
       "score": 13
     },
     "scoreText": "29–13",
-    "quarterScoring": null,
+    "quarterScoring": {
+      "periods": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "winner": [
+        3,
+        6,
+        3,
+        17
+      ],
+      "loser": [
+        0,
+        0,
+        0,
+        13
+      ]
+    },
     "dateSeasonText": "February 8, 2026 (2025)",
     "venue": {
       "name": "Levi's Stadium",

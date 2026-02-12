@@ -68,11 +68,9 @@ function romanToInt(roman) {
 }
 
 function parseScore(scoreText) {
-  const m = textNorm(scoreText)
-    .replace(/-/g, "–")
-    .match(/(\d+)\s*[–—]\s*(\d+)/);
-  if (!m) return null;
-  return { a: Number(m[1]), b: Number(m[2]) };
+  const nums = textNorm(scoreText).match(/\d+/g);
+  if (!nums || nums.length < 2) return null;
+  return { a: Number(nums[0]), b: Number(nums[1]) };
 }
 
 function parseChampionshipsTable(html) {
@@ -163,7 +161,7 @@ function parseQuarterScoringFromGameHtml(html, expectedWinnerScore, expectedLose
   const tables = $("table").toArray();
   for (const table of tables) {
     const headerText = textNorm($(table).find("tr").first().text());
-    if (!/\bTotal\b/i.test(headerText) || !/\b1\b/.test(headerText) || !/\b2\b/.test(headerText)) {
+    if (!/Total/i.test(headerText)) {
       continue;
     }
 
