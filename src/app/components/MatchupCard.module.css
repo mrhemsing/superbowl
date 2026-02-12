@@ -46,6 +46,7 @@
   place-items:center;
   box-shadow: 0 12px 40px rgba(0,0,0,0.5);
   overflow: hidden;
+  position: relative;
 }
 
 .logoLoser{
@@ -62,6 +63,16 @@
   filter: drop-shadow(0 12px 24px rgba(0,0,0,0.38));
 }
 
+.logoTrophyMark{
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  font-size: 18px;
+  opacity: 0.35;
+  filter: drop-shadow(0 0 8px rgba(250, 204, 21, 0.55));
+  pointer-events: none;
+}
+
 .initials{
   font-weight: 900;
   font-size: 34px;
@@ -74,6 +85,8 @@
 
 .teamTag{
   display:inline-flex;
+  align-items: center;
+  gap: 6px;
   width: fit-content;
   padding: 4px 10px;
   border-radius: 999px;
@@ -85,6 +98,7 @@
   background: linear-gradient(135deg, rgba(76,201,240,1), rgba(96,165,250,1));
   box-shadow: 0 0 0 1px rgba(76,201,240,0.22), 0 0 28px rgba(76,201,240,0.14);
 }
+.winnerTrophy{ font-size: 11px; line-height: 1; }
 
 .teamTagMuted{
   font-size: 12px;

@@ -145,10 +145,16 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
               ) : (
                 <span className={styles.initials}>{teamInitials(left.name)}</span>
               )}
+              <span className={styles.logoTrophyMark} aria-hidden>
+                🏆
+              </span>
             </div>
             <div className={styles.teamMeta}>
               <div className={styles.teamName}>{left.name}</div>
-              <div className={styles.teamTag}>WINNER</div>
+              <div className={styles.teamTag}>
+                <span className={styles.winnerTrophy}>🏆</span>
+                <span>WINNER</span>
+              </div>
             </div>
           </div>
 
