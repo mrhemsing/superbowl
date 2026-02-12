@@ -26,6 +26,15 @@ export type SuperBowlGame = {
     winner: number[];
     loser: number[];
   } | null;
+  betting: {
+    open: number | null;
+    favorite: string | null;
+    spread: number | null;
+    total: number | null;
+    moneyline: { favorite: number | null; underdog: number | null };
+    results: { mlWinner: string; spreadResult: string | null; totalResult: string | null };
+    source: string;
+  } | null;
   dateSeasonText: string;
   venue: { name: string; city: string };
   mvp: Mvp[];
@@ -181,6 +190,47 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
               </ul>
             ) : (
               <div className={styles.muted}>MVP not found in scrape.</div>
+            )}
+
+            <div className={styles.panelTitle} style={{ marginTop: 12 }}>
+              Odds
+            </div>
+            {game.betting ? (
+              <div className={styles.oddsGrid}>
+                <div className={styles.oddsCell}>
+                  <div className={styles.oddsLabel}>Open</div>
+                  <div className={styles.oddsValue}>{game.betting.open != null ? game.betting.open : "—"}</div>
+                </div>
+                <div className={styles.oddsCell}>
+                  <div className={styles.oddsLabel}>Spread</div>
+                  <div className={styles.oddsValue}>
+                    {game.betting.favorite && game.betting.spread != null
+                      ? `${game.betting.favorite} -${game.betting.spread}`
+                      : "—"}
+                  </div>
+                  {game.betting.results.spreadResult ? (
+                    <div className={styles.oddsWin}>{game.betting.results.spreadResult}</div>
+                  ) : null}
+                </div>
+                <div className={styles.oddsCell}>
+                  <div className={styles.oddsLabel}>Total</div>
+                  <div className={styles.oddsValue}>{game.betting.total != null ? game.betting.total : "—"}</div>
+                  {game.betting.results.totalResult ? (
+                    <div className={styles.oddsWin}>{game.betting.results.totalResult}</div>
+                  ) : null}
+                </div>
+                <div className={styles.oddsCell}>
+                  <div className={styles.oddsLabel}>ML</div>
+                  <div className={styles.oddsValue}>
+                    {game.betting.moneyline.favorite != null && game.betting.moneyline.underdog != null
+                      ? `${game.betting.moneyline.favorite} / ${game.betting.moneyline.underdog}`
+                      : "—"}
+                  </div>
+                  <div className={styles.oddsWin}>{game.betting.results.mlWinner}</div>
+                </div>
+              </div>
+            ) : (
+              <div className={styles.muted}>Odds not available for this game.</div>
             )}
           </div>
 

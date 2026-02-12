@@ -204,6 +204,103 @@ function parseQuarterScoringFromGameHtml(html, expectedWinnerScore, expectedLose
   return null;
 }
 
+function parseFavoriteSpread(raw) {
+  const text = textNorm(raw).replace(/[−–—]/g, "-");
+  if (!text) return { favorite: null, spread: null };
+  if (/pick/i.test(text)) return { favorite: null, spread: 0 };
+
+  let m = text.match(/^(.+?)\s+by\s+([0-9]+(?:\.[0-9]+)?)/i);
+  if (m) {
+    return { favorite: stripTrailingRecord(m[1]), spread: Number(m[2]) };
+  }
+
+  m = text.match(/^(.+?)\s*-\s*([0-9]+(?:\.[0-9]+)?)/i);
+  if (m) {
+    return { favorite: stripTrailingRecord(m[1]), spread: Number(m[2]) };
+  }
+
+  return { favorite: text, spread: null };
+}
+
+function parseOverUnder(raw) {
+  const text = textNorm(raw).replace(/[−–—]/g, "-");
+  const m = text.match(/([0-9]+(?:\.[0-9]+)?)/);
+  return m ? Number(m[1]) : null;
+}
+
+function parseMoneyline(raw) {
+  const text = textNorm(raw).replace(/[−–—]/g, "-");
+  const nums = [...text.matchAll(/([+-]\d{3,4})/g)].map((m) => Number(m[1]));
+  if (nums.length >= 2) {
+    return { favorite: nums[0], underdog: nums[1] };
+  }
+  return { favorite: null, underdog: null };
+}
+
+function parseBettingFromGameHtml(html, winnerTeam, loserTeam, winnerScore, loserScore) {
+  const $ = cheerio.load(html);
+  const infobox = $("table.infobox").first();
+  if (!infobox.length) return null;
+
+  const kv = new Map();
+  infobox.find("tr").each((_i, tr) => {
+    const th = textNorm($(tr).find("th").first().text());
+    const td = textNorm($(tr).find("td").first().text());
+    if (th && td) kv.set(th.toLowerCase(), td);
+  });
+
+  const favoriteRaw = kv.get("favorite");
+  const totalRaw = kv.get("over/under");
+  const moneylineRaw = kv.get("moneyline") ?? kv.get("money line");
+
+  const parsedFavorite = parseFavoriteSpread(favoriteRaw ?? "");
+  const total = parseOverUnder(totalRaw ?? "");
+  const moneyline = parseMoneyline(moneylineRaw ?? "");
+
+  const winner = winnerTeam;
+  const loser = loserTeam;
+  const margin = winnerScore - loserScore;
+  const totalPts = winnerScore + loserScore;
+
+  let spreadResult = null;
+  if (typeof parsedFavorite.spread === "number" && parsedFavorite.favorite) {
+    const fav = parsedFavorite.favorite.toLowerCase();
+    const winnerIsFavorite = winner.toLowerCase().includes(fav) || fav.includes(winner.toLowerCase());
+    const loserIsFavorite = loser.toLowerCase().includes(fav) || fav.includes(loser.toLowerCase());
+
+    if (winnerIsFavorite) {
+      if (margin > parsedFavorite.spread) spreadResult = `${winner} covered`;
+      else if (margin === parsedFavorite.spread) spreadResult = "Push";
+      else spreadResult = `${loser} covered`;
+    } else if (loserIsFavorite) {
+      if (margin < parsedFavorite.spread) spreadResult = `${loser} covered`;
+      else if (margin === parsedFavorite.spread) spreadResult = "Push";
+      else spreadResult = `${winner} covered`;
+    }
+  }
+
+  let totalResult = null;
+  if (typeof total === "number") {
+    if (totalPts > total) totalResult = "Over";
+    else if (totalPts < total) totalResult = "Under";
+    else totalResult = "Push";
+  }
+
+  return {
+    open: typeof parsedFavorite.spread === "number" ? parsedFavorite.spread : null,
+    favorite: parsedFavorite.favorite,
+    spread: parsedFavorite.spread,
+    total,
+    moneyline,
+    results: {
+      mlWinner: winner,
+      spreadResult,
+      totalResult,
+    },
+    source: "Wikipedia infobox",
+  };
+}
+
 function parseMvpsTable(html) {
   const $ = cheerio.load(html);
   const candidates = $("table.wikitable")
@@ -340,6 +437,7 @@ async function main() {
     }));
 
     let quarterScoring = null;
+    let betting = null;
     try {
       const gameHtml = (
         await wikiParse({
@@ -350,6 +448,13 @@ async function main() {
 
       if (gameHtml && g.score) {
         quarterScoring = parseQuarterScoringFromGameHtml(gameHtml, g.score.a, g.score.b);
+        betting = parseBettingFromGameHtml(
+          gameHtml,
+          g.winnerTeam,
+          g.loserTeam,
+          g.score.a,
+          g.score.b
+        );
       }
     } catch {
       // Keep dataset generation resilient if an individual game page parse fails.
@@ -365,6 +470,7 @@ async function main() {
       loser: { name: g.loserTeam, score: g.score?.b ?? null },
       scoreText: g.scoreText,
       quarterScoring,
+      betting,
       dateSeasonText: g.dateSeason,
       venue: { name: g.venue, city: g.city },
       mvp,
