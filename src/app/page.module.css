@@ -27,6 +27,7 @@
   max-width: 920px;
   margin: 0 auto;
   padding: 4px 0 18px;
+  position: relative;
 }
 
 .kicker{
@@ -53,7 +54,9 @@
 }
 
 .jumpMenu{
-  margin-top: 8px;
+  position: absolute;
+  top: 4px;
+  right: 0;
   width: fit-content;
 }
 
@@ -189,9 +192,43 @@
   50% { opacity: 1; transform: translateY(2px); }
 }
 
+@keyframes swipeNudge{
+  0%, 100% { transform: translateY(0); opacity: .7; }
+  50% { transform: translateY(5px); opacity: 1; }
+}
+
+.mobileSwipeHint{ display: none; }
+
 @media (max-width: 900px){
   .title{ font-size: 34px; }
   .arrows{ display: none; }
+
+  .mobileSwipeHint{
+    position: fixed;
+    left: 50%;
+    bottom: 18px;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    pointer-events: none;
+    z-index: 6;
+  }
+
+  .mobileSwipeText{
+    font-size: 11px;
+    letter-spacing: .04em;
+    color: rgba(200,212,240,0.9);
+    text-shadow: 0 0 12px rgba(0,0,0,0.45);
+  }
+
+  .mobileSwipeArrow{
+    font-size: 18px;
+    color: rgba(170,182,214,0.95);
+    text-shadow: 0 0 14px rgba(96,165,250,0.35);
+    animation: swipeNudge 1.4s ease-in-out infinite;
+  }
 
   /* Mobile should still swipe/snap one card at a time. */
   .scroller{

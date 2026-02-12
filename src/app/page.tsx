@@ -20,7 +20,7 @@ export default function Home() {
     const section = sectionRefs.current[idx];
     if (!scroller || !section) return;
 
-    scroller.scrollTo({ top: section.offsetTop, behavior: "smooth" });
+    scroller.scrollTo({ top: section.offsetTop, behavior: "auto" });
     setActiveIndex(idx);
     if (jumpMenuRef.current) jumpMenuRef.current.open = false;
   };
@@ -97,6 +97,13 @@ export default function Home() {
           <span className={styles.arrowUp}>↑</span>
           <span className={styles.arrowDown}>↓</span>
         </div>
+
+        {activeIndex === 0 ? (
+          <div className={styles.mobileSwipeHint} aria-hidden>
+            <span className={styles.mobileSwipeText}>Swipe down for more</span>
+            <span className={styles.mobileSwipeArrow}>↓</span>
+          </div>
+        ) : null}
 
         <div className={styles.scroller} ref={scrollerRef} tabIndex={0}>
           {orderedGames.map((g, idx) => (
