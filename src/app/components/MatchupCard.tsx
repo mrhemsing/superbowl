@@ -144,7 +144,7 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
           </div>
         </div>
 
-        <div className={styles.expandHint}>Tap to collapse details</div>
+        {/* collapse hint removed per UX request */}
       </summary>
 
       <div className={styles.details}>
