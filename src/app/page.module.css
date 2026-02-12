@@ -247,9 +247,9 @@
     letter-spacing: 0.18em;
   }
   .title{
-    font-size: 56px;
+    font-size: 34px;
     max-width: calc(100% - 8px);
-    line-height: 1.02;
+    line-height: 1.05;
   }
   .titleNumber{ font-size: 0.58em; }
   .arrows{ display: none; }
