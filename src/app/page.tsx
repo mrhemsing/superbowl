@@ -16,6 +16,7 @@ export default function Home() {
 
   const orderedGames = useMemo(() => games.slice().reverse(), []);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [bgOpacity, setBgOpacity] = useState(1);
 
   const goToIndex = (idx: number) => {
     const scroller = scrollerRef.current;
@@ -66,8 +67,20 @@ export default function Home() {
   const activeVenue = orderedGames[activeIndex]?.venue?.name;
   const activeBg = stadiumBackgrounds[activeVenue ?? ""] ?? "/stadium-bg.jpg";
 
+  useEffect(() => {
+    setBgOpacity(0.6);
+    const id = requestAnimationFrame(() => setBgOpacity(1));
+    return () => cancelAnimationFrame(id);
+  }, [activeBg]);
+
   return (
-    <div className={styles.page} style={{ ["--stadium-bg" as "--stadium-bg"]: `url('${activeBg}')` }}>
+    <div
+      className={styles.page}
+      style={{
+        ["--stadium-bg" as "--stadium-bg"]: `url('${activeBg}')`,
+        ["--bg-opacity" as "--bg-opacity"]: String(bgOpacity),
+      }}
+    >
       <header className={styles.header}>
         <div className={styles.kicker}>Broadcast scoreboard mode</div>
         <h1 className={styles.title} key={orderedGames[activeIndex]?.id ?? "title-fallback"}>
