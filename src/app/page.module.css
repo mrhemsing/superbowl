@@ -242,8 +242,12 @@
     padding-top: 10px;
   }
 
+  .header{ padding-right: 62px; }
   .kicker{ display: none; }
-  .title{ font-size: 34px; }
+  .title{
+    font-size: 34px;
+    max-width: calc(100% - 8px);
+  }
   .arrows{ display: none; }
 
   .mobileSwipeHint,
