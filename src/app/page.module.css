@@ -95,7 +95,8 @@
 .arrowDown{ animation-delay: .3s; }
 
 .scroller{
-  max-height: calc(100vh - 180px);
+  --viewport-h: clamp(460px, 64vh, 620px);
+  height: var(--viewport-h);
   overflow-y: auto;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
@@ -108,8 +109,9 @@
 .scroller:focus{ outline: none; }
 
 .slide{
+  min-height: var(--viewport-h);
   display: grid;
-  place-items: start center;
+  place-items: center;
   scroll-snap-align: start;
   scroll-snap-stop: always;
   padding: 0;
@@ -154,6 +156,9 @@
     font-size: 20px;
   }
   .scroller{
-    max-height: calc(100vh - 170px);
+    --viewport-h: clamp(430px, 60vh, 560px);
+  }
+  .slide{
+    min-height: var(--viewport-h);
   }
 }
