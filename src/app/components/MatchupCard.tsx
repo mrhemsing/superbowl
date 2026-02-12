@@ -74,6 +74,15 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
   const scoreLeft = left.score ?? "?";
   const scoreRight = right.score ?? "?";
 
+  const spreadResult = game.betting?.results?.spreadResult ?? null;
+  const favorite = game.betting?.favorite ?? null;
+  const favoriteCovered =
+    !!spreadResult &&
+    !!favorite &&
+    spreadResult.toLowerCase().includes(favorite.toLowerCase()) &&
+    spreadResult.toLowerCase().includes("covered");
+  const spreadPush = spreadResult === "Push";
+
   return (
     <details className={styles.card} open>
       <summary className={styles.summary}>
@@ -204,8 +213,14 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
                       ? `${game.betting.favorite} -${game.betting.spread}`
                       : "—"}
                   </div>
-                  {game.betting.results.spreadResult ? (
-                    <div className={styles.oddsWin}>{game.betting.results.spreadResult}</div>
+                  {spreadResult ? (
+                    <div
+                      className={`${styles.oddsWin} ${
+                        spreadPush ? styles.oddsNeutral : favoriteCovered ? styles.oddsGood : styles.oddsBad
+                      }`}
+                    >
+                      {spreadPush ? "Push" : favoriteCovered ? "Favorite covered" : "Favorite did not cover"}
+                    </div>
                   ) : null}
                 </div>
                 <div className={styles.oddsCell}>
