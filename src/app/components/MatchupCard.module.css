@@ -222,4 +222,5 @@
   .score{ font-size: 64px; }
   .detailGrid{ grid-template-columns: 1fr; }
   .extraPanel{ display: none; }
+  .expandHint{ display: none; }
 }
