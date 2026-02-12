@@ -67,9 +67,31 @@ export default function Home() {
       setActiveIndex(safe);
     };
 
+    let wheelLocked = false;
+    const onWheel = (e: WheelEvent) => {
+      if (window.matchMedia("(max-width: 900px)").matches) return;
+      if (Math.abs(e.deltaY) < 4) return;
+      if (wheelLocked) {
+        e.preventDefault();
+        return;
+      }
+
+      e.preventDefault();
+      wheelLocked = true;
+      const viewport = scroller.clientHeight;
+      scroller.scrollBy({ top: e.deltaY > 0 ? viewport : -viewport, behavior: "smooth" });
+      window.setTimeout(() => {
+        wheelLocked = false;
+      }, 380);
+    };
+
     onScroll();
     scroller.addEventListener("scroll", onScroll, { passive: true });
-    return () => scroller.removeEventListener("scroll", onScroll);
+    scroller.addEventListener("wheel", onWheel, { passive: false });
+    return () => {
+      scroller.removeEventListener("scroll", onScroll);
+      scroller.removeEventListener("wheel", onWheel);
+    };
   }, [orderedGames.length]);
 
   const activeVenue = orderedGames[activeIndex]?.venue?.name;
