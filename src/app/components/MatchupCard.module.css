@@ -90,7 +90,7 @@
   background: linear-gradient(135deg, rgba(76,201,240,1), rgba(96,165,250,1));
   box-shadow: 0 0 0 1px rgba(76,201,240,0.22), 0 0 28px rgba(76,201,240,0.14);
 }
-.winnerTrophy{ font-size: 11px; line-height: 1; }
+/* winner trophy icon style removed */
 
 .teamTagMuted{
   font-size: 12px;

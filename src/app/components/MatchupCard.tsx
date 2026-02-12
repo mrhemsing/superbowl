@@ -18,6 +18,7 @@ export type SuperBowlGame = {
   sbNumber: number;
   seasonYear: number | null;
   gameDate: string | null; // YYYY-MM-DD
+  winnerTitles?: number;
   winner: { name: string; score: number | null };
   loser: { name: string; score: number | null };
   scoreText: string;
@@ -148,10 +149,7 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
             </div>
             <div className={styles.teamMeta}>
               <div className={styles.teamName}>{left.name}</div>
-              <div className={styles.teamTag}>
-                <span className={styles.winnerTrophy}>🏆</span>
-                <span>WINNER</span>
-              </div>
+              <div className={styles.teamTag}>SUPERBOWL ({game.winnerTitles ?? "?"})</div>
             </div>
           </div>
 

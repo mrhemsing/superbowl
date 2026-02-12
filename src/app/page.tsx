@@ -14,7 +14,15 @@ export default function Home() {
   const sectionRefs = useRef<Array<HTMLElement | null>>([]);
   const jumpMenuRef = useRef<HTMLDetailsElement | null>(null);
 
-  const orderedGames = useMemo(() => games.slice().reverse(), []);
+  const orderedGames = useMemo(() => {
+    const wins = new Map<string, number>();
+    const withTitles = games.map((g) => {
+      const next = (wins.get(g.winner.name) ?? 0) + 1;
+      wins.set(g.winner.name, next);
+      return { ...g, winnerTitles: next };
+    });
+    return withTitles.slice().reverse();
+  }, []);
   const [activeIndex, setActiveIndex] = useState(0);
   const [bgOpacity, setBgOpacity] = useState(1);
 
