@@ -240,8 +240,13 @@
     padding-top: 10px;
   }
 
-  .kicker{ display: none; }
-  .title{ font-size: 34px; }
+  .kicker{
+    display: block;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+  }
+  .title{ font-size: 56px; }
+  .titleNumber{ font-size: 0.58em; }
   .arrows{ display: none; }
 
   .mobileSwipeHint,
