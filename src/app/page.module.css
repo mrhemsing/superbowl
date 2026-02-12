@@ -3,6 +3,8 @@
   padding: 20px 18px 18px;
   position: relative;
   isolation: isolate;
+  display: flex;
+  flex-direction: column;
 }
 
 .page::before{
@@ -128,6 +130,7 @@
   margin: 0 auto;
   position: relative;
   padding: 0;
+  width: 100%;
 }
 
 .arrows{
@@ -219,7 +222,7 @@
 .mobileBackToTop{ display: none; }
 
 .desktopBackToTop{
-  margin: 18px auto 8px;
+  margin: auto auto 8px;
   display: block;
   border: 1px solid rgba(96,165,250,0.35);
   background: rgba(8,12,20,0.72);
