@@ -149,15 +149,18 @@
   .title{ font-size: 34px; }
   .arrows{ display: none; }
 
-  /* Let the card fully expand on phones (prevents MVP section clipping). */
+  /* Mobile should still swipe/snap one card at a time. */
   .scroller{
-    height: auto;
+    --viewport-h: clamp(620px, 84vh, 760px);
+    height: var(--viewport-h);
     max-height: none;
-    overflow-y: visible;
-    scroll-snap-type: none;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
   }
 
   .slide{
-    min-height: unset;
+    min-height: var(--viewport-h);
+    place-items: start center;
   }
 }
