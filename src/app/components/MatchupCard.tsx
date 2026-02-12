@@ -69,8 +69,9 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
                 <Image
                   src={leftMeta.logoPath}
                   alt={`${leftMeta.abbr} logo`}
-                  width={72}
-                  height={72}
+                  width={192}
+                  height={192}
+                  quality={100}
                   className={styles.logoImg}
                 />
               ) : (
@@ -116,8 +117,9 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
                 <Image
                   src={rightMeta.logoPath}
                   alt={`${rightMeta.abbr} logo`}
-                  width={72}
-                  height={72}
+                  width={192}
+                  height={192}
+                  quality={100}
                   className={styles.logoImg}
                 />
               ) : (
