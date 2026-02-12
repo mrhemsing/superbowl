@@ -151,7 +151,7 @@ function parseChampionshipsTable(html) {
 
 function splitCoMvps(name) {
   const parts = textNorm(name)
-    .split(/\s*(?:\/|&|and)\s*/i)
+    .split(/\s*(?:\/|&)\s*|\s+and\s+/i)
     .map((s) => s.trim())
     .filter(Boolean);
   return parts.length ? parts : [textNorm(name)];

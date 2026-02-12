@@ -790,20 +790,12 @@
     },
     "mvp": [
       {
-        "name": "Ottis",
+        "name": "Ottis Anderson",
         "team": "New York Giants",
         "position": "Running back (5)",
         "college": "Miami (FL)",
-        "headshotUrl": "/mvp/ottis.jpg",
-        "imageOverrideUrl": "/mvp/ottis.jpg"
-      },
-      {
-        "name": "erson",
-        "team": "New York Giants",
-        "position": "Running back (5)",
-        "college": "Miami (FL)",
-        "headshotUrl": "/mvp/erson.png",
-        "imageOverrideUrl": "/mvp/erson.png"
+        "headshotUrl": "/mvp/ottis-anderson.jpg",
+        "imageOverrideUrl": "/mvp/ottis-anderson.jpg"
       }
     ]
   },
@@ -1282,8 +1274,8 @@
         "team": "Pittsburgh Steelers",
         "position": "Wide receiver (5)",
         "college": "Georgia",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/hines-ward.jpg",
+        "imageOverrideUrl": "/mvp/hines-ward.jpg"
       }
     ]
   },
@@ -1346,8 +1338,8 @@
         "team": "New York Giants",
         "position": "Quarterback (22)",
         "college": "Ole Miss",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/eli-manning.jpg",
+        "imageOverrideUrl": "/mvp/eli-manning.jpg"
       }
     ]
   },
@@ -1474,8 +1466,8 @@
         "team": "New York Giants",
         "position": "Quarterback (25)",
         "college": "Ole Miss",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/eli-manning.jpg",
+        "imageOverrideUrl": "/mvp/eli-manning.jpg"
       }
     ]
   },
@@ -1506,8 +1498,8 @@
         "team": "Baltimore Ravens",
         "position": "Quarterback (26)",
         "college": "Delaware",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/joe-flacco.jpg",
+        "imageOverrideUrl": "/mvp/joe-flacco.jpg"
       }
     ]
   },
@@ -1602,8 +1594,8 @@
         "team": "Denver Broncos",
         "position": "Linebacker (4)",
         "college": "Texas A&M",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/von-miller.jpg",
+        "imageOverrideUrl": "/mvp/von-miller.jpg"
       }
     ]
   },
@@ -1666,8 +1658,8 @@
         "team": "Philadelphia Eagles",
         "position": "Quarterback (29)",
         "college": "Arizona",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/nick-foles.jpg",
+        "imageOverrideUrl": "/mvp/nick-foles.jpg"
       }
     ]
   },
@@ -1698,8 +1690,8 @@
         "team": "New England Patriots",
         "position": "Wide receiver (7)",
         "college": "Kent State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/julian-edelman.jpg",
+        "imageOverrideUrl": "/mvp/julian-edelman.jpg"
       }
     ]
   },
