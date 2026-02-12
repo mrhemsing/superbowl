@@ -177,7 +177,7 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
       <div className={styles.details}>
         <div className={styles.detailGrid}>
           <div className={styles.panel}>
-            <div className={styles.panelTitle}>Betting</div>
+            <div className={`${styles.panelTitle} ${styles.bettingTitle}`}>Betting</div>
             {game.betting ? (
               <div className={styles.oddsGrid}>
                 <div

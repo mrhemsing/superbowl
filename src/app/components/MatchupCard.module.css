@@ -249,6 +249,7 @@
 
 @media (max-width: 900px){
   .summary{ cursor: pointer; }
+  .bettingTitle{ display: none; }
   .top{ grid-template-columns: 1fr; }
   .center{ order: -1; }
   .team{ justify-content:center; }
