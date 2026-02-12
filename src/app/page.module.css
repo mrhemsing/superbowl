@@ -11,10 +11,15 @@
   inset: 0;
   z-index: -1;
   background:
+    linear-gradient(180deg, rgba(4,7,14,0.72) 0%, rgba(5,8,16,0.82) 100%),
     radial-gradient(1200px 500px at 50% -10%, rgba(96,165,250,0.22), transparent 60%),
     radial-gradient(900px 500px at 10% 100%, rgba(76,201,240,0.14), transparent 70%),
     radial-gradient(900px 500px at 90% 100%, rgba(59,130,246,0.14), transparent 70%),
+    url('/stadium-bg.jpg'),
     linear-gradient(180deg, #070b14 0%, #050810 100%);
+  background-size: auto, auto, auto, auto, cover, auto;
+  background-position: center, center, center, center, center center, center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
