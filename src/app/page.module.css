@@ -213,6 +213,7 @@
     height: 100dvh;
     min-height: 100dvh;
     overflow: hidden;
+    overscroll-behavior: none;
   }
 
   .title{ font-size: 34px; }
@@ -264,6 +265,8 @@
     overflow-y: auto;
     scroll-snap-type: y mandatory;
     -webkit-overflow-scrolling: touch;
+    overscroll-behavior-y: contain;
+    touch-action: pan-y;
   }
 
   .slide{
