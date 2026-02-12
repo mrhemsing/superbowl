@@ -49,9 +49,28 @@
   position: relative;
 }
 
+.logo::after{
+  content: "";
+  position: absolute;
+  inset: -40%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    rgba(255,255,255,0.00) 40deg,
+    rgba(255,255,255,0.55) 68deg,
+    rgba(255,255,255,0.05) 85deg,
+    transparent 130deg,
+    transparent 360deg
+  );
+  mix-blend-mode: screen;
+  animation: winnerSweep 2.8s linear infinite;
+  pointer-events: none;
+}
+
 .logoLoser{
   box-shadow: 0 0 0 2px rgba(75,85,99,0.95), 0 12px 40px rgba(0,0,0,0.5);
 }
+.logoLoser::after{ display: none; }
 
 .logoImg{
   width: 150%;
@@ -255,6 +274,12 @@
 .links a:hover{ text-decoration:underline; }
 
 .muted{ color: rgba(170,182,214,0.85); font-size: 13px; }
+
+@keyframes winnerSweep{
+  0% { transform: rotate(0deg); opacity: .25; }
+  50% { opacity: .6; }
+  100% { transform: rotate(360deg); opacity: .25; }
+}
 
 @media (min-width: 901px){
   .summary{ pointer-events: none; }
