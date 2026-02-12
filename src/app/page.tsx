@@ -145,11 +145,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <span className={styles.footerText}>
-          Data source: Wikipedia tables (generated via <code>npm run update:data</code>)
-        </span>
-      </footer>
+      {/* footer removed per request */}
     </div>
   );
 }
