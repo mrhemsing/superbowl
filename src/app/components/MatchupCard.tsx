@@ -198,10 +198,6 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
             {game.betting ? (
               <div className={styles.oddsGrid}>
                 <div className={styles.oddsCell}>
-                  <div className={styles.oddsLabel}>Open</div>
-                  <div className={styles.oddsValue}>{game.betting.open != null ? game.betting.open : "—"}</div>
-                </div>
-                <div className={styles.oddsCell}>
                   <div className={styles.oddsLabel}>Spread</div>
                   <div className={styles.oddsValue}>
                     {game.betting.favorite && game.betting.spread != null
@@ -218,15 +214,6 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
                   {game.betting.results.totalResult ? (
                     <div className={styles.oddsWin}>{game.betting.results.totalResult}</div>
                   ) : null}
-                </div>
-                <div className={styles.oddsCell}>
-                  <div className={styles.oddsLabel}>ML</div>
-                  <div className={styles.oddsValue}>
-                    {game.betting.moneyline.favorite != null && game.betting.moneyline.underdog != null
-                      ? `${game.betting.moneyline.favorite} / ${game.betting.moneyline.underdog}`
-                      : "—"}
-                  </div>
-                  <div className={styles.oddsWin}>{game.betting.results.mlWinner}</div>
                 </div>
               </div>
             ) : (
