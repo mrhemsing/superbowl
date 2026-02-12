@@ -95,6 +95,7 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
 
   const spreadResult = game.betting?.results?.spreadResult ?? null;
   const favorite = game.betting?.favorite ?? null;
+  const isPickEm = !!favorite && /even|toss-?up|pick/i.test(favorite);
   const favoriteCovered =
     !!spreadResult &&
     !!favorite &&
@@ -158,7 +159,7 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
             {/* Removed repetitive SUPER BOWL line per mobile UX feedback */}
             <div className={styles.score}>
               <span className={styles.scoreNum}>{scoreLeft}</span>
-              <span className={styles.dash}>–</span>
+              <span className={styles.dash}>-</span>
               <span className={styles.scoreNum}>{scoreRight}</span>
             </div>
             <div className={styles.subline}>
@@ -228,7 +229,9 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
                   <div className={styles.oddsValue}>
                     {game.betting.favorite && game.betting.spread != null
                       ? `${game.betting.favorite} -${game.betting.spread}`
-                      : "—"}
+                      : isPickEm
+                      ? "Pick'em"
+                      : "-"}
                   </div>
                 </div>
                 <div
@@ -245,7 +248,7 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
                   }`}
                 >
                   <div className={styles.oddsLabel}>Total</div>
-                  <div className={styles.oddsValue}>{game.betting.total != null ? game.betting.total : "—"}</div>
+                  <div className={styles.oddsValue}>{game.betting.total != null ? game.betting.total : "-"}</div>
                 </div>
               </div>
             ) : (
