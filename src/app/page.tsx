@@ -71,7 +71,9 @@ export default function Home() {
         </h1>
 
         <details className={styles.jumpMenu} ref={jumpMenuRef}>
-          <summary>Jump</summary>
+          <summary aria-label="Open Super Bowl menu">
+            <span className={styles.hamburgerIcon}>☰</span>
+          </summary>
           <div className={styles.jumpBody}>
             <label htmlFor="jump-sb" className={styles.jumpLabel}>
               Select Super Bowl
@@ -101,7 +103,15 @@ export default function Home() {
         {activeIndex === 0 ? (
           <div className={styles.mobileSwipeHint} aria-hidden>
             <span className={styles.mobileSwipeText}>Swipe down for more</span>
-            <span className={styles.mobileSwipeArrow}>↓</span>
+            <svg className={styles.mobileSwipeArrow} viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M60 108L8 52h28V12h48v40h28L60 108z"
+                fill="currentColor"
+                stroke="rgba(96,165,250,0.55)"
+                strokeWidth="4"
+                strokeLinejoin="round"
+              />
+            </svg>
           </div>
         ) : null}
 

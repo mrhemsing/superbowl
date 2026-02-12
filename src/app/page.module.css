@@ -63,12 +63,19 @@
 .jumpMenu summary{
   list-style: none;
   cursor: pointer;
-  font-size: 12px;
-  color: rgba(170,182,214,0.85);
+  color: rgba(170,182,214,0.9);
   border: 1px solid rgba(96,165,250,0.24);
-  border-radius: 999px;
-  padding: 4px 10px;
+  border-radius: 10px;
+  padding: 4px 8px;
   user-select: none;
+  background: rgba(8,12,20,0.78);
+}
+
+.hamburgerIcon{
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 800;
+  display: inline-block;
 }
 .jumpMenu summary::-webkit-details-marker{ display:none; }
 
@@ -193,8 +200,8 @@
 }
 
 @keyframes swipeNudge{
-  0%, 100% { transform: translateY(0); opacity: .7; }
-  50% { transform: translateY(5px); opacity: 1; }
+  0%, 100% { transform: translateY(0); opacity: .35; }
+  50% { transform: translateY(3px); opacity: .95; }
 }
 
 .mobileSwipeHint{ display: none; }
@@ -217,17 +224,19 @@
   }
 
   .mobileSwipeText{
-    font-size: 11px;
-    letter-spacing: .04em;
-    color: rgba(200,212,240,0.9);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .03em;
+    color: rgba(214,224,246,0.95);
     text-shadow: 0 0 12px rgba(0,0,0,0.45);
   }
 
   .mobileSwipeArrow{
-    font-size: 18px;
-    color: rgba(170,182,214,0.95);
-    text-shadow: 0 0 14px rgba(96,165,250,0.35);
-    animation: swipeNudge 1.4s ease-in-out infinite;
+    width: 34px;
+    height: 34px;
+    color: rgba(188,203,236,0.98);
+    filter: drop-shadow(0 0 14px rgba(96,165,250,0.45));
+    animation: swipeNudge 2.6s ease-in-out infinite;
   }
 
   /* Mobile should still swipe/snap one card at a time. */
