@@ -96,6 +96,7 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
   const spreadResult = game.betting?.results?.spreadResult ?? null;
   const favorite = game.betting?.favorite ?? null;
   const isPickEm = !!favorite && /even|toss-?up|pick/i.test(favorite);
+  const gameWikiUrl = `https://en.wikipedia.org/wiki/Super_Bowl_${encodeURIComponent(game.sbRoman)}`;
   const favoriteCovered =
     !!spreadResult &&
     !!favorite &&
@@ -325,19 +326,8 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
               Links
             </div>
             <div className={styles.links}>
-              <a
-                href={`https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions#Results`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Champions table
-              </a>
-              <a
-                href={`https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player#Winners`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                MVP table
+              <a href={gameWikiUrl} target="_blank" rel="noreferrer">
+                Wikipedia
               </a>
             </div>
           </div>
