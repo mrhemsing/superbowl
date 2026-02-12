@@ -90,7 +90,7 @@ function abbreviateStateInCity(city: string) {
     Vermont: "VT", Virginia: "VA", Washington: "WA", "West Virginia": "WV", Wisconsin: "WI",
     Wyoming: "WY",
   };
-  return city.replace(/,\s*([A-Za-z ]+)$/, (_m, state) => `, ${map[state] ?? state}`);
+  return city.replace(/,\s*([A-Za-z ]+?)(\s*\(\d+\))?$/, (_m, state, suffix = "") => `, ${map[state] ?? state}${suffix}`);
 }
 
 export function MatchupCard({ game }: { game: SuperBowlGame }) {
