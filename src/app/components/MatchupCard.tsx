@@ -206,22 +206,24 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
             </div>
             {game.betting ? (
               <div className={styles.oddsGrid}>
-                <div className={styles.oddsCell}>
+                <div
+                  className={`${styles.oddsCell} ${
+                    spreadResult
+                      ? spreadPush
+                        ? styles.oddsCellNeutral
+                        : favoriteCovered
+                        ? styles.oddsCellGood
+                        : styles.oddsCellBad
+                      : ""
+                  }`}
+                >
                   <div className={styles.oddsLabel}>Spread</div>
                   <div className={styles.oddsValue}>
                     {game.betting.favorite && game.betting.spread != null
                       ? `${game.betting.favorite} -${game.betting.spread}`
                       : "—"}
                   </div>
-                  {spreadResult ? (
-                    <div
-                      className={`${styles.oddsWin} ${
-                        spreadPush ? styles.oddsNeutral : favoriteCovered ? styles.oddsGood : styles.oddsBad
-                      }`}
-                    >
-                      {spreadPush ? "Push" : favoriteCovered ? "Favorite covered" : "Favorite did not cover"}
-                    </div>
-                  ) : null}
+                  {/* visual-only result via color coding on the spread box */}
                 </div>
                 <div className={styles.oddsCell}>
                   <div className={styles.oddsLabel}>Total</div>
