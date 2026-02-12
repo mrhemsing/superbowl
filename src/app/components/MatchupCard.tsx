@@ -61,6 +61,21 @@ function teamCityName(teamName: string) {
   return parts.slice(0, -1).join(" ");
 }
 
+function abbreviatePosition(position: string | null) {
+  if (!position) return "";
+  return position
+    .replace(/^Quarterback\b/i, "QB")
+    .replace(/^Running back\b/i, "RB")
+    .replace(/^Wide receiver\b/i, "WR")
+    .replace(/^Tight end\b/i, "TE")
+    .replace(/^Linebacker\b/i, "LB")
+    .replace(/^Cornerback\b/i, "CB")
+    .replace(/^Safety\b/i, "S")
+    .replace(/^Defensive end\b/i, "DE")
+    .replace(/^Defensive tackle\b/i, "DT")
+    .replace(/^Return specialist\b/i, "RS");
+}
+
 export function MatchupCard({ game }: { game: SuperBowlGame }) {
   const left = game.winner;
   const right = game.loser;
@@ -251,9 +266,9 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
                     <div>
                       <div className={styles.mvpName}>{m.name}</div>
                       <div className={styles.mvpMeta}>
-                        <span>
+                        <span className={styles.mvpPrimaryMeta}>
                           {m.team}
-                          {m.position ? ` • ${m.position}` : ""}
+                          {m.position ? ` • ${abbreviatePosition(m.position)}` : ""}
                         </span>
                         {m.college ? <span className={styles.mvpCollege}>{m.college}</span> : null}
                       </div>
