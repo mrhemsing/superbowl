@@ -102,7 +102,7 @@ export default function Home() {
 
         {activeIndex === 0 ? (
           <div className={styles.mobileSwipeHint} aria-hidden>
-            <span className={styles.mobileSwipeText}>Swipe down for more</span>
+            <span className={styles.mobileSwipeText}>Swipe up for more</span>
             <svg className={styles.mobileSwipeArrow} viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M60 108L8 52h28V12h48v40h28L60 108z"
