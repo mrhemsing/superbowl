@@ -149,7 +149,7 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
             </div>
             <div className={styles.teamMeta}>
               <div className={styles.teamName}>{left.name}</div>
-              <div className={styles.teamTag}>SUPERBOWL ({game.winnerTitles ?? "?"})</div>
+              <div className={styles.teamTag}>SUPER BOWL ({game.winnerTitles ?? "?"})</div>
             </div>
           </div>
 
