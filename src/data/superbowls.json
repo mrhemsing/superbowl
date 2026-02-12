@@ -61,8 +61,8 @@
         "team": "Green Bay Packers",
         "position": "Quarterback",
         "college": "Alabama",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/bart-starr.jpg",
+        "imageOverrideUrl": "/mvp/bart-starr.jpg"
       }
     ]
   },
@@ -128,8 +128,8 @@
         "team": "Green Bay Packers",
         "position": "Quarterback (2)",
         "college": "",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/bart-starr.jpg",
+        "imageOverrideUrl": "/mvp/bart-starr.jpg"
       }
     ]
   },
@@ -195,8 +195,8 @@
         "team": "New York Jets",
         "position": "Quarterback (3)",
         "college": "",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/joe-namath.jpg",
+        "imageOverrideUrl": "/mvp/joe-namath.jpg"
       }
     ]
   },
@@ -262,8 +262,8 @@
         "team": "Kansas City Chiefs",
         "position": "Quarterback (4)",
         "college": "Purdue",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/len-dawson.JPG",
+        "imageOverrideUrl": "/mvp/len-dawson.JPG"
       }
     ]
   },
@@ -329,8 +329,8 @@
         "team": "Dallas Cowboys",
         "position": "Linebacker",
         "college": "West Virginia",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/chuck-howley.jpg",
+        "imageOverrideUrl": "/mvp/chuck-howley.jpg"
       }
     ]
   },
@@ -396,8 +396,8 @@
         "team": "Dallas Cowboys",
         "position": "Quarterback (5)",
         "college": "Navy",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/roger-staubach.jpg",
+        "imageOverrideUrl": "/mvp/roger-staubach.jpg"
       }
     ]
   },
@@ -463,8 +463,8 @@
         "team": "Miami Dolphins",
         "position": "Safety",
         "college": "Georgia",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/jake-scott.jpg",
+        "imageOverrideUrl": "/mvp/jake-scott.jpg"
       }
     ]
   },
@@ -530,8 +530,8 @@
         "team": "Miami Dolphins",
         "position": "Running back",
         "college": "Syracuse",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/larry-csonka.jpg",
+        "imageOverrideUrl": "/mvp/larry-csonka.jpg"
       }
     ]
   },
@@ -597,8 +597,8 @@
         "team": "Pittsburgh Steelers",
         "position": "Running back (2)",
         "college": "Penn State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/franco-harris.jpg",
+        "imageOverrideUrl": "/mvp/franco-harris.jpg"
       }
     ]
   },
@@ -664,8 +664,8 @@
         "team": "Pittsburgh Steelers",
         "position": "Wide receiver",
         "college": "USC",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/lynn-swann.jpg",
+        "imageOverrideUrl": "/mvp/lynn-swann.jpg"
       }
     ]
   },
@@ -731,8 +731,8 @@
         "team": "Oakland Raiders",
         "position": "Wide receiver (2)",
         "college": "Florida State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/fred-biletnikoff.png",
+        "imageOverrideUrl": "/mvp/fred-biletnikoff.png"
       }
     ]
   },
@@ -798,8 +798,8 @@
         "team": "Dallas Cowboys",
         "position": "Defensive end",
         "college": "Texas A&M–Commerce",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/harvey-martin.jpg",
+        "imageOverrideUrl": "/mvp/harvey-martin.jpg"
       }
     ]
   },
@@ -865,8 +865,8 @@
         "team": "Pittsburgh Steelers",
         "position": "Quarterback (6)",
         "college": "Louisiana Tech",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/terry-bradshaw.jpg",
+        "imageOverrideUrl": "/mvp/terry-bradshaw.jpg"
       }
     ]
   },
@@ -932,8 +932,8 @@
         "team": "Pittsburgh Steelers",
         "position": "Quarterback (7)",
         "college": "",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/terry-bradshaw.jpg",
+        "imageOverrideUrl": "/mvp/terry-bradshaw.jpg"
       }
     ]
   },
@@ -999,8 +999,8 @@
         "team": "Oakland Raiders",
         "position": "Quarterback (8)",
         "college": "Stanford",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/jim-plunkett.png",
+        "imageOverrideUrl": "/mvp/jim-plunkett.png"
       }
     ]
   },
@@ -1066,8 +1066,8 @@
         "team": "San Francisco 49ers",
         "position": "Quarterback (9)",
         "college": "Notre Dame",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/joe-montana.jpg",
+        "imageOverrideUrl": "/mvp/joe-montana.jpg"
       }
     ]
   },
@@ -1133,8 +1133,8 @@
         "team": "Washington Redskins",
         "position": "Running back (3)",
         "college": "Kansas",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/john-riggins.jpg",
+        "imageOverrideUrl": "/mvp/john-riggins.jpg"
       }
     ]
   },
@@ -1200,8 +1200,8 @@
         "team": "Los Angeles Raiders",
         "position": "Running back (4)",
         "college": "USC",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/marcus-allen.jpg",
+        "imageOverrideUrl": "/mvp/marcus-allen.jpg"
       }
     ]
   },
@@ -1267,8 +1267,8 @@
         "team": "San Francisco 49ers",
         "position": "Quarterback (10)",
         "college": "Notre Dame",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/joe-montana.jpg",
+        "imageOverrideUrl": "/mvp/joe-montana.jpg"
       }
     ]
   },
@@ -1334,8 +1334,8 @@
         "team": "Chicago Bears",
         "position": "Defensive end (2)",
         "college": "Tennessee State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/richard-dent.jpg",
+        "imageOverrideUrl": "/mvp/richard-dent.jpg"
       }
     ]
   },
@@ -1401,8 +1401,8 @@
         "team": "New York Giants",
         "position": "Quarterback (11)",
         "college": "Morehead State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/phil-simms.jpg",
+        "imageOverrideUrl": "/mvp/phil-simms.jpg"
       }
     ]
   },
@@ -1468,8 +1468,8 @@
         "team": "Washington Redskins",
         "position": "Quarterback (12)",
         "college": "Grambling State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/doug-williams.jpg",
+        "imageOverrideUrl": "/mvp/doug-williams.jpg"
       }
     ]
   },
@@ -1535,8 +1535,8 @@
         "team": "San Francisco 49ers",
         "position": "Wide receiver (3)",
         "college": "Mississippi Valley State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/jerry-rice.jpg",
+        "imageOverrideUrl": "/mvp/jerry-rice.jpg"
       }
     ]
   },
@@ -1602,8 +1602,8 @@
         "team": "San Francisco 49ers",
         "position": "Quarterback (13)",
         "college": "Notre Dame",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/joe-montana.jpg",
+        "imageOverrideUrl": "/mvp/joe-montana.jpg"
       }
     ]
   },
@@ -1669,8 +1669,8 @@
         "team": "New York Giants",
         "position": "Running back (5)",
         "college": "Miami (FL)",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/ottis-anderson.jpg",
+        "imageOverrideUrl": "/mvp/ottis-anderson.jpg"
       }
     ]
   },
@@ -1736,8 +1736,8 @@
         "team": "Washington Redskins",
         "position": "Quarterback (14)",
         "college": "Washington State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/mark-rypien.jpg",
+        "imageOverrideUrl": "/mvp/mark-rypien.jpg"
       }
     ]
   },
@@ -1803,8 +1803,8 @@
         "team": "Dallas Cowboys",
         "position": "Quarterback (15)",
         "college": "UCLA",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/troy-aikman.jpg",
+        "imageOverrideUrl": "/mvp/troy-aikman.jpg"
       }
     ]
   },
@@ -1870,8 +1870,8 @@
         "team": "Dallas Cowboys",
         "position": "Running back (6)",
         "college": "Florida",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/emmitt-smith.jpg",
+        "imageOverrideUrl": "/mvp/emmitt-smith.jpg"
       }
     ]
   },
@@ -1937,8 +1937,8 @@
         "team": "San Francisco 49ers",
         "position": "Quarterback (16)",
         "college": "BYU",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/steve-young.jpg",
+        "imageOverrideUrl": "/mvp/steve-young.jpg"
       }
     ]
   },
@@ -2004,8 +2004,8 @@
         "team": "Dallas Cowboys",
         "position": "Cornerback",
         "college": "TCU",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/larry-brown.png",
+        "imageOverrideUrl": "/mvp/larry-brown.png"
       }
     ]
   },
@@ -2071,8 +2071,8 @@
         "team": "Green Bay Packers",
         "position": "Return specialist",
         "college": "Michigan",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/desmond-howard.jpg",
+        "imageOverrideUrl": "/mvp/desmond-howard.jpg"
       }
     ]
   },
@@ -2138,8 +2138,8 @@
         "team": "Denver Broncos",
         "position": "Running back (7)",
         "college": "Georgia",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/terrell-davis.jpg",
+        "imageOverrideUrl": "/mvp/terrell-davis.jpg"
       }
     ]
   },
@@ -2205,8 +2205,8 @@
         "team": "Denver Broncos",
         "position": "Quarterback (17)",
         "college": "Stanford",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/john-elway.jpg",
+        "imageOverrideUrl": "/mvp/john-elway.jpg"
       }
     ]
   },
@@ -2272,8 +2272,8 @@
         "team": "St. Louis Rams",
         "position": "Quarterback (18)",
         "college": "Northern Iowa",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/kurt-warner.jpg",
+        "imageOverrideUrl": "/mvp/kurt-warner.jpg"
       }
     ]
   },
@@ -2339,8 +2339,8 @@
         "team": "Baltimore Ravens",
         "position": "Linebacker (2)",
         "college": "Miami (FL)",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/ray-lewis.jpg",
+        "imageOverrideUrl": "/mvp/ray-lewis.jpg"
       }
     ]
   },
@@ -2406,8 +2406,8 @@
         "team": "New England Patriots",
         "position": "Quarterback (19)",
         "college": "Michigan",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/tom-brady.jpg",
+        "imageOverrideUrl": "/mvp/tom-brady.jpg"
       }
     ]
   },
@@ -2473,8 +2473,8 @@
         "team": "Tampa Bay Buccaneers",
         "position": "Safety (2)",
         "college": "Florida State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/dexter-jackson.jpg",
+        "imageOverrideUrl": "/mvp/dexter-jackson.jpg"
       }
     ]
   },
@@ -2540,8 +2540,8 @@
         "team": "New England Patriots",
         "position": "Quarterback (20)",
         "college": "Michigan",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/tom-brady.jpg",
+        "imageOverrideUrl": "/mvp/tom-brady.jpg"
       }
     ]
   },
@@ -2607,8 +2607,8 @@
         "team": "New England Patriots",
         "position": "Wide receiver (4)",
         "college": "Louisville",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/deion-branch.JPG",
+        "imageOverrideUrl": "/mvp/deion-branch.JPG"
       }
     ]
   },
@@ -2674,8 +2674,8 @@
         "team": "Pittsburgh Steelers",
         "position": "Wide receiver (5)",
         "college": "Georgia",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/hines-ward.jpg",
+        "imageOverrideUrl": "/mvp/hines-ward.jpg"
       }
     ]
   },
@@ -2741,8 +2741,8 @@
         "team": "Indianapolis Colts",
         "position": "Quarterback (21)",
         "college": "Tennessee",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/peyton-manning.jpg",
+        "imageOverrideUrl": "/mvp/peyton-manning.jpg"
       }
     ]
   },
@@ -2808,8 +2808,8 @@
         "team": "New York Giants",
         "position": "Quarterback (22)",
         "college": "Ole Miss",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/eli-manning.jpg",
+        "imageOverrideUrl": "/mvp/eli-manning.jpg"
       }
     ]
   },
@@ -2875,8 +2875,8 @@
         "team": "Pittsburgh Steelers",
         "position": "Wide receiver (6)",
         "college": "Ohio State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/santonio-holmes.jpg",
+        "imageOverrideUrl": "/mvp/santonio-holmes.jpg"
       }
     ]
   },
@@ -2942,8 +2942,8 @@
         "team": "New Orleans Saints",
         "position": "Quarterback (23)",
         "college": "Purdue",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/drew-brees.jpg",
+        "imageOverrideUrl": "/mvp/drew-brees.jpg"
       }
     ]
   },
@@ -3009,8 +3009,8 @@
         "team": "Green Bay Packers",
         "position": "Quarterback (24)",
         "college": "California",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/aaron-rodgers.jpg",
+        "imageOverrideUrl": "/mvp/aaron-rodgers.jpg"
       }
     ]
   },
@@ -3076,8 +3076,8 @@
         "team": "New York Giants",
         "position": "Quarterback (25)",
         "college": "Ole Miss",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/eli-manning.jpg",
+        "imageOverrideUrl": "/mvp/eli-manning.jpg"
       }
     ]
   },
@@ -3143,8 +3143,8 @@
         "team": "Baltimore Ravens",
         "position": "Quarterback (26)",
         "college": "Delaware",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/joe-flacco.jpg",
+        "imageOverrideUrl": "/mvp/joe-flacco.jpg"
       }
     ]
   },
@@ -3210,8 +3210,8 @@
         "team": "Seattle Seahawks",
         "position": "Linebacker (3)",
         "college": "USC",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/malcolm-smith.JPG",
+        "imageOverrideUrl": "/mvp/malcolm-smith.JPG"
       }
     ]
   },
@@ -3277,8 +3277,8 @@
         "team": "New England Patriots",
         "position": "Quarterback (27)",
         "college": "Michigan",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/tom-brady.jpg",
+        "imageOverrideUrl": "/mvp/tom-brady.jpg"
       }
     ]
   },
@@ -3344,8 +3344,8 @@
         "team": "Denver Broncos",
         "position": "Linebacker (4)",
         "college": "Texas A&M",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/von-miller.jpg",
+        "imageOverrideUrl": "/mvp/von-miller.jpg"
       }
     ]
   },
@@ -3414,8 +3414,8 @@
         "team": "New England Patriots",
         "position": "Quarterback (28)",
         "college": "Michigan",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/tom-brady.jpg",
+        "imageOverrideUrl": "/mvp/tom-brady.jpg"
       }
     ]
   },
@@ -3481,8 +3481,8 @@
         "team": "Philadelphia Eagles",
         "position": "Quarterback (29)",
         "college": "Arizona",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/nick-foles.jpg",
+        "imageOverrideUrl": "/mvp/nick-foles.jpg"
       }
     ]
   },
@@ -3548,8 +3548,8 @@
         "team": "New England Patriots",
         "position": "Wide receiver (7)",
         "college": "Kent State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/julian-edelman.jpg",
+        "imageOverrideUrl": "/mvp/julian-edelman.jpg"
       }
     ]
   },
@@ -3615,8 +3615,8 @@
         "team": "Kansas City Chiefs",
         "position": "Quarterback (30)",
         "college": "Texas Tech",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/patrick-mahomes.jpg",
+        "imageOverrideUrl": "/mvp/patrick-mahomes.jpg"
       }
     ]
   },
@@ -3682,8 +3682,8 @@
         "team": "Tampa Bay Buccaneers",
         "position": "Quarterback (31)",
         "college": "Michigan",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/tom-brady.jpg",
+        "imageOverrideUrl": "/mvp/tom-brady.jpg"
       }
     ]
   },
@@ -3749,8 +3749,8 @@
         "team": "Los Angeles Rams",
         "position": "Wide receiver (8)",
         "college": "Eastern Washington",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/cooper-kupp.jpg",
+        "imageOverrideUrl": "/mvp/cooper-kupp.jpg"
       }
     ]
   },
@@ -3816,8 +3816,8 @@
         "team": "Kansas City Chiefs",
         "position": "Quarterback (32)",
         "college": "Texas Tech",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/patrick-mahomes.jpg",
+        "imageOverrideUrl": "/mvp/patrick-mahomes.jpg"
       }
     ]
   },
@@ -3886,8 +3886,8 @@
         "team": "Kansas City Chiefs",
         "position": "Quarterback (33)",
         "college": "",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/patrick-mahomes.jpg",
+        "imageOverrideUrl": "/mvp/patrick-mahomes.jpg"
       }
     ]
   },
@@ -3953,8 +3953,8 @@
         "team": "Philadelphia Eagles",
         "position": "Quarterback (34)",
         "college": "Oklahoma",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/jalen-hurts.jpg",
+        "imageOverrideUrl": "/mvp/jalen-hurts.jpg"
       }
     ]
   },
@@ -4020,8 +4020,8 @@
         "team": "Seattle Seahawks",
         "position": "Running back (8)",
         "college": "Michigan State",
-        "headshotUrl": "/mvp-silhouette.svg",
-        "imageOverrideUrl": null
+        "headshotUrl": "/mvp/kenneth-walker-iii.jpg",
+        "imageOverrideUrl": "/mvp/kenneth-walker-iii.jpg"
       }
     ]
   }
