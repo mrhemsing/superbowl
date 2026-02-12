@@ -39,20 +39,20 @@
 .team{ display:flex; gap:12px; align-items:center; }
 
 .logo{
-  width: 92px;
-  height: 92px;
-  border-radius: 22px;
+  width: 122px;
+  height: 122px;
+  border-radius: 28px;
   display:grid;
   place-items:center;
-  box-shadow: 0 10px 34px rgba(0,0,0,0.45);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
   overflow: hidden;
 }
 
 .logoImg{
-  width: 72px;
-  height: 72px;
+  width: 102px;
+  height: 102px;
   object-fit: contain;
-  filter: drop-shadow(0 10px 22px rgba(0,0,0,0.35));
+  filter: drop-shadow(0 12px 24px rgba(0,0,0,0.38));
 }
 
 .initials{
@@ -175,7 +175,8 @@
   .team{ justify-content:center; }
   .teamMeta{ align-items:center; }
   .teamName{ max-width: 320px; }
-  .logo{ width: 96px; height: 96px; }
+  .logo{ width: 112px; height: 112px; }
+  .logoImg{ width: 92px; height: 92px; }
   .score{ font-size: 64px; }
   .detailGrid{ grid-template-columns: 1fr; }
 }
