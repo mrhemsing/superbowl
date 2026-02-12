@@ -29,6 +29,7 @@
 
 .header{
   max-width: 920px;
+  width: 100%;
   margin: 0 auto;
   padding: 4px 0 18px;
   position: relative;
@@ -240,14 +241,18 @@
     padding-top: 10px;
   }
 
-  .header{ padding-right: 74px; }
+  .header{ padding-right: 0; }
   .kicker{ display: none; }
   .title{
     font-size: 34px;
     max-width: calc(100% - 8px);
     line-height: 1.05;
+    white-space: nowrap;
   }
-  .titleNumber{ font-size: 0.58em; }
+  .titleNumber{
+    font-size: 0.58em;
+    white-space: nowrap;
+  }
   .arrows{ display: none; }
 
   .mobileSwipeHint,

@@ -288,14 +288,27 @@
 }
 
 @media (max-width: 900px){
-  .summary{ cursor: pointer; }
+  .summary{
+    cursor: pointer;
+    padding-left: 14px;
+    padding-right: 10px;
+  }
+  .details{
+    padding-left: 14px;
+    padding-right: 10px;
+  }
   .bettingTitle{ display: none; }
   .top{ grid-template-columns: 1fr; }
   .subline{ margin-top: 4px; }
   .center{ order: -1; }
-  .team{ justify-content:center; }
-  .teamMeta{ align-items:center; }
-  .teamName{ max-width: 320px; }
+  .team{
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+  .teamMeta{ align-items:flex-start; }
+  .teamName{ max-width: 210px; }
   .logo{ width: 112px; height: 112px; }
   .score{ font-size: 64px; }
   .detailGrid{ grid-template-columns: 1fr; }
