@@ -148,6 +148,8 @@
   padding: 12px;
 }
 
+.extraPanel{}
+
 .panelTitle{
   font-size: 12px;
   letter-spacing: 0.12em;
@@ -219,4 +221,5 @@
   .logo{ width: 112px; height: 112px; }
   .score{ font-size: 64px; }
   .detailGrid{ grid-template-columns: 1fr; }
+  .extraPanel{ display: none; }
 }

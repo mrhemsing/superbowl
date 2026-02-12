@@ -185,8 +185,7 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
             )}
           </div>
 
-          <div className={styles.panel}>
-            <div className={styles.panelTitle}>Quarter scoring</div>
+          <div className={`${styles.panel} ${styles.extraPanel}`}>
             {game.quarterScoring ? (
               <div
                 className={styles.qTable}
