@@ -29,8 +29,13 @@ export type SuperBowlGame = {
 function fmtDate(iso: string | null) {
   if (!iso) return null;
   try {
-    const d = new Date(iso + "T12:00:00Z");
-    return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+    const d = new Date(`${iso}T12:00:00Z`);
+    return new Intl.DateTimeFormat("en-US", {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+      timeZone: "UTC",
+    }).format(d);
   } catch {
     return iso;
   }
