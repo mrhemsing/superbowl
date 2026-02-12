@@ -83,10 +83,23 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
     spreadResult.toLowerCase().includes("covered");
   const spreadPush = spreadResult === "Push";
 
-  const totalResult = game.betting?.results?.totalResult ?? null;
-  const totalOver = totalResult === "Over";
-  const totalUnder = totalResult === "Under";
-  const totalPush = totalResult === "Push";
+  const totalLine = game.betting?.total ?? null;
+  const leftNum = typeof left.score === "number" ? left.score : null;
+  const rightNum = typeof right.score === "number" ? right.score : null;
+  const combined = leftNum != null && rightNum != null ? leftNum + rightNum : null;
+
+  const totalResult =
+    game.betting?.results?.totalResult ??
+    (totalLine != null && combined != null
+      ? combined > totalLine
+        ? "OVER"
+        : combined < totalLine
+        ? "UNDER"
+        : "Push"
+      : null);
+  const totalOver = totalResult === "OVER" || totalResult === "Over";
+  const totalUnder = totalResult === "UNDER" || totalResult === "Under";
+  const totalPush = totalResult === "PUSH" || totalResult === "Push";
 
   return (
     <details className={styles.card} open>
