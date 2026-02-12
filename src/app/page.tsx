@@ -20,7 +20,7 @@ export default function Home() {
     const section = sectionRefs.current[idx];
     if (!scroller || !section) return;
 
-    scroller.scrollTo({ top: section.offsetTop, behavior: "auto" });
+    scroller.scrollTop = section.offsetTop;
     setActiveIndex(idx);
     if (jumpMenuRef.current) jumpMenuRef.current.open = false;
   };
