@@ -26,7 +26,7 @@
 .header{
   max-width: 920px;
   margin: 0 auto;
-  padding: 4px 0 6px;
+  padding: 4px 0 18px;
 }
 
 .kicker{
@@ -63,11 +63,7 @@
   max-width: 920px;
   margin: 0 auto;
   position: relative;
-  background: rgba(7, 11, 20, 0.94);
-  border: 1px solid rgba(96,165,250,0.14);
-  border-radius: 18px;
-  padding: 0 10px;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.04);
+  padding: 0;
 }
 
 .arrows{
