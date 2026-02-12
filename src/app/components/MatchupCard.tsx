@@ -1,0 +1,165 @@
+import styles from "./MatchupCard.module.css";
+import { teamGradient, teamInitials } from "@/lib/teamStyle";
+
+export type Mvp = {
+  name: string;
+  team: string;
+  position: string | null;
+  college: string | null;
+  headshotUrl: string;
+  imageOverrideUrl: string | null;
+};
+
+export type SuperBowlGame = {
+  id: string;
+  sbRoman: string;
+  sbNumber: number;
+  seasonYear: number | null;
+  gameDate: string | null; // YYYY-MM-DD
+  winner: { name: string; score: number | null };
+  loser: { name: string; score: number | null };
+  scoreText: string;
+  dateSeasonText: string;
+  venue: { name: string; city: string };
+  mvp: Mvp[];
+};
+
+function fmtDate(iso: string | null) {
+  if (!iso) return null;
+  try {
+    const d = new Date(iso + "T12:00:00Z");
+    return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+  } catch {
+    return iso;
+  }
+}
+
+export function MatchupCard({ game }: { game: SuperBowlGame }) {
+  const left = game.winner;
+  const right = game.loser;
+
+  const leftG = teamGradient(left.name);
+  const rightG = teamGradient(right.name);
+
+  const scoreLeft = left.score ?? "?";
+  const scoreRight = right.score ?? "?";
+
+  return (
+    <details className={styles.card}>
+      <summary className={styles.summary}>
+        <div className={styles.watermark}>{String(game.sbRoman)}</div>
+
+        <div className={styles.top}>
+          <div className={styles.team}>
+            <div
+              className={styles.logo}
+              style={{
+                background: `linear-gradient(135deg, ${leftG.a}, ${leftG.b})`,
+                boxShadow: `0 0 0 2px rgba(76,201,240,0.25), 0 0 22px rgba(76,201,240,0.18)`,
+              }}
+              aria-label={left.name}
+              title={left.name}
+            >
+              <span className={styles.initials}>{teamInitials(left.name)}</span>
+            </div>
+            <div className={styles.teamMeta}>
+              <div className={styles.teamName}>{left.name}</div>
+              <div className={styles.teamTag}>WINNER</div>
+            </div>
+          </div>
+
+          <div className={styles.center}>
+            <div className={styles.sbLine}>
+              <span className={styles.sbLabel}>SUPER BOWL</span>
+              <span className={styles.sbRoman}>{game.sbRoman}</span>
+            </div>
+            <div className={styles.score}>
+              <span className={styles.scoreNum}>{scoreLeft}</span>
+              <span className={styles.dash}>–</span>
+              <span className={styles.scoreNum}>{scoreRight}</span>
+            </div>
+            <div className={styles.subline}>
+              <span>{fmtDate(game.gameDate) ?? game.dateSeasonText}</span>
+              <span className={styles.dot}>•</span>
+              <span>{game.venue.name}</span>
+              <span className={styles.dot}>•</span>
+              <span>{game.venue.city}</span>
+            </div>
+          </div>
+
+          <div className={styles.team}>
+            <div
+              className={styles.logo}
+              style={{
+                background: `linear-gradient(135deg, ${rightG.a}, ${rightG.b})`,
+                opacity: 0.78,
+              }}
+              aria-label={right.name}
+              title={right.name}
+            >
+              <span className={styles.initials}>{teamInitials(right.name)}</span>
+            </div>
+            <div className={styles.teamMeta}>
+              <div className={styles.teamName}>{right.name}</div>
+              <div className={styles.teamTagMuted}>Runner-up</div>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.expandHint}>Tap for MVP + links</div>
+      </summary>
+
+      <div className={styles.details}>
+        <div className={styles.detailGrid}>
+          <div className={styles.panel}>
+            <div className={styles.panelTitle}>MVP</div>
+            {game.mvp.length ? (
+              <ul className={styles.mvpList}>
+                {game.mvp.map((m) => (
+                  <li key={m.name} className={styles.mvpRow}>
+                    <div className={styles.mvpAvatar} aria-hidden />
+                    <div>
+                      <div className={styles.mvpName}>{m.name}</div>
+                      <div className={styles.mvpMeta}>
+                        {m.team}
+                        {m.position ? ` • ${m.position}` : ""}
+                        {m.college ? ` • ${m.college}` : ""}
+                      </div>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <div className={styles.muted}>MVP not found in scrape.</div>
+            )}
+          </div>
+
+          <div className={styles.panel}>
+            <div className={styles.panelTitle}>Scoreline</div>
+            <div className={styles.muted}>{game.scoreText}</div>
+
+            <div className={styles.panelTitle} style={{ marginTop: 14 }}>
+              Links
+            </div>
+            <div className={styles.links}>
+              <a
+                href={`https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions#Results`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Champions table
+              </a>
+              <a
+                href={`https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player#Winners`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                MVP table
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </details>
+  );
+}

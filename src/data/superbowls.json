@@ -1,0 +1,1870 @@
+[
+  {
+    "id": "sb-1",
+    "sbRoman": "I",
+    "sbNumber": 1,
+    "seasonYear": 1966,
+    "gameDate": "1967-01-15",
+    "winner": {
+      "name": "Green Bay Packers",
+      "score": 35
+    },
+    "loser": {
+      "name": "Kansas City Chiefs",
+      "score": 10
+    },
+    "scoreText": "35–10",
+    "dateSeasonText": "January 15, 1967 (1966 AFL/1966 NFL)",
+    "venue": {
+      "name": "Los Angeles Memorial Coliseum",
+      "city": "Los Angeles, California"
+    },
+    "mvp": [
+      {
+        "name": "Bart Starr",
+        "team": "Green Bay Packers",
+        "position": "Quarterback",
+        "college": "Alabama",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-2",
+    "sbRoman": "II",
+    "sbNumber": 2,
+    "seasonYear": 1967,
+    "gameDate": "1968-01-14",
+    "winner": {
+      "name": "Green Bay Packers",
+      "score": 33
+    },
+    "loser": {
+      "name": "Oakland Raiders",
+      "score": 14
+    },
+    "scoreText": "33–14",
+    "dateSeasonText": "January 14, 1968 (1967 AFL/1967 NFL)",
+    "venue": {
+      "name": "Miami Orange Bowl",
+      "city": "Miami, Florida"
+    },
+    "mvp": [
+      {
+        "name": "Bart Starr",
+        "team": "Green Bay Packers",
+        "position": "Quarterback (2)",
+        "college": "",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-3",
+    "sbRoman": "III",
+    "sbNumber": 3,
+    "seasonYear": 1968,
+    "gameDate": "1969-01-12",
+    "winner": {
+      "name": "New York Jets",
+      "score": 16
+    },
+    "loser": {
+      "name": "Baltimore Colts",
+      "score": 7
+    },
+    "scoreText": "16–7",
+    "dateSeasonText": "January 12, 1969 (1968 AFL/1968 NFL)",
+    "venue": {
+      "name": "Miami Orange Bowl",
+      "city": "Miami, Florida (2)"
+    },
+    "mvp": [
+      {
+        "name": "Joe Namath",
+        "team": "New York Jets",
+        "position": "Quarterback (3)",
+        "college": "",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-4",
+    "sbRoman": "IV",
+    "sbNumber": 4,
+    "seasonYear": 1969,
+    "gameDate": "1970-01-11",
+    "winner": {
+      "name": "Kansas City Chiefs",
+      "score": 23
+    },
+    "loser": {
+      "name": "Minnesota Vikings",
+      "score": 7
+    },
+    "scoreText": "23–7",
+    "dateSeasonText": "January 11, 1970 (1969 AFL/1969 NFL)",
+    "venue": {
+      "name": "Tulane Stadium",
+      "city": "New Orleans, Louisiana"
+    },
+    "mvp": [
+      {
+        "name": "Len Dawson",
+        "team": "Kansas City Chiefs",
+        "position": "Quarterback (4)",
+        "college": "Purdue",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-5",
+    "sbRoman": "V",
+    "sbNumber": 5,
+    "seasonYear": 1970,
+    "gameDate": "1971-01-17",
+    "winner": {
+      "name": "Baltimore Colts",
+      "score": 16
+    },
+    "loser": {
+      "name": "Dallas Cowboys",
+      "score": 13
+    },
+    "scoreText": "16–13",
+    "dateSeasonText": "January 17, 1971 (1970)",
+    "venue": {
+      "name": "Miami Orange Bowl",
+      "city": "Miami, Florida (3)"
+    },
+    "mvp": [
+      {
+        "name": "Chuck Howley",
+        "team": "Dallas Cowboys",
+        "position": "Linebacker",
+        "college": "West Virginia",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-6",
+    "sbRoman": "VI",
+    "sbNumber": 6,
+    "seasonYear": 1971,
+    "gameDate": "1972-01-16",
+    "winner": {
+      "name": "Dallas Cowboys",
+      "score": 24
+    },
+    "loser": {
+      "name": "Miami Dolphins",
+      "score": 3
+    },
+    "scoreText": "24–3",
+    "dateSeasonText": "January 16, 1972 (1971)",
+    "venue": {
+      "name": "Tulane Stadium",
+      "city": "New Orleans, Louisiana (2)"
+    },
+    "mvp": [
+      {
+        "name": "Roger Staubach",
+        "team": "Dallas Cowboys",
+        "position": "Quarterback (5)",
+        "college": "Navy",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-7",
+    "sbRoman": "VII",
+    "sbNumber": 7,
+    "seasonYear": 1972,
+    "gameDate": "1973-01-14",
+    "winner": {
+      "name": "Miami Dolphins",
+      "score": 14
+    },
+    "loser": {
+      "name": "Washington Redskins",
+      "score": 7
+    },
+    "scoreText": "14–7",
+    "dateSeasonText": "January 14, 1973 (1972)",
+    "venue": {
+      "name": "Los Angeles Memorial Coliseum",
+      "city": "Los Angeles, California (2)"
+    },
+    "mvp": [
+      {
+        "name": "Jake Scott",
+        "team": "Miami Dolphins",
+        "position": "Safety",
+        "college": "Georgia",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-8",
+    "sbRoman": "VIII",
+    "sbNumber": 8,
+    "seasonYear": 1973,
+    "gameDate": "1974-01-13",
+    "winner": {
+      "name": "Miami Dolphins",
+      "score": 24
+    },
+    "loser": {
+      "name": "Minnesota Vikings",
+      "score": 7
+    },
+    "scoreText": "24–7",
+    "dateSeasonText": "January 13, 1974 (1973)",
+    "venue": {
+      "name": "Rice Stadium",
+      "city": "Houston, Texas"
+    },
+    "mvp": [
+      {
+        "name": "Larry Csonka",
+        "team": "Miami Dolphins",
+        "position": "Running back",
+        "college": "Syracuse",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-9",
+    "sbRoman": "IX",
+    "sbNumber": 9,
+    "seasonYear": 1974,
+    "gameDate": "1975-01-12",
+    "winner": {
+      "name": "Pittsburgh Steelers",
+      "score": 16
+    },
+    "loser": {
+      "name": "Minnesota Vikings",
+      "score": 6
+    },
+    "scoreText": "16–6",
+    "dateSeasonText": "January 12, 1975 (1974)",
+    "venue": {
+      "name": "Tulane Stadium",
+      "city": "New Orleans, Louisiana (3)"
+    },
+    "mvp": [
+      {
+        "name": "Franco Harris",
+        "team": "Pittsburgh Steelers",
+        "position": "Running back (2)",
+        "college": "Penn State",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-10",
+    "sbRoman": "X",
+    "sbNumber": 10,
+    "seasonYear": 1975,
+    "gameDate": "1976-01-18",
+    "winner": {
+      "name": "Pittsburgh Steelers",
+      "score": 21
+    },
+    "loser": {
+      "name": "Dallas Cowboys",
+      "score": 17
+    },
+    "scoreText": "21–17",
+    "dateSeasonText": "January 18, 1976 (1975)",
+    "venue": {
+      "name": "Miami Orange Bowl",
+      "city": "Miami, Florida (4)"
+    },
+    "mvp": [
+      {
+        "name": "Lynn Swann",
+        "team": "Pittsburgh Steelers",
+        "position": "Wide receiver",
+        "college": "USC",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-11",
+    "sbRoman": "XI",
+    "sbNumber": 11,
+    "seasonYear": 1976,
+    "gameDate": "1977-01-09",
+    "winner": {
+      "name": "Oakland Raiders",
+      "score": 32
+    },
+    "loser": {
+      "name": "Minnesota Vikings",
+      "score": 14
+    },
+    "scoreText": "32–14",
+    "dateSeasonText": "January 9, 1977 (1976)",
+    "venue": {
+      "name": "Rose Bowl",
+      "city": "Pasadena, California (3)"
+    },
+    "mvp": [
+      {
+        "name": "Fred Biletnikoff",
+        "team": "Oakland Raiders",
+        "position": "Wide receiver (2)",
+        "college": "Florida State",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-12",
+    "sbRoman": "XII",
+    "sbNumber": 12,
+    "seasonYear": 1977,
+    "gameDate": "1978-01-15",
+    "winner": {
+      "name": "Dallas Cowboys",
+      "score": 27
+    },
+    "loser": {
+      "name": "Denver Broncos",
+      "score": 10
+    },
+    "scoreText": "27–10",
+    "dateSeasonText": "January 15, 1978 (1977)",
+    "venue": {
+      "name": "Louisiana Superdome",
+      "city": "New Orleans, Louisiana (4)"
+    },
+    "mvp": [
+      {
+        "name": "Harvey Martin",
+        "team": "Dallas Cowboys",
+        "position": "Defensive end",
+        "college": "Texas A&M–Commerce",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-13",
+    "sbRoman": "XIII",
+    "sbNumber": 13,
+    "seasonYear": 1978,
+    "gameDate": "1979-01-21",
+    "winner": {
+      "name": "Pittsburgh Steelers",
+      "score": 35
+    },
+    "loser": {
+      "name": "Dallas Cowboys",
+      "score": 31
+    },
+    "scoreText": "35–31",
+    "dateSeasonText": "January 21, 1979 (1978)",
+    "venue": {
+      "name": "Miami Orange Bowl",
+      "city": "Miami, Florida (5)"
+    },
+    "mvp": [
+      {
+        "name": "Terry Bradshaw",
+        "team": "Pittsburgh Steelers",
+        "position": "Quarterback (6)",
+        "college": "Louisiana Tech",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-14",
+    "sbRoman": "XIV",
+    "sbNumber": 14,
+    "seasonYear": 1979,
+    "gameDate": "1980-01-20",
+    "winner": {
+      "name": "Pittsburgh Steelers",
+      "score": 31
+    },
+    "loser": {
+      "name": "Los Angeles Rams",
+      "score": 19
+    },
+    "scoreText": "31–19",
+    "dateSeasonText": "January 20, 1980 (1979)",
+    "venue": {
+      "name": "Rose Bowl",
+      "city": "Pasadena, California (4)"
+    },
+    "mvp": [
+      {
+        "name": "Terry Bradshaw",
+        "team": "Pittsburgh Steelers",
+        "position": "Quarterback (7)",
+        "college": "",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-15",
+    "sbRoman": "XV",
+    "sbNumber": 15,
+    "seasonYear": 1980,
+    "gameDate": "1981-01-25",
+    "winner": {
+      "name": "Oakland Raiders",
+      "score": 27
+    },
+    "loser": {
+      "name": "Philadelphia Eagles",
+      "score": 10
+    },
+    "scoreText": "27–10",
+    "dateSeasonText": "January 25, 1981 (1980)",
+    "venue": {
+      "name": "Louisiana Superdome",
+      "city": "New Orleans, Louisiana (5)"
+    },
+    "mvp": [
+      {
+        "name": "Jim Plunkett",
+        "team": "Oakland Raiders",
+        "position": "Quarterback (8)",
+        "college": "Stanford",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-16",
+    "sbRoman": "XVI",
+    "sbNumber": 16,
+    "seasonYear": 1981,
+    "gameDate": "1982-01-24",
+    "winner": {
+      "name": "San Francisco 49ers",
+      "score": 26
+    },
+    "loser": {
+      "name": "Cincinnati Bengals",
+      "score": 21
+    },
+    "scoreText": "26–21",
+    "dateSeasonText": "January 24, 1982 (1981)",
+    "venue": {
+      "name": "Pontiac Silverdome",
+      "city": "Pontiac, Michigan"
+    },
+    "mvp": [
+      {
+        "name": "Joe Montana",
+        "team": "San Francisco 49ers",
+        "position": "Quarterback (9)",
+        "college": "Notre Dame",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-17",
+    "sbRoman": "XVII",
+    "sbNumber": 17,
+    "seasonYear": 1982,
+    "gameDate": "1983-01-30",
+    "winner": {
+      "name": "Washington Redskins",
+      "score": 27
+    },
+    "loser": {
+      "name": "Miami Dolphins",
+      "score": 17
+    },
+    "scoreText": "27–17",
+    "dateSeasonText": "January 30, 1983 (1982)",
+    "venue": {
+      "name": "Rose Bowl",
+      "city": "Pasadena, California (5)"
+    },
+    "mvp": [
+      {
+        "name": "John Riggins",
+        "team": "Washington Redskins",
+        "position": "Running back (3)",
+        "college": "Kansas",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-18",
+    "sbRoman": "XVIII",
+    "sbNumber": 18,
+    "seasonYear": 1983,
+    "gameDate": "1984-01-22",
+    "winner": {
+      "name": "Los Angeles Raiders",
+      "score": 38
+    },
+    "loser": {
+      "name": "Washington Redskins",
+      "score": 9
+    },
+    "scoreText": "38–9",
+    "dateSeasonText": "January 22, 1984 (1983)",
+    "venue": {
+      "name": "Tampa Stadium",
+      "city": "Tampa, Florida"
+    },
+    "mvp": [
+      {
+        "name": "Marcus Allen",
+        "team": "Los Angeles Raiders",
+        "position": "Running back (4)",
+        "college": "USC",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-19",
+    "sbRoman": "XIX",
+    "sbNumber": 19,
+    "seasonYear": 1984,
+    "gameDate": "1985-01-20",
+    "winner": {
+      "name": "San Francisco 49ers",
+      "score": 38
+    },
+    "loser": {
+      "name": "Miami Dolphins",
+      "score": 16
+    },
+    "scoreText": "38–16",
+    "dateSeasonText": "January 20, 1985 (1984)",
+    "venue": {
+      "name": "Stanford Stadium",
+      "city": "Stanford, California"
+    },
+    "mvp": [
+      {
+        "name": "Joe Montana",
+        "team": "San Francisco 49ers",
+        "position": "Quarterback (10)",
+        "college": "Notre Dame",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-20",
+    "sbRoman": "XX",
+    "sbNumber": 20,
+    "seasonYear": 1985,
+    "gameDate": "1986-01-26",
+    "winner": {
+      "name": "Chicago Bears",
+      "score": 46
+    },
+    "loser": {
+      "name": "New England Patriots",
+      "score": 10
+    },
+    "scoreText": "46–10",
+    "dateSeasonText": "January 26, 1986 (1985)",
+    "venue": {
+      "name": "Louisiana Superdome",
+      "city": "New Orleans, Louisiana (6)"
+    },
+    "mvp": [
+      {
+        "name": "Richard Dent",
+        "team": "Chicago Bears",
+        "position": "Defensive end (2)",
+        "college": "Tennessee State",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-21",
+    "sbRoman": "XXI",
+    "sbNumber": 21,
+    "seasonYear": 1986,
+    "gameDate": "1987-01-25",
+    "winner": {
+      "name": "New York Giants",
+      "score": 39
+    },
+    "loser": {
+      "name": "Denver Broncos",
+      "score": 20
+    },
+    "scoreText": "39–20",
+    "dateSeasonText": "January 25, 1987 (1986)",
+    "venue": {
+      "name": "Rose Bowl",
+      "city": "Pasadena, California (6)"
+    },
+    "mvp": [
+      {
+        "name": "Phil Simms",
+        "team": "New York Giants",
+        "position": "Quarterback (11)",
+        "college": "Morehead State",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-22",
+    "sbRoman": "XXII",
+    "sbNumber": 22,
+    "seasonYear": 1987,
+    "gameDate": "1988-01-31",
+    "winner": {
+      "name": "Washington Redskins",
+      "score": 42
+    },
+    "loser": {
+      "name": "Denver Broncos",
+      "score": 10
+    },
+    "scoreText": "42–10",
+    "dateSeasonText": "January 31, 1988 (1987)",
+    "venue": {
+      "name": "San Diego–Jack Murphy Stadium",
+      "city": "San Diego, California"
+    },
+    "mvp": [
+      {
+        "name": "Doug Williams",
+        "team": "Washington Redskins",
+        "position": "Quarterback (12)",
+        "college": "Grambling State",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-23",
+    "sbRoman": "XXIII",
+    "sbNumber": 23,
+    "seasonYear": 1988,
+    "gameDate": "1989-01-22",
+    "winner": {
+      "name": "San Francisco 49ers",
+      "score": 20
+    },
+    "loser": {
+      "name": "Cincinnati Bengals",
+      "score": 16
+    },
+    "scoreText": "20–16",
+    "dateSeasonText": "January 22, 1989 (1988)",
+    "venue": {
+      "name": "Joe Robbie Stadium",
+      "city": "Miami, Florida (6)"
+    },
+    "mvp": [
+      {
+        "name": "Jerry Rice",
+        "team": "San Francisco 49ers",
+        "position": "Wide receiver (3)",
+        "college": "Mississippi Valley State",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-24",
+    "sbRoman": "XXIV",
+    "sbNumber": 24,
+    "seasonYear": 1989,
+    "gameDate": "1990-01-28",
+    "winner": {
+      "name": "San Francisco 49ers",
+      "score": 55
+    },
+    "loser": {
+      "name": "Denver Broncos",
+      "score": 10
+    },
+    "scoreText": "55–10",
+    "dateSeasonText": "January 28, 1990 (1989)",
+    "venue": {
+      "name": "Louisiana Superdome",
+      "city": "New Orleans, Louisiana (7)"
+    },
+    "mvp": [
+      {
+        "name": "Joe Montana",
+        "team": "San Francisco 49ers",
+        "position": "Quarterback (13)",
+        "college": "Notre Dame",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-25",
+    "sbRoman": "XXV",
+    "sbNumber": 25,
+    "seasonYear": 1990,
+    "gameDate": "1991-01-27",
+    "winner": {
+      "name": "New York Giants",
+      "score": 20
+    },
+    "loser": {
+      "name": "Buffalo Bills",
+      "score": 19
+    },
+    "scoreText": "20–19",
+    "dateSeasonText": "January 27, 1991 (1990)",
+    "venue": {
+      "name": "Tampa Stadium",
+      "city": "Tampa, Florida (2)"
+    },
+    "mvp": [
+      {
+        "name": "Ottis",
+        "team": "New York Giants",
+        "position": "Running back (5)",
+        "college": "Miami (FL)",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      },
+      {
+        "name": "erson",
+        "team": "New York Giants",
+        "position": "Running back (5)",
+        "college": "Miami (FL)",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-26",
+    "sbRoman": "XXVI",
+    "sbNumber": 26,
+    "seasonYear": 1991,
+    "gameDate": "1992-01-26",
+    "winner": {
+      "name": "Washington Redskins",
+      "score": 37
+    },
+    "loser": {
+      "name": "Buffalo Bills",
+      "score": 24
+    },
+    "scoreText": "37–24",
+    "dateSeasonText": "January 26, 1992 (1991)",
+    "venue": {
+      "name": "Metrodome",
+      "city": "Minneapolis, Minnesota"
+    },
+    "mvp": [
+      {
+        "name": "Mark Rypien",
+        "team": "Washington Redskins",
+        "position": "Quarterback (14)",
+        "college": "Washington State",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-27",
+    "sbRoman": "XXVII",
+    "sbNumber": 27,
+    "seasonYear": 1992,
+    "gameDate": "1993-01-31",
+    "winner": {
+      "name": "Dallas Cowboys",
+      "score": 52
+    },
+    "loser": {
+      "name": "Buffalo Bills",
+      "score": 17
+    },
+    "scoreText": "52–17",
+    "dateSeasonText": "January 31, 1993 (1992)",
+    "venue": {
+      "name": "Rose Bowl",
+      "city": "Pasadena, California (7)"
+    },
+    "mvp": [
+      {
+        "name": "Troy Aikman",
+        "team": "Dallas Cowboys",
+        "position": "Quarterback (15)",
+        "college": "UCLA",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-28",
+    "sbRoman": "XXVIII",
+    "sbNumber": 28,
+    "seasonYear": 1993,
+    "gameDate": "1994-01-30",
+    "winner": {
+      "name": "Dallas Cowboys",
+      "score": 30
+    },
+    "loser": {
+      "name": "Buffalo Bills",
+      "score": 13
+    },
+    "scoreText": "30–13",
+    "dateSeasonText": "January 30, 1994 (1993)",
+    "venue": {
+      "name": "Georgia Dome",
+      "city": "Atlanta, Georgia"
+    },
+    "mvp": [
+      {
+        "name": "Emmitt Smith",
+        "team": "Dallas Cowboys",
+        "position": "Running back (6)",
+        "college": "Florida",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-29",
+    "sbRoman": "XXIX",
+    "sbNumber": 29,
+    "seasonYear": 1994,
+    "gameDate": "1995-01-29",
+    "winner": {
+      "name": "San Francisco 49ers",
+      "score": 49
+    },
+    "loser": {
+      "name": "San Diego Chargers",
+      "score": 26
+    },
+    "scoreText": "49–26",
+    "dateSeasonText": "January 29, 1995 (1994)",
+    "venue": {
+      "name": "Joe Robbie Stadium",
+      "city": "Miami, Florida (7)"
+    },
+    "mvp": [
+      {
+        "name": "Steve Young",
+        "team": "San Francisco 49ers",
+        "position": "Quarterback (16)",
+        "college": "BYU",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-30",
+    "sbRoman": "XXX",
+    "sbNumber": 30,
+    "seasonYear": 1995,
+    "gameDate": "1996-01-28",
+    "winner": {
+      "name": "Dallas Cowboys",
+      "score": 27
+    },
+    "loser": {
+      "name": "Pittsburgh Steelers",
+      "score": 17
+    },
+    "scoreText": "27–17",
+    "dateSeasonText": "January 28, 1996 (1995)",
+    "venue": {
+      "name": "Sun Devil Stadium",
+      "city": "Tempe, Arizona"
+    },
+    "mvp": [
+      {
+        "name": "Larry Brown",
+        "team": "Dallas Cowboys",
+        "position": "Cornerback",
+        "college": "TCU",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-31",
+    "sbRoman": "XXXI",
+    "sbNumber": 31,
+    "seasonYear": 1996,
+    "gameDate": "1997-01-26",
+    "winner": {
+      "name": "Green Bay Packers",
+      "score": 35
+    },
+    "loser": {
+      "name": "New England Patriots",
+      "score": 21
+    },
+    "scoreText": "35–21",
+    "dateSeasonText": "January 26, 1997 (1996)",
+    "venue": {
+      "name": "Louisiana Superdome",
+      "city": "New Orleans, Louisiana (8)"
+    },
+    "mvp": [
+      {
+        "name": "Desmond Howard",
+        "team": "Green Bay Packers",
+        "position": "Return specialist",
+        "college": "Michigan",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-32",
+    "sbRoman": "XXXII",
+    "sbNumber": 32,
+    "seasonYear": 1997,
+    "gameDate": "1998-01-25",
+    "winner": {
+      "name": "Denver Broncos",
+      "score": 31
+    },
+    "loser": {
+      "name": "Green Bay Packers",
+      "score": 24
+    },
+    "scoreText": "31–24",
+    "dateSeasonText": "January 25, 1998 (1997)",
+    "venue": {
+      "name": "Qualcomm Stadium",
+      "city": "San Diego, California (2)"
+    },
+    "mvp": [
+      {
+        "name": "Terrell Davis",
+        "team": "Denver Broncos",
+        "position": "Running back (7)",
+        "college": "Georgia",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-33",
+    "sbRoman": "XXXIII",
+    "sbNumber": 33,
+    "seasonYear": 1998,
+    "gameDate": "1999-01-31",
+    "winner": {
+      "name": "Denver Broncos",
+      "score": 34
+    },
+    "loser": {
+      "name": "Atlanta Falcons",
+      "score": 19
+    },
+    "scoreText": "34–19",
+    "dateSeasonText": "January 31, 1999 (1998)",
+    "venue": {
+      "name": "Pro Player Stadium",
+      "city": "Miami, Florida (8)"
+    },
+    "mvp": [
+      {
+        "name": "John Elway",
+        "team": "Denver Broncos",
+        "position": "Quarterback (17)",
+        "college": "Stanford",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-34",
+    "sbRoman": "XXXIV",
+    "sbNumber": 34,
+    "seasonYear": 1999,
+    "gameDate": "2000-01-30",
+    "winner": {
+      "name": "St. Louis Rams",
+      "score": 23
+    },
+    "loser": {
+      "name": "Tennessee Titans",
+      "score": 16
+    },
+    "scoreText": "23–16",
+    "dateSeasonText": "January 30, 2000 (1999)",
+    "venue": {
+      "name": "Georgia Dome",
+      "city": "Atlanta, Georgia (2)"
+    },
+    "mvp": [
+      {
+        "name": "Kurt Warner",
+        "team": "St. Louis Rams",
+        "position": "Quarterback (18)",
+        "college": "Northern Iowa",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-35",
+    "sbRoman": "XXXV",
+    "sbNumber": 35,
+    "seasonYear": 2000,
+    "gameDate": "2001-01-28",
+    "winner": {
+      "name": "Baltimore Ravens",
+      "score": 34
+    },
+    "loser": {
+      "name": "New York Giants",
+      "score": 7
+    },
+    "scoreText": "34–7",
+    "dateSeasonText": "January 28, 2001 (2000)",
+    "venue": {
+      "name": "Raymond James Stadium",
+      "city": "Tampa, Florida (3)"
+    },
+    "mvp": [
+      {
+        "name": "Ray Lewis",
+        "team": "Baltimore Ravens",
+        "position": "Linebacker (2)",
+        "college": "Miami (FL)",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-36",
+    "sbRoman": "XXXVI",
+    "sbNumber": 36,
+    "seasonYear": 2001,
+    "gameDate": "2002-02-03",
+    "winner": {
+      "name": "New England Patriots",
+      "score": 20
+    },
+    "loser": {
+      "name": "St. Louis Rams",
+      "score": 17
+    },
+    "scoreText": "20–17",
+    "dateSeasonText": "February 3, 2002 (2001)",
+    "venue": {
+      "name": "Louisiana Superdome",
+      "city": "New Orleans, Louisiana (9)"
+    },
+    "mvp": [
+      {
+        "name": "Tom Brady",
+        "team": "New England Patriots",
+        "position": "Quarterback (19)",
+        "college": "Michigan",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-37",
+    "sbRoman": "XXXVII",
+    "sbNumber": 37,
+    "seasonYear": 2002,
+    "gameDate": "2003-01-26",
+    "winner": {
+      "name": "Tampa Bay Buccaneers",
+      "score": 48
+    },
+    "loser": {
+      "name": "Oakland Raiders",
+      "score": 21
+    },
+    "scoreText": "48–21",
+    "dateSeasonText": "January 26, 2003 (2002)",
+    "venue": {
+      "name": "Qualcomm Stadium",
+      "city": "San Diego, California (3)"
+    },
+    "mvp": [
+      {
+        "name": "Dexter Jackson",
+        "team": "Tampa Bay Buccaneers",
+        "position": "Safety (2)",
+        "college": "Florida State",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-38",
+    "sbRoman": "XXXVIII",
+    "sbNumber": 38,
+    "seasonYear": 2003,
+    "gameDate": "2004-02-01",
+    "winner": {
+      "name": "New England Patriots",
+      "score": 32
+    },
+    "loser": {
+      "name": "Carolina Panthers",
+      "score": 29
+    },
+    "scoreText": "32–29",
+    "dateSeasonText": "February 1, 2004 (2003)",
+    "venue": {
+      "name": "Reliant Stadium",
+      "city": "Houston, Texas (2)"
+    },
+    "mvp": [
+      {
+        "name": "Tom Brady",
+        "team": "New England Patriots",
+        "position": "Quarterback (20)",
+        "college": "Michigan",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-39",
+    "sbRoman": "XXXIX",
+    "sbNumber": 39,
+    "seasonYear": 2004,
+    "gameDate": "2005-02-06",
+    "winner": {
+      "name": "New England Patriots",
+      "score": 24
+    },
+    "loser": {
+      "name": "Philadelphia Eagles",
+      "score": 21
+    },
+    "scoreText": "24–21",
+    "dateSeasonText": "February 6, 2005 (2004)",
+    "venue": {
+      "name": "Alltel Stadium",
+      "city": "Jacksonville, Florida"
+    },
+    "mvp": [
+      {
+        "name": "Deion Branch",
+        "team": "New England Patriots",
+        "position": "Wide receiver (4)",
+        "college": "Louisville",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-40",
+    "sbRoman": "XL",
+    "sbNumber": 40,
+    "seasonYear": 2005,
+    "gameDate": "2006-02-05",
+    "winner": {
+      "name": "Pittsburgh Steelers",
+      "score": 21
+    },
+    "loser": {
+      "name": "Seattle Seahawks",
+      "score": 10
+    },
+    "scoreText": "21–10",
+    "dateSeasonText": "February 5, 2006 (2005)",
+    "venue": {
+      "name": "Ford Field",
+      "city": "Detroit, Michigan (2)"
+    },
+    "mvp": [
+      {
+        "name": "Hines Ward",
+        "team": "Pittsburgh Steelers",
+        "position": "Wide receiver (5)",
+        "college": "Georgia",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-41",
+    "sbRoman": "XLI",
+    "sbNumber": 41,
+    "seasonYear": 2006,
+    "gameDate": "2007-02-04",
+    "winner": {
+      "name": "Indianapolis Colts",
+      "score": 29
+    },
+    "loser": {
+      "name": "Chicago Bears",
+      "score": 17
+    },
+    "scoreText": "29–17",
+    "dateSeasonText": "February 4, 2007 (2006)",
+    "venue": {
+      "name": "Dolphin Stadium",
+      "city": "Miami Gardens, Florida (9)"
+    },
+    "mvp": [
+      {
+        "name": "Peyton Manning",
+        "team": "Indianapolis Colts",
+        "position": "Quarterback (21)",
+        "college": "Tennessee",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-42",
+    "sbRoman": "XLII",
+    "sbNumber": 42,
+    "seasonYear": 2007,
+    "gameDate": "2008-02-03",
+    "winner": {
+      "name": "New York Giants",
+      "score": 17
+    },
+    "loser": {
+      "name": "New England Patriots",
+      "score": 14
+    },
+    "scoreText": "17–14",
+    "dateSeasonText": "February 3, 2008 (2007)",
+    "venue": {
+      "name": "University of Phoenix Stadium",
+      "city": "Glendale, Arizona (2)"
+    },
+    "mvp": [
+      {
+        "name": "Eli Manning",
+        "team": "New York Giants",
+        "position": "Quarterback (22)",
+        "college": "Ole Miss",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-43",
+    "sbRoman": "XLIII",
+    "sbNumber": 43,
+    "seasonYear": 2008,
+    "gameDate": "2009-02-01",
+    "winner": {
+      "name": "Pittsburgh Steelers",
+      "score": 27
+    },
+    "loser": {
+      "name": "Arizona Cardinals",
+      "score": 23
+    },
+    "scoreText": "27–23",
+    "dateSeasonText": "February 1, 2009 (2008)",
+    "venue": {
+      "name": "Raymond James Stadium",
+      "city": "Tampa, Florida (4)"
+    },
+    "mvp": [
+      {
+        "name": "Santonio Holmes",
+        "team": "Pittsburgh Steelers",
+        "position": "Wide receiver (6)",
+        "college": "Ohio State",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-44",
+    "sbRoman": "XLIV",
+    "sbNumber": 44,
+    "seasonYear": 2009,
+    "gameDate": "2010-02-07",
+    "winner": {
+      "name": "New Orleans Saints",
+      "score": 31
+    },
+    "loser": {
+      "name": "Indianapolis Colts",
+      "score": 17
+    },
+    "scoreText": "31–17",
+    "dateSeasonText": "February 7, 2010 (2009)",
+    "venue": {
+      "name": "Sun Life Stadium",
+      "city": "Miami Gardens, Florida (10)"
+    },
+    "mvp": [
+      {
+        "name": "Drew Brees",
+        "team": "New Orleans Saints",
+        "position": "Quarterback (23)",
+        "college": "Purdue",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-45",
+    "sbRoman": "XLV",
+    "sbNumber": 45,
+    "seasonYear": 2010,
+    "gameDate": "2011-02-06",
+    "winner": {
+      "name": "Green Bay Packers",
+      "score": 31
+    },
+    "loser": {
+      "name": "Pittsburgh Steelers",
+      "score": 25
+    },
+    "scoreText": "31–25",
+    "dateSeasonText": "February 6, 2011 (2010)",
+    "venue": {
+      "name": "Cowboys Stadium",
+      "city": "Arlington, Texas"
+    },
+    "mvp": [
+      {
+        "name": "Aaron Rodgers",
+        "team": "Green Bay Packers",
+        "position": "Quarterback (24)",
+        "college": "California",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-46",
+    "sbRoman": "XLVI",
+    "sbNumber": 46,
+    "seasonYear": 2011,
+    "gameDate": "2012-02-05",
+    "winner": {
+      "name": "New York Giants",
+      "score": 21
+    },
+    "loser": {
+      "name": "New England Patriots",
+      "score": 17
+    },
+    "scoreText": "21–17",
+    "dateSeasonText": "February 5, 2012 (2011)",
+    "venue": {
+      "name": "Lucas Oil Stadium",
+      "city": "Indianapolis, Indiana"
+    },
+    "mvp": [
+      {
+        "name": "Eli Manning",
+        "team": "New York Giants",
+        "position": "Quarterback (25)",
+        "college": "Ole Miss",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-47",
+    "sbRoman": "XLVII",
+    "sbNumber": 47,
+    "seasonYear": 2012,
+    "gameDate": "2013-02-03",
+    "winner": {
+      "name": "Baltimore Ravens",
+      "score": 34
+    },
+    "loser": {
+      "name": "San Francisco 49ers",
+      "score": 31
+    },
+    "scoreText": "34–31",
+    "dateSeasonText": "February 3, 2013 (2012)",
+    "venue": {
+      "name": "Mercedes-Benz Superdome",
+      "city": "New Orleans, Louisiana (10)"
+    },
+    "mvp": [
+      {
+        "name": "Joe Flacco",
+        "team": "Baltimore Ravens",
+        "position": "Quarterback (26)",
+        "college": "Delaware",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-48",
+    "sbRoman": "XLVIII",
+    "sbNumber": 48,
+    "seasonYear": 2013,
+    "gameDate": "2014-02-02",
+    "winner": {
+      "name": "Seattle Seahawks",
+      "score": 43
+    },
+    "loser": {
+      "name": "Denver Broncos",
+      "score": 8
+    },
+    "scoreText": "43–8",
+    "dateSeasonText": "February 2, 2014 (2013)",
+    "venue": {
+      "name": "MetLife Stadium",
+      "city": "East Rutherford, New Jersey"
+    },
+    "mvp": [
+      {
+        "name": "Malcolm Smith",
+        "team": "Seattle Seahawks",
+        "position": "Linebacker (3)",
+        "college": "USC",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-49",
+    "sbRoman": "XLIX",
+    "sbNumber": 49,
+    "seasonYear": 2014,
+    "gameDate": "2015-02-01",
+    "winner": {
+      "name": "New England Patriots",
+      "score": 28
+    },
+    "loser": {
+      "name": "Seattle Seahawks",
+      "score": 24
+    },
+    "scoreText": "28–24",
+    "dateSeasonText": "February 1, 2015 (2014)",
+    "venue": {
+      "name": "University of Phoenix Stadium",
+      "city": "Glendale, Arizona (3)"
+    },
+    "mvp": [
+      {
+        "name": "Tom Brady",
+        "team": "New England Patriots",
+        "position": "Quarterback (27)",
+        "college": "Michigan",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-50",
+    "sbRoman": "50",
+    "sbNumber": 50,
+    "seasonYear": 2015,
+    "gameDate": "2016-02-07",
+    "winner": {
+      "name": "Denver Broncos",
+      "score": 24
+    },
+    "loser": {
+      "name": "Carolina Panthers",
+      "score": 10
+    },
+    "scoreText": "24–10",
+    "dateSeasonText": "February 7, 2016 (2015)",
+    "venue": {
+      "name": "Levi's Stadium",
+      "city": "Santa Clara, California (2)"
+    },
+    "mvp": [
+      {
+        "name": "Von Miller",
+        "team": "Denver Broncos",
+        "position": "Linebacker (4)",
+        "college": "Texas A&M",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-51",
+    "sbRoman": "LI",
+    "sbNumber": 51,
+    "seasonYear": 2016,
+    "gameDate": "2017-02-05",
+    "winner": {
+      "name": "New England Patriots",
+      "score": 34
+    },
+    "loser": {
+      "name": "Atlanta Falcons",
+      "score": 28
+    },
+    "scoreText": "34–28 (OT)",
+    "dateSeasonText": "February 5, 2017 (2016)",
+    "venue": {
+      "name": "NRG Stadium",
+      "city": "Houston, Texas (3)"
+    },
+    "mvp": [
+      {
+        "name": "Tom Brady",
+        "team": "New England Patriots",
+        "position": "Quarterback (28)",
+        "college": "Michigan",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-52",
+    "sbRoman": "LII",
+    "sbNumber": 52,
+    "seasonYear": 2017,
+    "gameDate": "2018-02-04",
+    "winner": {
+      "name": "Philadelphia Eagles",
+      "score": 41
+    },
+    "loser": {
+      "name": "New England Patriots",
+      "score": 33
+    },
+    "scoreText": "41–33",
+    "dateSeasonText": "February 4, 2018 (2017)",
+    "venue": {
+      "name": "U.S. Bank Stadium",
+      "city": "Minneapolis, Minnesota (2)"
+    },
+    "mvp": [
+      {
+        "name": "Nick Foles",
+        "team": "Philadelphia Eagles",
+        "position": "Quarterback (29)",
+        "college": "Arizona",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-53",
+    "sbRoman": "LIII",
+    "sbNumber": 53,
+    "seasonYear": 2018,
+    "gameDate": "2019-02-03",
+    "winner": {
+      "name": "New England Patriots",
+      "score": 13
+    },
+    "loser": {
+      "name": "Los Angeles Rams",
+      "score": 3
+    },
+    "scoreText": "13–3",
+    "dateSeasonText": "February 3, 2019 (2018)",
+    "venue": {
+      "name": "Mercedes-Benz Stadium",
+      "city": "Atlanta, Georgia (3)"
+    },
+    "mvp": [
+      {
+        "name": "Julian Edelman",
+        "team": "New England Patriots",
+        "position": "Wide receiver (7)",
+        "college": "Kent State",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-54",
+    "sbRoman": "LIV",
+    "sbNumber": 54,
+    "seasonYear": 2019,
+    "gameDate": "2020-02-02",
+    "winner": {
+      "name": "Kansas City Chiefs",
+      "score": 31
+    },
+    "loser": {
+      "name": "San Francisco 49ers",
+      "score": 20
+    },
+    "scoreText": "31–20",
+    "dateSeasonText": "February 2, 2020 (2019)",
+    "venue": {
+      "name": "Hard Rock Stadium",
+      "city": "Miami Gardens, Florida (11)"
+    },
+    "mvp": [
+      {
+        "name": "Patrick Mahomes",
+        "team": "Kansas City Chiefs",
+        "position": "Quarterback (30)",
+        "college": "Texas Tech",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-55",
+    "sbRoman": "LV",
+    "sbNumber": 55,
+    "seasonYear": 2020,
+    "gameDate": "2021-02-07",
+    "winner": {
+      "name": "Tampa Bay Buccaneers",
+      "score": 31
+    },
+    "loser": {
+      "name": "Kansas City Chiefs",
+      "score": 9
+    },
+    "scoreText": "31–9",
+    "dateSeasonText": "February 7, 2021 (2020)",
+    "venue": {
+      "name": "Raymond James Stadium",
+      "city": "Tampa, Florida (5)"
+    },
+    "mvp": [
+      {
+        "name": "Tom Brady",
+        "team": "Tampa Bay Buccaneers",
+        "position": "Quarterback (31)",
+        "college": "Michigan",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-56",
+    "sbRoman": "LVI",
+    "sbNumber": 56,
+    "seasonYear": 2021,
+    "gameDate": "2022-02-13",
+    "winner": {
+      "name": "Los Angeles Rams",
+      "score": 23
+    },
+    "loser": {
+      "name": "Cincinnati Bengals",
+      "score": 20
+    },
+    "scoreText": "23–20",
+    "dateSeasonText": "February 13, 2022 (2021)",
+    "venue": {
+      "name": "SoFi Stadium",
+      "city": "Inglewood, California (8)"
+    },
+    "mvp": [
+      {
+        "name": "Cooper Kupp",
+        "team": "Los Angeles Rams",
+        "position": "Wide receiver (8)",
+        "college": "Eastern Washington",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-57",
+    "sbRoman": "LVII",
+    "sbNumber": 57,
+    "seasonYear": 2022,
+    "gameDate": "2023-02-12",
+    "winner": {
+      "name": "Kansas City Chiefs",
+      "score": 38
+    },
+    "loser": {
+      "name": "Philadelphia Eagles",
+      "score": 35
+    },
+    "scoreText": "38–35",
+    "dateSeasonText": "February 12, 2023 (2022)",
+    "venue": {
+      "name": "State Farm Stadium",
+      "city": "Glendale, Arizona (4)"
+    },
+    "mvp": [
+      {
+        "name": "Patrick Mahomes",
+        "team": "Kansas City Chiefs",
+        "position": "Quarterback (32)",
+        "college": "Texas Tech",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-58",
+    "sbRoman": "LVIII",
+    "sbNumber": 58,
+    "seasonYear": 2023,
+    "gameDate": "2024-02-11",
+    "winner": {
+      "name": "Kansas City Chiefs",
+      "score": 25
+    },
+    "loser": {
+      "name": "San Francisco 49ers",
+      "score": 22
+    },
+    "scoreText": "25–22 (OT)",
+    "dateSeasonText": "February 11, 2024 (2023)",
+    "venue": {
+      "name": "Allegiant Stadium",
+      "city": "Paradise, Nevada"
+    },
+    "mvp": [
+      {
+        "name": "Patrick Mahomes",
+        "team": "Kansas City Chiefs",
+        "position": "Quarterback (33)",
+        "college": "",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-59",
+    "sbRoman": "LIX",
+    "sbNumber": 59,
+    "seasonYear": 2024,
+    "gameDate": "2025-02-09",
+    "winner": {
+      "name": "Philadelphia Eagles",
+      "score": 40
+    },
+    "loser": {
+      "name": "Kansas City Chiefs",
+      "score": 22
+    },
+    "scoreText": "40–22",
+    "dateSeasonText": "February 9, 2025 (2024)",
+    "venue": {
+      "name": "Caesars Superdome",
+      "city": "New Orleans, Louisiana (11)"
+    },
+    "mvp": [
+      {
+        "name": "Jalen Hurts",
+        "team": "Philadelphia Eagles",
+        "position": "Quarterback (34)",
+        "college": "Oklahoma",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  },
+  {
+    "id": "sb-60",
+    "sbRoman": "LX",
+    "sbNumber": 60,
+    "seasonYear": 2025,
+    "gameDate": "2026-02-08",
+    "winner": {
+      "name": "Seattle Seahawks",
+      "score": 29
+    },
+    "loser": {
+      "name": "New England Patriots",
+      "score": 13
+    },
+    "scoreText": "29–13",
+    "dateSeasonText": "February 8, 2026 (2025)",
+    "venue": {
+      "name": "Levi's Stadium",
+      "city": "Santa Clara, California (3)"
+    },
+    "mvp": [
+      {
+        "name": "Kenneth Walker III",
+        "team": "Seattle Seahawks",
+        "position": "Running back (8)",
+        "college": "Michigan State",
+        "headshotUrl": "/mvp-silhouette.svg",
+        "imageOverrideUrl": null
+      }
+    ]
+  }
+]
