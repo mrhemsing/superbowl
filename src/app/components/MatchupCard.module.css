@@ -63,15 +63,7 @@
   filter: drop-shadow(0 12px 24px rgba(0,0,0,0.38));
 }
 
-.logoTrophyMark{
-  position: absolute;
-  right: 6px;
-  bottom: 6px;
-  font-size: 18px;
-  opacity: 0.35;
-  filter: drop-shadow(0 0 8px rgba(250, 204, 21, 0.55));
-  pointer-events: none;
-}
+/* trophy watermark removed */
 
 .initials{
   font-weight: 900;
