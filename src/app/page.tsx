@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import styles from "./page.module.css";
 import gamesRaw from "@/data/superbowls.json";
 import stadiumBackgroundsRaw from "@/data/stadium-backgrounds.json";
@@ -107,9 +107,9 @@ export default function Home() {
     <div
       className={styles.page}
       style={{
-        ["--stadium-bg" as "--stadium-bg"]: `url('${activeBg}')`,
-        ["--bg-opacity" as "--bg-opacity"]: String(bgOpacity),
-      }}
+        "--stadium-bg": `url('${activeBg}')`,
+        "--bg-opacity": String(bgOpacity),
+      } as CSSProperties}
     >
       <header className={styles.header}>
         <div className={styles.kicker}>Broadcast scoreboard mode</div>

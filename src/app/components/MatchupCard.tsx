@@ -1,4 +1,5 @@
 import Image from "next/image";
+import type { CSSProperties } from "react";
 import styles from "./MatchupCard.module.css";
 import { teamGradient, teamInitials } from "@/lib/teamStyle";
 import { getTeamMeta } from "@/lib/teams";
@@ -289,7 +290,7 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
             {game.quarterScoring ? (
               <div
                 className={styles.qTable}
-                style={{ ["--period-cols" as "--period-cols"]: String(game.quarterScoring.periods.length + 1) }}
+                style={{ "--period-cols": String(game.quarterScoring.periods.length + 1) } as CSSProperties}
               >
                 <div className={styles.qHead}>
                   <span>Team</span>
