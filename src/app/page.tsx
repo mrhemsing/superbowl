@@ -3,9 +3,11 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import styles from "./page.module.css";
 import gamesRaw from "@/data/superbowls.json";
+import stadiumBackgroundsRaw from "@/data/stadium-backgrounds.json";
 import { MatchupCard, type SuperBowlGame } from "@/app/components/MatchupCard";
 
 const games = gamesRaw as SuperBowlGame[];
+const stadiumBackgrounds = stadiumBackgroundsRaw as Record<string, string>;
 
 export default function Home() {
   const scrollerRef = useRef<HTMLDivElement | null>(null);
@@ -61,8 +63,11 @@ export default function Home() {
     return () => scroller.removeEventListener("scroll", onScroll);
   }, [orderedGames.length]);
 
+  const activeVenue = orderedGames[activeIndex]?.venue?.name;
+  const activeBg = stadiumBackgrounds[activeVenue ?? ""] ?? "/stadiums/hard-rock-stadium.jpg";
+
   return (
-    <div className={styles.page}>
+    <div className={styles.page} style={{ ["--stadium-bg" as "--stadium-bg"]: `url('${activeBg}')` }}>
       <header className={styles.header}>
         <div className={styles.kicker}>Broadcast scoreboard mode</div>
         <h1 className={styles.title} key={orderedGames[activeIndex]?.id ?? "title-fallback"}>

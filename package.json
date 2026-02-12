@@ -9,7 +9,8 @@
     "lint": "eslint",
     "update:data": "node scripts/update-data.mjs",
     "fetch:logos": "node scripts/fetch-logos.mjs",
-    "fetch:mvp": "node scripts/fetch-mvp-headshots.mjs"
+    "fetch:mvp": "node scripts/fetch-mvp-headshots.mjs",
+    "fetch:stadiums": "node scripts/fetch-stadium-backgrounds.mjs"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
