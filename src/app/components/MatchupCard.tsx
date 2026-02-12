@@ -55,7 +55,7 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
   const scoreRight = right.score ?? "?";
 
   return (
-    <details className={styles.card}>
+    <details className={styles.card} open>
       <summary className={styles.summary}>
         <div className={styles.watermark}>{String(game.sbRoman)}</div>
 
@@ -140,7 +140,7 @@ export function MatchupCard({ game }: { game: SuperBowlGame }) {
           </div>
         </div>
 
-        <div className={styles.expandHint}>Tap for MVP + links</div>
+        <div className={styles.expandHint}>Tap to collapse details</div>
       </summary>
 
       <div className={styles.details}>
