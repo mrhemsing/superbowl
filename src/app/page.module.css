@@ -263,5 +263,10 @@
   .slide{
     min-height: var(--viewport-h);
     place-items: center;
+    padding-top: 0;
+  }
+
+  .slideInner{
+    transform: translateY(-28px);
   }
 }
