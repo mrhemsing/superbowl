@@ -51,7 +51,9 @@
 .logoImg{
   width: 150%;
   height: 150%;
+  display: block;
   object-fit: contain;
+  object-position: center center;
   filter: drop-shadow(0 12px 24px rgba(0,0,0,0.38));
 }
 
