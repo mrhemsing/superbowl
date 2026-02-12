@@ -147,14 +147,17 @@
 
 @media (max-width: 900px){
   .title{ font-size: 34px; }
-  .arrows{
-    right: 6px;
-    font-size: 20px;
-  }
+  .arrows{ display: none; }
+
+  /* Let the card fully expand on phones (prevents MVP section clipping). */
   .scroller{
-    --viewport-h: clamp(430px, 60vh, 560px);
+    height: auto;
+    max-height: none;
+    overflow-y: visible;
+    scroll-snap-type: none;
   }
+
   .slide{
-    min-height: var(--viewport-h);
+    min-height: unset;
   }
 }
