@@ -191,6 +191,10 @@ export default function Home() {
             </section>
           ))}
         </div>
+
+        <button className={styles.desktopBackToTop} onClick={() => goToIndex(0)}>
+          Back to top ↑
+        </button>
       </main>
 
       {/* footer removed per request */}
