@@ -75,7 +75,11 @@ export default function Home() {
     let wheelLocked = false;
     const onWheel = (e: WheelEvent) => {
       if (window.matchMedia("(max-width: 900px)").matches) return;
-      if (Math.abs(e.deltaY) < 4) return;
+
+      // Normalize wheels that report tiny line-based deltas (common on some mice).
+      const deltaY = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaY;
+      if (Math.abs(deltaY) < 1) return;
+
       if (wheelLocked) {
         e.preventDefault();
         return;
@@ -84,7 +88,7 @@ export default function Home() {
       e.preventDefault();
       wheelLocked = true;
       const viewport = scroller.clientHeight;
-      scroller.scrollBy({ top: e.deltaY > 0 ? viewport : -viewport, behavior: "smooth" });
+      scroller.scrollBy({ top: deltaY > 0 ? viewport : -viewport, behavior: "smooth" });
       window.setTimeout(() => {
         wheelLocked = false;
       }, 380);
@@ -94,11 +98,14 @@ export default function Home() {
     ensureFocus();
     scroller.addEventListener("scroll", onScroll, { passive: true });
     scroller.addEventListener("wheel", onWheel, { passive: false });
+    // Also listen at window level so first wheel tick works even before hover/focus settles.
+    window.addEventListener("wheel", onWheel, { passive: false });
     window.addEventListener("focus", ensureFocus);
     document.addEventListener("visibilitychange", ensureFocus);
     return () => {
       scroller.removeEventListener("scroll", onScroll);
       scroller.removeEventListener("wheel", onWheel);
+      window.removeEventListener("wheel", onWheel as EventListener);
       window.removeEventListener("focus", ensureFocus);
       document.removeEventListener("visibilitychange", ensureFocus);
     };
