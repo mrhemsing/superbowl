@@ -287,6 +287,12 @@
   .dotDesktopHide{ display: none; }
 }
 
+@media (max-height: 874px){
+  .card{
+    box-shadow: none;
+  }
+}
+
 @media (max-width: 900px){
   .summary{
     cursor: pointer;
