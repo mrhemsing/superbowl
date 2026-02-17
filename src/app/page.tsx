@@ -72,26 +72,30 @@ export default function Home() {
       scroller.focus({ preventScroll: true });
     };
 
-    let wheelLocked = false;
+    let lastWheelAt = 0;
     const onWheel = (e: WheelEvent) => {
       if (window.matchMedia("(max-width: 900px)").matches) return;
 
-      // Normalize wheels that report tiny line-based deltas (common on some mice).
       const deltaY = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaY;
       if (Math.abs(deltaY) < 1) return;
 
-      if (wheelLocked) {
+      const now = Date.now();
+      if (now - lastWheelAt < 220) {
         e.preventDefault();
         return;
       }
+      lastWheelAt = now;
 
       e.preventDefault();
-      wheelLocked = true;
       const viewport = scroller.clientHeight;
-      scroller.scrollBy({ top: deltaY > 0 ? viewport : -viewport, behavior: "smooth" });
-      window.setTimeout(() => {
-        wheelLocked = false;
-      }, 380);
+      const current = Math.round(scroller.scrollTop / Math.max(1, viewport));
+      const next = Math.max(0, Math.min(orderedGames.length - 1, current + (deltaY > 0 ? 1 : -1)));
+      const target = sectionRefs.current[next];
+      if (target) {
+        scroller.scrollTo({ top: target.offsetTop, behavior: "smooth" });
+      } else {
+        scroller.scrollBy({ top: deltaY > 0 ? viewport : -viewport, behavior: "smooth" });
+      }
     };
 
     onScroll();
