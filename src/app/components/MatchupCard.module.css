@@ -287,12 +287,6 @@
   .dotDesktopHide{ display: none; }
 }
 
-@media (max-height: 874px){
-  .card{
-    box-shadow: none;
-  }
-}
-
 @media (max-width: 900px){
   .summary{
     cursor: pointer;
@@ -325,3 +319,4 @@
   .cityDesktop{ display: none; }
   .cityMobile{ display: block; flex-basis: 100%; margin-top: 0; }
 }
+
