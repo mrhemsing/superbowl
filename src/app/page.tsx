@@ -159,6 +159,11 @@ export default function Home() {
                 </option>
               ))}
             </select>
+
+            <div className={styles.jumpFooterLink}>
+              © 2026{' '}
+              <a href="https://www.b-average.com/" target="_blank" rel="noreferrer">B Average</a>
+            </div>
           </div>
         </details>
       </header>
