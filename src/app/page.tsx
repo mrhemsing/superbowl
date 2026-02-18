@@ -161,7 +161,7 @@ export default function Home() {
             </select>
 
             <div className={styles.jumpFooterLink}>
-              © 2026{' '}
+              © {new Date().getFullYear()}{' '}
               <a href="https://www.b-average.com/" target="_blank" rel="noreferrer">B Average</a>
             </div>
           </div>
